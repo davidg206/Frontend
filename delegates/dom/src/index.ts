@@ -37,8 +37,9 @@ let playerElement = document.getElementById("player") as HTMLDivElement;
 
 // Create a config object
 let config = CreateConfig(signallingServerAddress, playerElement);
-config.enableSpsAutoConnect = false;
-config.enableSpsAutoplay = false;
+config.enableSpsAutoConnect = true;
+config.enableSpsAutoplay = true;
+config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);

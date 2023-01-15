@@ -515,6 +515,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		// add the new event listener 
 		playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
 			playOverlayEvent(event);
+			document.body.style.cursor = 'none';
+			console.log("Play button: ", playButton);
 		});
 
 		// build the inner html 

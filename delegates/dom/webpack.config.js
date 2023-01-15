@@ -2,9 +2,20 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
+const fs = require('fs');
+const os = require('os');
 
 module.exports = (env) => {
-  return {
+    return {
+        devServer: {
+            allowedHosts: 'all',
+            port: 80,
+            /*https: {
+                cert: fs.readFileSync(path.join(os.homedir(), '.openssl', 'cert.pem')),
+                key: fs.readFileSync(path.join(os.homedir(), '.openssl', 'key.pem')),
+                //ca: fs.readFileSync(path.join(path.join(os.homedir(), '.openssl'), 'csr.pem'))
+            }*/
+        },
     mode: 'development',
     entry: {
       index: './src/index.ts',
@@ -44,11 +55,28 @@ module.exports = (env) => {
           use: [MiniCssExtractPlugin.loader, 'css-loader'],
         },
         {
-          test: /\.(png|svg)$/i,
-          type: 'asset/resource',
+            test: /\.svg$/i,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        limit: 10000
+                    },
+                },
+            ],
+        },
+        {
+            test: /\.(png|jpe?g|gif)$/i,
+            loader: 'file-loader'
+          /*type: 'asset/resource',
           generator: {
             filename: 'images/[name]-[hash][ext]'
-          }
+          },
+            use: [
+              {
+                  loader: 'file-loader',
+              }
+          ],*/
         },
       ],
     },

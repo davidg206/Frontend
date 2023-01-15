@@ -103,6 +103,7 @@ canvas {
 	height: 3rem;
 	width: 3rem;
 	pointer-events: all;
+	display: none;
 }
 
 #settings-panel .tooltiptext {
@@ -122,7 +123,7 @@ canvas {
 	left: 2%;
 	font-family: 'Michroma', sans-serif;
 	pointer-events: all;
-	display: block;
+	display: none;
 }
 
 #controls>* {
