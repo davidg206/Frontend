@@ -516,7 +516,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
 			playOverlayEvent(event);
 			document.body.style.cursor = 'none';
-			console.log("Play button: ", playButton);
+			openFullscreen();
 		});
 
 		// build the inner html 
@@ -528,6 +528,17 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// instantiate the overlay
 		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
+
+		function openFullscreen() {
+			let body = document.body;
+			if (body.requestFullscreen) {
+				body.requestFullscreen();
+			} else if (body.webkitRequestFullscreen) { /* Safari */
+				body.webkitRequestFullscreen();
+			} else if (body.msRequestFullscreen) { /* IE11 */
+				body.msRequestFullscreen();
+			}
+		}
 	}
 
 	/**
