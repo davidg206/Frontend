@@ -530,7 +530,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
 
 		function openFullscreen() {
-			let body = document.body;
+			let body = document.documentElement;
 			if (body.requestFullscreen) {
 				body.requestFullscreen();
 			} else if (body.webkitRequestFullscreen) { /* Safari */
