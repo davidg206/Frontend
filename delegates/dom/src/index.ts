@@ -40,6 +40,7 @@ let config = CreateConfig(signallingServerAddress, playerElement);
 config.enableSpsAutoConnect = true;
 config.enableSpsAutoplay = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
+config.suppressBrowserKeys = false;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);
