@@ -506,40 +506,27 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	buildPlayOverlay() {
 		// build the overlay base div 
 		let playOverlayHtml = document.createElement('div');
-		playOverlayHtml.id = "startText";
-		playOverlayHtml.innerHTML = "Click to Start";
-		playOverlayHtml.classList.add("clickableState", "loadingText");
+		//playOverlayHtml.id = "startText";
+		//playOverlayHtml.classList.add("clickableState", "loadingText");
 
 		// set the event Listener
                 let playOverlayEvent: EventListener = () => this.onPlayAction();	
 
                 // add the new event listener
-                playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
+                /*playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
                         playOverlayEvent(event);
                         document.getElementById('container').style.display = 'none';
                         document.body.style.cursor = 'none';
                         openFullscreen();
-                });
+                });*/
 
 		// build the inner html 
-		/*let playOverlayHtmlInner = document.createElement('div');
-		playOverlayHtmlInner.className = "loadingText";
-		playOverlayHtmlInner.innerHTML = "Click to start";
-		*/
+		let playOverlayHtmlInner = document.createElement('div');
+		//playOverlayHtmlInner.className = "loadingText";
+		
 
 		// instantiate the overlay
 		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, null);
-
-		function openFullscreen() {
-			let body = document.documentElement;
-			if (body.requestFullscreen) {
-				body.requestFullscreen();
-			} else if (body.webkitRequestFullscreen) { /* Safari */
-				body.webkitRequestFullscreen();
-			} else if (body.msRequestFullscreen) { /* IE11 */
-				body.msRequestFullscreen();
-			}
-		}
 	}
 	/**
 	 * Builds the Afk overlay 
@@ -701,7 +688,26 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			this.showTextOverlay(wrapperDiv.outerHTML);
 		} else {
 			this.showTextOverlay(instanceStateMessage);
+			document.getElementById('initialLoad').innerHTML = "READY";
+			// set the event Listener
+			let playOverlayEvent: EventListener = () => this.onPlayAction();
+			document.getElementById('container').classList.add('clickableState');
+			document.getElementById('container').addEventListener('click', function onOverlayClick(event: Event) {
+				playOverlayEvent(event);
+				this.style.display = 'none';
+			});
 		}
+
+                function openFullscreen() {
+                        let body = document.documentElement;
+                        if (body.requestFullscreen) {
+                                body.requestFullscreen();
+                        } else if (body.webkitRequestFullscreen) { /* Safari */
+                                body.webkitRequestFullscreen();
+                        } else if (body.msRequestFullscreen) { /* IE11 */
+                                body.msRequestFullscreen();
+                        }
+                }
 	}
 
 	/**
