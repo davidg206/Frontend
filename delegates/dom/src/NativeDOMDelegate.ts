@@ -509,6 +509,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		playOverlayHtml.id = "playOverlay";
 		playOverlayHtml.className = "clickableState";
 
+		//let playOverlayHtml = document.getElementById('loadingText') as HTMLDivElement;
+
 		// set the event Listener
 		let playOverlayEvent: EventListener = () => this.onPlayAction();
 

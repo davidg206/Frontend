@@ -16,6 +16,7 @@ export class KeyboardController {
      * @param suppressBrowserKeys - Suppress Browser Keys
      */
     constructor(dataChannelController: DataChannelController, suppressBrowserKeys: boolean) {
+	Logger.Log('hello', "constructor");
         this.ueInputKeyBoardMessage = new UeInputKeyboardMessage(dataChannelController);
         this.suppressBrowserKeys = suppressBrowserKeys;
     }
@@ -36,14 +37,14 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event 
      */
     handleOnKeyDown(keyboardEvent: KeyboardEvent) {
-        Logger.Log(Logger.GetStackTrace(), "handleOnKeyDown", 6);
+        Logger.Log(Logger.GetStackTrace(), "HELLO?", 1);
         this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
+	console.log(keyboardEvent.keyCode);
         /* this needs to be tested but it is believed that this is not needed*/
         // backSpace is not considered a keypress in JavaScript but we need it
         // to be so characters may be deleted in a UE4 text entry field.
         if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {
-            //let temp: KeyboardEvent = {charCode: SpecialKeyCodes.backSpace};
-            //document.onkeypress({ charCode: SpecialKeyCodes.backSpace });
+            document.onkeypress(new KeyboardEvent("keypress", { charCode: SpecialKeyCodes.backSpace }));
         }
 
         if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
@@ -56,7 +57,7 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event
      */
     handleOnKeyUp(keyboardEvent: KeyboardEvent) {
-        Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 6);
+        Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 1);
         this.ueInputKeyBoardMessage.sendKeyUp(this.getKeycode(keyboardEvent));
 
         if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {

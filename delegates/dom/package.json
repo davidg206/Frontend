@@ -8,6 +8,7 @@
     "watch": "npx webpack --watch",
     "start": "npx webpack && open-cli ./dist/index.html",
     "serve": "webpack serve",
+
     "symlink": "cd ../../library && npm link && cd ../delegates/dom && npm link @tensorworks/libspsfrontend",
     "build-all": "cd ../../library && npm run build && cd ../delegates/dom && npm run symlink && npm run build"
   },
@@ -21,6 +22,7 @@
     "file-loader": "^6.2.0",
     "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.3.2",
+    "http-proxy-middleware": "^2.0.6",
     "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.1.0",
     "open-cli": "^7.0.0",
@@ -35,6 +37,8 @@
     "wrangler": "2.7.1"
   },
   "dependencies": {
+    "@esbuild/linux-x64": "^0.17.3",
+    "@popperjs/core": "^2.11.6",
     "svg-inline-loader": "^0.8.2"
   }
 }

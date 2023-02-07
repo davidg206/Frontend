@@ -2,20 +2,12 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
-const fs = require('fs');
-const os = require('os');
 
 module.exports = (env) => {
     return {
         devServer: {
             allowedHosts: 'all',
-            port: 80,
-            /*https: {
-                cert: fs.readFileSync(path.join(os.homedir(), '.openssl', 'cert.pem')),
-                key: fs.readFileSync(path.join(os.homedir(), '.openssl', 'key.pem')),
-                //ca: fs.readFileSync(path.join(path.join(os.homedir(), '.openssl'), 'csr.pem'))
-            }*/
-        },
+    	},
     mode: 'development',
     entry: {
       index: './src/index.ts',
@@ -84,7 +76,7 @@ module.exports = (env) => {
       extensions: ['.tsx', '.ts', '.js', '.svg'],
     },
     output: {
-      filename: '[name].js',
+      filename: '[name].[contenthash].js',
       library: 'frontend', // change this to something more meaningful
       libraryTarget: 'umd',
       path: path.resolve(__dirname, 'dist'),

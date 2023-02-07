@@ -32,6 +32,8 @@ if (signallingServerAddress == '') {
     }
 }
 
+libspsfrontend.Logger.Log("hello", "whatever", 5);
+
 // prep the player div element 
 let playerElement = document.getElementById("player") as HTMLDivElement;
 
@@ -41,6 +43,8 @@ config.enableSpsAutoConnect = true;
 config.enableSpsAutoplay = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = false;
+config.afkTimeout = 180;
+config.fakeMouseWithTouches = true;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);

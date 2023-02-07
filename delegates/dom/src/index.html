@@ -9,6 +9,11 @@
     <link id="favPng" rel="icon" type="image/x-icon" href="https://uploads-ssl.webflow.com/63582e98c78ba1782af01f0a/6390ca6ec37fb88e7dc55b80_SquareLogo3.jpg?">
 
     <script type="text/javascript">
+	window.onkeydown = function (e) {
+		let event = e || window.event;
+		var keyCode = event.which || event.keyCode || 0;
+		//console.log(keyCode);
+	};
         var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
         if (isFirefox) {
             window.navigator.mozGetUserMedia = function () { };
@@ -24,14 +29,13 @@
 </head>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z3ZPP0LTD"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HSXR0VLND1"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-7Z3ZPP0LTD');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HSXR0VLND1');
 </script>
-
 <body oncontextmenu="return false;">
     <div id="playerUI" class="noselect">
         <div id="player"></div>
@@ -74,6 +78,24 @@
                     <span class="tooltiptext">Information</span>
                 </button>
             </div>
+
+            <div id="container">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <div class="loadingText" id="initialLoad">
+                    <div id="initialLoad">LOADING...</div>
+                </div>
+                <div id="textDisplayState">
+                    <div id="loadingNote">If the experience does not load within 20 secs please refresh</div>
+                </div>
+            </div>
+
             <div class="panel-wrap" id="settings-panel">
                 <div class="panel">
                     <div id="settingsHeading">Settings</div>
