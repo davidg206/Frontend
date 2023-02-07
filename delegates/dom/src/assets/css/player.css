@@ -41,13 +41,12 @@ body {
 }
 
 #container {
-	position: fixed;
+	position: absolute;
 	display: flex;
 	align-items: center; /* Center the div vertically */
 	justify-content: center;
 	margin: 0 auto;
-	position: absolute;
-	z-index: 99;
+	z-index: 25;
 	left: 0em;
 	right: 0;
 	top: 15em;
@@ -404,6 +403,19 @@ object {
 	align-items: center;
 	justify-content: center;
 
+}
+
+#startText {
+	width: 200px;
+	height: 120px;
+	background-color: red;
+	position: absolute;
+	z-index: 30;
+	display: flex;
+	align-items: center; /* Center the div vertically */
+	justify-content: center;
+	top: 400px;
+	right: 520px;
 }
 
 /* State for element to be clickable */

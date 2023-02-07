@@ -505,26 +505,25 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	 */
 	buildPlayOverlay() {
 		// build the overlay base div 
-		/*let playOverlayHtml = document.createElement('div');
-		playOverlayHtml.id = "playOverlay";
-		playOverlayHtml.className = "clickableState";*/
+		let playOverlayHtml = document.createElement('div');
+		playOverlayHtml.id = "startText";
+		playOverlayHtml.className = "clickableState";
 
-		let playOverlayHtml = document.getElementById('initialLoad') as HTMLDivElement;
+		// set the event Listener
+                let playOverlayEvent: EventListener = () => this.onPlayAction();	
+
+                // add the new event listener
+                playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
+                        playOverlayEvent(event);
+                        document.getElementById('container').style.display = 'none';
+                        document.body.style.cursor = 'none';
+                        openFullscreen();
+                });
 
 		// build the inner html 
 		let playOverlayHtmlInner = document.createElement('div');
-		playOverlayHtmlInner.classList.add('clickableState');
+		playOverlayHtmlInner.className = "loadingText";
 		playOverlayHtmlInner.innerHTML = "Click to start";
-
-		// set the event Listener
-		let playOverlayEvent: EventListener = () => this.onPlayAction();
-
-		// add the new event listener 
-		playOverlayHtmlInner.addEventListener('click', function onOverlayClick(event: Event) {
-			playOverlayEvent(event);
-			document.body.style.cursor = 'none';
-			openFullscreen();
-		});
 
 		// instantiate the overlay
 		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
