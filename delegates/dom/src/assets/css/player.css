@@ -120,7 +120,7 @@ body {
 	color: LightGoldenRodYellow;
 }
 
-#loadingText {
+.loadingText {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -161,7 +161,7 @@ canvas {
 	height: 100%;
 	z-index: 30;
 	position: absolute;
-	color: var(--colour2);
+	color: black; /*var(--colour2);*/
 	pointer-events: none;
 	overflow: hidden;
 }
@@ -313,7 +313,7 @@ object {
 }
 
 .panel {
-	color: #eee;
+	color: black; /* #eee */
 	overflow-y: auto;
 	padding: 1em;
 }
@@ -395,12 +395,12 @@ object {
 #disconnectOverlay {
 	z-index: 30;
 	position: absolute;
-	color: var(--colour4);
+	color: black; /*var(--colour4);*/
 	font-size: 1.8em;
 	font-family: var(--inputFont);
 	width: 100%;
 	height: 100%;
-	background-color: #808080;
+	background-color: black; /*#808080;*/
 	align-items: center;
 	justify-content: center;
 
