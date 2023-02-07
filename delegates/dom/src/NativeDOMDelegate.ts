@@ -505,28 +505,26 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	 */
 	buildPlayOverlay() {
 		// build the overlay base div 
-		let playOverlayHtml = document.createElement('div');
+		/*let playOverlayHtml = document.createElement('div');
 		playOverlayHtml.id = "playOverlay";
-		playOverlayHtml.className = "clickableState";
+		playOverlayHtml.className = "clickableState";*/
 
-		//let playOverlayHtml = document.getElementById('loadingText') as HTMLDivElement;
+		let playOverlayHtml = document.getElementById('loadingText') as HTMLDivElement;
+
+		// build the inner html 
+		let playOverlayHtmlInner = document.createElement('div');
+		playOverlayHtmlInner.classList.add('clickableState');
+		playOverlayHtmlInner.innerHTML = "Click to start";
 
 		// set the event Listener
 		let playOverlayEvent: EventListener = () => this.onPlayAction();
 
 		// add the new event listener 
-		playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
+		playOverlayHtmlInner.addEventListener('click', function onOverlayClick(event: Event) {
 			playOverlayEvent(event);
 			document.body.style.cursor = 'none';
 			openFullscreen();
 		});
-
-		// build the inner html 
-		let playOverlayHtmlInner = document.createElement('img');
-		playOverlayHtmlInner.id = 'playButton';
-		playOverlayHtmlInner.src = playButton;
-		//playOverlayHtmlInner.src = "images/Play.png";
-		playOverlayHtmlInner.alt = 'Start Streaming';
 
 		// instantiate the overlay
 		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
@@ -542,7 +540,6 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			}
 		}
 	}
-
 	/**
 	 * Builds the Afk overlay 
 	 */
