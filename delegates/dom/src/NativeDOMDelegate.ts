@@ -694,6 +694,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			document.getElementById('container').classList.add('clickableState');
 			document.getElementById('container').addEventListener('click', function onOverlayClick(event: Event) {
 				playOverlayEvent(event);
+				document.body.style.cursor = 'none';
 				this.style.display = 'none';
 			});
 		}
