@@ -20,7 +20,7 @@ export class OverlayBase implements libspsfrontend.IOverlay {
 		this.rootDiv = rootDiv;
 		this.rootElement = rootElement;
 		this.textElement = textElement;
-		this.rootElement.appendChild(this.textElement);
+		if (this.textElement != null) this.rootElement.appendChild(this.textElement);
 		this.hide();
 		this.rootDiv.appendChild(this.rootElement);
 	}
