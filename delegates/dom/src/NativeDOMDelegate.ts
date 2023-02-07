@@ -507,7 +507,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		// build the overlay base div 
 		let playOverlayHtml = document.createElement('div');
 		playOverlayHtml.id = "startText";
-		playOverlayHtml.className = "clickableState";
+		playOverlayHtml.innerHTML = "Click to Start";
+		playOverlayHtml.classList.add("clickableState", "loadingText");
 
 		// set the event Listener
                 let playOverlayEvent: EventListener = () => this.onPlayAction();	
@@ -521,12 +522,13 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
                 });
 
 		// build the inner html 
-		let playOverlayHtmlInner = document.createElement('div');
+		/*let playOverlayHtmlInner = document.createElement('div');
 		playOverlayHtmlInner.className = "loadingText";
 		playOverlayHtmlInner.innerHTML = "Click to start";
+		*/
 
 		// instantiate the overlay
-		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
+		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, null);
 
 		function openFullscreen() {
 			let body = document.documentElement;
