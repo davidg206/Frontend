@@ -32,7 +32,7 @@ if (signallingServerAddress == '') {
     }
 }
 
-libspsfrontend.Logger.Log("hello", "whatever", 5);
+//libspsfrontend.Logger.Log("hello", "whatever", 5);
 
 // prep the player div element 
 let playerElement = document.getElementById("player") as HTMLDivElement;
@@ -57,7 +57,7 @@ function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegat
 }
 
 document.ontouchmove = (event: TouchEvent) => {
-    //event.preventDefault();
+    event.preventDefault();
 }
 
 // Create a config object instance 
