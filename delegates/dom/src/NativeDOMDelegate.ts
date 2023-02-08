@@ -687,16 +687,27 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			// insert the inner html into the base div
 			this.showTextOverlay(wrapperDiv.outerHTML);
 		} else {
-			this.showTextOverlay(instanceStateMessage);
-			document.getElementById('initialLoad').innerHTML = "READY";
+			//this.showTextOverlay(instanceStateMessage);
+			let containerLoader = document.querySelector('.textContainer');
+			document.querySelector('.loadingText').innerHTML = "Press to Enter";
+			document.querySelector('.loadingNote').innerHTML = '';			
+
+			containerLoader.classList.add('clickableState');
+
 			// set the event Listener
 			let playOverlayEvent: EventListener = () => this.onPlayAction();
-			document.getElementById('container').classList.add('clickableState');
-			document.getElementById('container').addEventListener('click', function onOverlayClick(event: Event) {
+			let fadeOutLoader = (event: Event) => {
+				event.stopPropagation();
 				playOverlayEvent(event);
-				document.body.style.cursor = 'none';
-				this.style.display = 'none';
-			});
+				containerLoader.style.opacity = 0;
+                                document.body.style.cursor = 'none';
+				setTimeout(function() {
+                                        containerLoader.style.display = "none";
+                                }, 1000);
+			};
+			document.body.classList.add('clickableState');
+			document.body.addEventListener('click', fadeOutLoader);
+			//document.addEventListener('keydown', fadeOutLoader);
 		}
 
                 function openFullscreen() {
