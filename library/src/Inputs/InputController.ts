@@ -76,8 +76,8 @@ export class InputController {
                 // set the onclick to null if the input bindings were previously set to pointerlock
                 videoElement.onclick = null;
 
-                document.onmousemove = (mouseEvent) => videoInputBindings.handleMouseMove(mouseEvent);
-                document.onwheel = (mouseEvent) => videoInputBindings.handleMouseWheel(mouseEvent);
+                document.addEventListener("mousemove", (mouseEvent) => videoInputBindings.handleMouseMove(mouseEvent), { passive: true });
+                document.addEventListener("wheel", (mouseEvent) => videoInputBindings.handleMouseWheel(mouseEvent), { passive : true });
 
                 videoElement.onmousedown = (mouseEvent: MouseEvent) => videoInputBindings.handleMouseDown(mouseEvent);
                 videoElement.onmouseup = (mouseEvent: MouseEvent) => videoInputBindings.handleMouseUp(mouseEvent);

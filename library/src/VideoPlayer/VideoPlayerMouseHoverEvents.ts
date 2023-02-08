@@ -28,7 +28,7 @@ export class VideoPlayerMouseHoverEvents implements IVideoPlayerMouseInterface {
     handleMouseMove(mouseEvent: MouseEvent) {
         Logger.Log(Logger.GetStackTrace(), "MouseMove", 6);
         this.mouseController.sendMouseMove(mouseEvent.offsetX, mouseEvent.offsetY, mouseEvent.movementX, mouseEvent.movementY);
-        mouseEvent.preventDefault();
+        //mouseEvent.preventDefault();
     }
 
     /**
