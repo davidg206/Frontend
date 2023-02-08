@@ -56,7 +56,7 @@ export class VideoPlayerMouseHoverEvents implements IVideoPlayerMouseInterface {
      */
     handleMouseWheel(wheelEvent: WheelEvent) {
         this.mouseController.sendMouseWheel(wheelEvent.detail * -120, wheelEvent.offsetX, wheelEvent.offsetY);
-        wheelEvent.preventDefault();
+        //wheelEvent.preventDefault();
     }
 
     /**

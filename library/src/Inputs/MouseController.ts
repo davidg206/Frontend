@@ -126,7 +126,7 @@ export class MouseController {
 	 * @param Y  - Mouse Y Coordinate
 	 */
 	sendMouseWheel(deltaY: number, X: number, Y: number) {
-		Logger.Log(Logger.GetStackTrace(), `mouse wheel with delta ${deltaY} at (${X}, ${Y})`, 6);
+		Logger.Log(Logger.GetStackTrace(), `mouse wheel with delta ${deltaY} at (${X}, ${Y})`, 1);
 		let coord: NormaliseAndQuantiseUnsigned = this.normaliseAndQuantiseUnsigned(X, Y);
 		this.ueInputMouseMessage.sendMouseWheel(deltaY, coord.x, coord.y);
 	}
