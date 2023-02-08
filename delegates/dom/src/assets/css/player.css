@@ -53,6 +53,8 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 
@@ -121,6 +123,8 @@ body {
   font-family: 'Lato', sans-serif, thin;
   color: LightGoldenRodYellow;
   text-align: center;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .loadingText{
@@ -157,6 +161,8 @@ canvas {
 	height: 100%;
 	position: absolute;
 	background-color: black;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 /* UI STUFF */

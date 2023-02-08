@@ -688,7 +688,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			this.showTextOverlay(wrapperDiv.outerHTML);
 		} else {
 			//this.showTextOverlay(instanceStateMessage);
-			let containerLoader = document.querySelector('.textContainer');
+			let containerLoader: HTMLElement = document.querySelector('.textContainer');
 			document.querySelector('.loadingText').innerHTML = "Press to Enter";
 			document.querySelector('.loadingNote').innerHTML = '';			
 
@@ -699,11 +699,14 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			let fadeOutLoader = (event: Event) => {
 				event.stopPropagation();
 				playOverlayEvent(event);
-				containerLoader.style.opacity = 0;
+				containerLoader.style.opacity = "0";
                                 document.body.style.cursor = 'none';
 				setTimeout(function() {
                                         containerLoader.style.display = "none";
                                 }, 1000);
+				setTimeout(function() {
+					document.getElementById('player').style.opacity = "1";
+				}, 1000);
 			};
 			document.body.classList.add('clickableState');
 			document.body.addEventListener('click', fadeOutLoader);

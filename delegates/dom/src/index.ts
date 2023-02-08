@@ -42,7 +42,7 @@ let config = CreateConfig(signallingServerAddress, playerElement);
 config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = false;
-config.afkTimeout = 180;
+config.afkTimeout = 600;
 config.fakeMouseWithTouches = true;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
@@ -57,7 +57,7 @@ function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegat
 }
 
 document.ontouchmove = (event: TouchEvent) => {
-    event.preventDefault();
+    //event.preventDefault();
 }
 
 // Create a config object instance 
