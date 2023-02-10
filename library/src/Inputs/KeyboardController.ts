@@ -16,7 +16,6 @@ export class KeyboardController {
      * @param suppressBrowserKeys - Suppress Browser Keys
      */
     constructor(dataChannelController: DataChannelController, suppressBrowserKeys: boolean) {
-	Logger.Log('hello', "constructor");
         this.ueInputKeyBoardMessage = new UeInputKeyboardMessage(dataChannelController);
         this.suppressBrowserKeys = suppressBrowserKeys;
     }
@@ -37,7 +36,6 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event 
      */
     handleOnKeyDown(keyboardEvent: KeyboardEvent) {
-        Logger.Log(Logger.GetStackTrace(), "HELLO?", 1);
         this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
 	console.log(keyboardEvent.keyCode);
         /* this needs to be tested but it is believed that this is not needed*/
@@ -57,7 +55,7 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event
      */
     handleOnKeyUp(keyboardEvent: KeyboardEvent) {
-        Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 1);
+        //Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 1);
         this.ueInputKeyBoardMessage.sendKeyUp(this.getKeycode(keyboardEvent));
 
         if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
@@ -70,7 +68,7 @@ export class KeyboardController {
      * @param keyboard - Keyboard Event
      */
     handleOnKeyPress(keyboard: KeyboardEvent) {
-        Logger.Log(Logger.GetStackTrace(), "handleOnkeypress", 6);
+        //Logger.Log(Logger.GetStackTrace(), "handleOnkeypress", 6);
         this.ueInputKeyBoardMessage.sendKeyPress(keyboard.charCode);
     }
 

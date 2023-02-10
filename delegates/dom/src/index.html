@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link id="favPng" rel="icon" type="image/x-icon" href="https://uploads-ssl.webflow.com/63582e98c78ba1782af01f0a/6390ca6ec37fb88e7dc55b80_SquareLogo3.jpg?">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     <script type="text/javascript">
 	window.onkeydown = function (e) {
 		let event = e || window.event;
@@ -36,11 +39,30 @@
   gtag('js', new Date());
   gtag('config', 'G-HSXR0VLND1');
 </script>
+<script>
+	window.onload = function() {
+		setTimeout(function() {
+			document.querySelector('.loadingNote').style.opacity = 1;
+		}, 17000);
+	};
+</script>
 <body oncontextmenu="return false;">
+
     <div id="playerUI" class="noselect">
         <div id="player"></div>
         <div id="uiFeatures">
+	<div class="textContainer">
+	    <div class="loadingText">Loading</div>
+	    <div class="loader">
+	        <span></span>
+       		<span></span>
+        	<span></span>
+        	<span></span>
+        	<span></span>
+    	    </div>
 
+    	    <div class="loadingNote">Please refresh if the experience does not load after 30 seconds.</div>
+	 </div>
             <div id="connection" class="spsUiTool">
                 <svg version="1.1" id="connectionStrength" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 494.45 494.45"
@@ -79,6 +101,27 @@
                 </button>
             </div>
 
+<<<<<<< HEAD
+=======
+<!--
+            <div id="container">
+                <div id="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+               
+                <div class="loadingText" id="initialLoad">
+                    <div id="initialLoad">LOADING...</div>
+                </div>
+                <div id="textDisplayState">
+                    <div id="loadingNote">If the experience does not load within 20 secs please refresh</div>
+                </div>
+            </div>
+-->
+>>>>>>> updatedCSS
             <div class="panel-wrap" id="settings-panel">
                 <div class="panel">
                     <div id="settingsHeading">Settings</div>

@@ -1,6 +1,7 @@
 import { DataChannelController } from "../DataChannel/DataChannelController";
 import { UeDataMessage } from "./UeDataMessage";
 import { UeMessageType } from "./UeMessageTypes"
+import { Logger } from "../Logger/Logger";
 
 /**
  * Handles sending Mouse Messages to the UE Instance

@@ -20,7 +20,7 @@ export class OverlayBase implements libspsfrontend.IOverlay {
 		this.rootDiv = rootDiv;
 		this.rootElement = rootElement;
 		this.textElement = textElement;
-		this.rootElement.appendChild(this.textElement);
+		if (this.textElement != null) this.rootElement.appendChild(this.textElement);
 		this.hide();
 		this.rootDiv.appendChild(this.rootElement);
 	}
@@ -506,43 +506,28 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	buildPlayOverlay() {
 		// build the overlay base div 
 		let playOverlayHtml = document.createElement('div');
-		playOverlayHtml.id = "playOverlay";
-		playOverlayHtml.className = "clickableState";
-
-		//let playOverlayHtml = document.getElementById('loadingText') as HTMLDivElement;
+		//playOverlayHtml.id = "startText";
+		//playOverlayHtml.classList.add("clickableState", "loadingText");
 
 		// set the event Listener
-		let playOverlayEvent: EventListener = () => this.onPlayAction();
+                let playOverlayEvent: EventListener = () => this.onPlayAction();	
 
-		// add the new event listener 
-		playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
-			playOverlayEvent(event);
-			document.body.style.cursor = 'none';
-			openFullscreen();
-		});
+                // add the new event listener
+                /*playOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
+                        playOverlayEvent(event);
+                        document.getElementById('container').style.display = 'none';
+                        document.body.style.cursor = 'none';
+                        openFullscreen();
+                });*/
 
 		// build the inner html 
-		let playOverlayHtmlInner = document.createElement('img');
-		playOverlayHtmlInner.id = 'playButton';
-		playOverlayHtmlInner.src = playButton;
-		//playOverlayHtmlInner.src = "images/Play.png";
-		playOverlayHtmlInner.alt = 'Start Streaming';
+		let playOverlayHtmlInner = document.createElement('div');
+		//playOverlayHtmlInner.className = "loadingText";
+		
 
 		// instantiate the overlay
-		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
-
-		function openFullscreen() {
-			let body = document.documentElement;
-			if (body.requestFullscreen) {
-				body.requestFullscreen();
-			} else if (body.webkitRequestFullscreen) { /* Safari */
-				body.webkitRequestFullscreen();
-			} else if (body.msRequestFullscreen) { /* IE11 */
-				body.msRequestFullscreen();
-			}
-		}
+		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, null);
 	}
-
 	/**
 	 * Builds the Afk overlay 
 	 */
@@ -702,8 +687,43 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			// insert the inner html into the base div
 			this.showTextOverlay(wrapperDiv.outerHTML);
 		} else {
-			this.showTextOverlay(instanceStateMessage);
+			//this.showTextOverlay(instanceStateMessage);
+			let containerLoader: HTMLElement = document.querySelector('.textContainer');
+			document.querySelector('.loadingText').innerHTML = "Press to Enter";
+			document.querySelector('.loadingNote').innerHTML = '';			
+
+			containerLoader.classList.add('clickableState');
+
+			// set the event Listener
+			let playOverlayEvent: EventListener = () => this.onPlayAction();
+			let fadeOutLoader = (event: Event) => {
+				event.stopPropagation();
+				playOverlayEvent(event);
+				containerLoader.style.opacity = "0";
+                                document.body.style.cursor = 'none';
+				setTimeout(function() {
+                                        containerLoader.style.display = "none";
+                                }, 1000);
+				setTimeout(function() {
+					document.getElementById('player').style.opacity = "1";
+					document.getElementById('player').style.pointerEvents = "auto";
+				}, 1000);
+			};
+			document.body.classList.add('clickableState');
+			document.body.addEventListener('click', fadeOutLoader);
+			//document.addEventListener('keydown', fadeOutLoader);
 		}
+
+                function openFullscreen() {
+                        let body = document.documentElement;
+                        if (body.requestFullscreen) {
+                                body.requestFullscreen();
+                        } else if (body.webkitRequestFullscreen) { /* Safari */
+                                body.webkitRequestFullscreen();
+                        } else if (body.msRequestFullscreen) { /* IE11 */
+                                body.msRequestFullscreen();
+                        }
+                }
 	}
 
 	/**

@@ -28,7 +28,7 @@ export class VideoPlayerMouseHoverEvents implements IVideoPlayerMouseInterface {
     handleMouseMove(mouseEvent: MouseEvent) {
         Logger.Log(Logger.GetStackTrace(), "MouseMove", 6);
         this.mouseController.sendMouseMove(mouseEvent.offsetX, mouseEvent.offsetY, mouseEvent.movementX, mouseEvent.movementY);
-        mouseEvent.preventDefault();
+        //mouseEvent.preventDefault();
     }
 
     /**
@@ -56,7 +56,7 @@ export class VideoPlayerMouseHoverEvents implements IVideoPlayerMouseInterface {
      */
     handleMouseWheel(wheelEvent: WheelEvent) {
         this.mouseController.sendMouseWheel(wheelEvent.detail * -120, wheelEvent.offsetX, wheelEvent.offsetY);
-        wheelEvent.preventDefault();
+        //wheelEvent.preventDefault();
     }
 
     /**
