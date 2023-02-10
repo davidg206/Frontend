@@ -167,6 +167,7 @@ canvas {
 	background-color: black;
 	opacity: 0;
 	transition: opacity 1s;
+	pointer-events: none;
 }
 
 /* UI STUFF */

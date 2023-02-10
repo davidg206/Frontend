@@ -706,6 +706,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
                                 }, 1000);
 				setTimeout(function() {
 					document.getElementById('player').style.opacity = "1";
+					document.getElementById('player').style.pointerEvents = "auto";
 				}, 1000);
 			};
 			document.body.classList.add('clickableState');
