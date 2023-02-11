@@ -43,7 +43,7 @@ config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = false;
 config.afkTimeout = 600;
-config.fakeMouseWithTouches = true;
+//config.fakeMouseWithTouches = true;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);

@@ -20,7 +20,7 @@ export class OverlayBase implements libspsfrontend.IOverlay {
 		this.rootDiv = rootDiv;
 		this.rootElement = rootElement;
 		this.textElement = textElement;
-		if (this.textElement != null) this.rootElement.appendChild(this.textElement);
+		this.rootElement.appendChild(this.textElement);
 		this.hide();
 		this.rootDiv.appendChild(this.rootElement);
 	}
@@ -526,7 +526,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		
 
 		// instantiate the overlay
-		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, null);
+		this.playOverlay = new ActionOverlayBase(this.config.playerElement, playOverlayHtml, playOverlayHtmlInner);
 	}
 	/**
 	 * Builds the Afk overlay 
@@ -701,6 +701,11 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				playOverlayEvent(event);
 				containerLoader.style.opacity = "0";
                                 document.body.style.cursor = 'none';
+				let playerUI: HTMLElement = document.getElementById('playerUI');
+				playerUI.style.cursor = "pointer";
+				document.getElementById('streamingVideo').onclick = function() { 
+					document.getElementById('player').style.cursor = 'none'; 
+				}; 
 				setTimeout(function() {
                                         containerLoader.style.display = "none";
                                 }, 1000);
