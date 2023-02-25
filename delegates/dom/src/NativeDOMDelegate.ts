@@ -700,11 +700,11 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				event.stopPropagation();
 				playOverlayEvent(event);
 				containerLoader.style.opacity = "0";
-                                document.body.style.cursor = 'none';
+                                //document.body.style.cursor = 'none';
 				let playerUI: HTMLElement = document.getElementById('playerUI');
-				playerUI.style.cursor = "pointer";
+				playerUI.style.cursor = "default";
 				document.getElementById('streamingVideo').onclick = function() { 
-					document.getElementById('player').style.cursor = 'none'; 
+					//document.getElementById('player').style.cursor = 'none'; 
 				}; 
 				setTimeout(function() {
                                         containerLoader.style.display = "none";
