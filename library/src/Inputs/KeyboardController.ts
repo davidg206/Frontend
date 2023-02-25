@@ -37,7 +37,6 @@ export class KeyboardController {
      */
     handleOnKeyDown(keyboardEvent: KeyboardEvent) {
         this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
-	console.log(keyboardEvent.keyCode);
         /* this needs to be tested but it is believed that this is not needed*/
         // backSpace is not considered a keypress in JavaScript but we need it
         // to be so characters may be deleted in a UE4 text entry field.

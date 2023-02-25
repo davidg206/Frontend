@@ -77,7 +77,7 @@ export class InputController {
                 videoElement.onclick = null;
 
                 document.addEventListener("mousemove", (mouseEvent) => videoInputBindings.handleMouseMove(mouseEvent), { passive: true });
-                document.addEventListener("wheel", (mouseEvent) => videoInputBindings.handleMouseWheel(mouseEvent), { passive : true });
+                document.addEventListener("wheel", (mouseEvent) => videoInputBindings.handleMouseWheel(mouseEvent), { passive : false });
 
                 videoElement.onmousedown = (mouseEvent: MouseEvent) => videoInputBindings.handleMouseDown(mouseEvent);
                 videoElement.onmouseup = (mouseEvent: MouseEvent) => videoInputBindings.handleMouseUp(mouseEvent);
