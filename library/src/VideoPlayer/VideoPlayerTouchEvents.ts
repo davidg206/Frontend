@@ -40,7 +40,8 @@ export class VideoPlayerTouchEvents implements IVideoPlayerTouchInterface {
         for (let t = 0; t < touchEvent.changedTouches.length; t++) {
             this.rememberTouch(touchEvent.changedTouches[t]);
         }
-        //this._UEMouseController.sendTouch(UeMessageType.TouchStart, touchEvent.changedTouches)
+	// was commented
+        this._UEMouseController.sendTouch(UeMessageType.TouchStart, touchEvent.changedTouches)
         touchEvent.preventDefault();
     }
 
@@ -50,8 +51,8 @@ export class VideoPlayerTouchEvents implements IVideoPlayerTouchInterface {
      */
     onTouchEnd(touchEvent: TouchEvent) {
         Logger.Log(Logger.GetStackTrace(), 'touch end', 6);
-
-        ///this._UEMouseController.sendTouch(UeMessageType.TouchEnd, touchEvent.changedTouches);
+	// was commented
+        this._UEMouseController.sendTouch(UeMessageType.TouchEnd, touchEvent.changedTouches);
 
         // Re-cycle unique identifiers previously assigned to each touch.
         for (let t = 0; t < touchEvent.changedTouches.length; t++) {
@@ -66,7 +67,8 @@ export class VideoPlayerTouchEvents implements IVideoPlayerTouchInterface {
      */
     onTouchMove(touchEvent: TouchEvent) {
         Logger.Log(Logger.GetStackTrace(), 'touch move', 6);
-        //this.ueMouseController.sendTouch(UeMessageType.TouchMove, touchEvent.touches);
+        // was commented
+	this.ueMouseController.sendTouch(UeMessageType.TouchMove, touchEvent.touches);
         touchEvent.preventDefault();
     }
 

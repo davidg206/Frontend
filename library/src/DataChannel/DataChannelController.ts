@@ -149,6 +149,7 @@ export class DataChannelController {
         let command: InstanceCommand = JSON.parse(commandAsString);
         if (command.command === "onScreenKeyboard") {
             //show on screen Keyboard;
+	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard", 1);
         }
     }
 

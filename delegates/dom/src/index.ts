@@ -43,7 +43,7 @@ config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = false;
 config.afkTimeout = 600;
-//config.fakeMouseWithTouches = true;
+config.fakeMouseWithTouches = true;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);
@@ -56,9 +56,11 @@ function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegat
     return new libspsfrontend.webRtcPlayerController(config, delegate);
 }
 
-document.ontouchmove = (event: TouchEvent) => {
+/*
+document.addEventListener("touchmove", (event: TouchEvent) => {
     event.preventDefault();
-}
+}, {passive:false});
+*/
 
 // Create a config object instance 
 function CreateConfig(signalingAddress: string, playerElement: HTMLDivElement) {

@@ -2,7 +2,7 @@ import { UeInputMouseMessage } from "../UeInstanceMessage/UeInputMouseMessage";
 import { DataChannelController } from "../DataChannel/DataChannelController";
 import { ITouchController } from "./ITouchController";
 import { MouseButton } from "./MouseButtons";
-
+import { Logger } from "../Logger/Logger";
 
 /**
  * Allows for the usage of fake touch events and implements ITouchController
@@ -27,7 +27,9 @@ export class FakeTouchController implements ITouchController {
      * @param touch - the activating touch event 
      */
     onTouchStart(touch: TouchEvent): void {
+	Logger.Log(Logger.GetStackTrace(), "TouchStart " + touch.changedTouches[0].clientX, 1);
         if (this.finger == null) {
+	    Logger.Log(Logger.GetStackTrace(), "First Touch", 1);
             let first_touch = touch.changedTouches[0];
             this.finger = {
                 ID: first_touch.identifier,
@@ -47,6 +49,7 @@ export class FakeTouchController implements ITouchController {
      * @param touchEvent - the activating touch event 
      */
     onTouchEnd(touchEvent: TouchEvent): void {
+	Logger.Log(Logger.GetStackTrace(), "TouchEnd", 1);
         for (let i = 0; i < touchEvent.changedTouches.length; i++) {
             let touch = touchEvent.changedTouches[i];
 

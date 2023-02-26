@@ -76,7 +76,7 @@ export class InputController {
                 // set the onclick to null if the input bindings were previously set to pointerlock
                 videoElement.onclick = null;
 
-                document.addEventListener("mousemove", (mouseEvent) => videoInputBindings.handleMouseMove(mouseEvent), { passive: true });
+                document.addEventListener("mousemove", (mouseEvent) => videoInputBindings.handleMouseMove(mouseEvent), { passive: false });
                 document.addEventListener("wheel", (mouseEvent) => videoInputBindings.handleMouseWheel(mouseEvent), { passive : false });
 
                 videoElement.onmousedown = (mouseEvent: MouseEvent) => videoInputBindings.handleMouseDown(mouseEvent);
@@ -95,9 +95,10 @@ export class InputController {
      * @param playerElement - the player elements DOM 
      */
     registerTouch(fakeMouseTouch: boolean, playerElement: HTMLVideoElement) {
-        Logger.Log(Logger.GetStackTrace(), "Registering Touch", 6);
+        Logger.Log(Logger.GetStackTrace(), "Registering Touch", 1);
         if (fakeMouseTouch) {
-            this.touchController = new FakeTouchController(this.dataChannelController, (<HTMLVideoElement>playerElement.getElementsByTagName("video")[0]));
+	    //(<HTMLVideoElement>playerElement.getElementsByTagName("video")[0])
+            this.touchController = new FakeTouchController(this.dataChannelController, playerElement);
         } else {
             this.touchController = new TouchController(this.dataChannelController, playerElement, this.videoElementProvider);
         }
