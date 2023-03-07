@@ -38,7 +38,7 @@ export class TouchController implements ITouchController {
                 Logger.Log(Logger.GetStackTrace(), "who has more then 10 fingers", 6);
             }
             this.ueInputTouchMessage.fingersIds[touch.identifier] = finger;
-            Logger.Log(Logger.GetStackTrace(), "touch.identifier: " + touch.identifier, 6);
+            Logger.Log(Logger.GetStackTrace(), "touch.identifier: " + touch.identifier, 1);
             Logger.Log(Logger.GetStackTrace(), "finger: " + finger, 6);
         }
 
@@ -55,13 +55,13 @@ export class TouchController implements ITouchController {
 
         for (let i = 0; i < touchEvent.changedTouches.length; i++) {
             let touch = touchEvent.changedTouches[i];
-            Logger.Log(Logger.GetStackTrace(), "on Forget Touch", 6);
-            Logger.Log(Logger.GetStackTrace(), "touch id: " + touch.identifier, 6);
-            Logger.Log(Logger.GetStackTrace(), "Fingers id Touch id: " + this.ueInputTouchMessage.fingersIds[touch.identifier], 6);
+            Logger.Log(Logger.GetStackTrace(), "on Forget Touch", 1);
+            Logger.Log(Logger.GetStackTrace(), "touch id: " + touch.identifier, 1);
+            Logger.Log(Logger.GetStackTrace(), "Fingers id Touch id: " + this.ueInputTouchMessage.fingersIds[touch.identifier], 1);
             this.ueInputTouchMessage.fingers.push(this.ueInputTouchMessage.fingersIds[touch.identifier]);
-            //this.ueInputTouchMessage.fingers.sort(function(a,b){return b-a});
+            this.ueInputTouchMessage.fingers.sort(function(a,b){return b-a});
             delete this.ueInputTouchMessage.fingersIds[touch.identifier];
-            Logger.Log(Logger.GetStackTrace(), "touch.identifier: " + touch.identifier, 6);
+            Logger.Log(Logger.GetStackTrace(), "touch.identifier: " + touch.identifier, 1);
         }
         this.ueInputTouchMessage.sendTouchEnd(touchEvent.changedTouches);
 	Logger.Log(Logger.GetStackTrace(), "Sucessful touch END", 1);
@@ -73,11 +73,7 @@ export class TouchController implements ITouchController {
      * @param event - the touch event being intercepted  
      */
     onTouchMove(touchEvent: TouchEvent) {
-        for (let i = 0; i < touchEvent.touches.length; i++) {
-            let touch = touchEvent.touches[i];
-            Logger.Log(Logger.GetStackTrace(), "X: " + touch.clientX + " Y: " + touch.clientY, 6);
-        }
-        this.ueInputTouchMessage.sendTouchMove(touchEvent.touches);
-        touchEvent.preventDefault();
+	this.ueInputTouchMessage.sendTouchMove(touchEvent.touches);
+	touchEvent.preventDefault();
     }
 }

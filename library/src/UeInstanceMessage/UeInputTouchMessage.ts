@@ -67,10 +67,19 @@ export class UeInputTouchMessage extends UeDataMessage {
         let byte = 2;
         for (let t = 0; t < touches.length; t++) {
             let touch = touches[t];
-            let x = touch.clientX;//- offsetLeft;
-            let y = touch.clientY;//- offsetTop;
+//	    let offsetLeft = this.videoElementProvider.getVideoElement().getBoundingClientRect().left;
+//          let offsetTop = this.videoElementProvider.getVideoElement().getBoundingClientRect().top;
+            let x = touch.clientX;
+            let y = touch.clientY;
+
+	    if (touchType === UeMessageType.touchMove) {
+                x -= this.videoElementProvider.getVideoElement().getBoundingClientRect().left
+                y -= this.videoElementProvider.getVideoElement().getBoundingClientRect().top;
+            }
+
 
             let coord = this.normaliseAndQuantiseUnsigned(x, y);
+	    Logger.Log(Logger.GetStackTrace(), "X: " + x + " Y: " + y, 1);
             //      byte =  2
             data.setUint16(byte, coord.x, true);
             byte += 2;

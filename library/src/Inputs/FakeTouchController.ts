@@ -10,13 +10,14 @@ import { Logger } from "../Logger/Logger";
  * @param videoPlayerElement - The video player DOM element 
  */
 export class FakeTouchController implements ITouchController {
-    finger: Finger;
+    fingers: Finger[];
     ueInputMouseMessage: UeInputMouseMessage;
     videoPlayerElement: HTMLVideoElement;
 
     constructor(dataChannelController: DataChannelController, videoPlayerElement: HTMLVideoElement) {
         this.ueInputMouseMessage = new UeInputMouseMessage(dataChannelController);
         this.videoPlayerElement = videoPlayerElement;
+	this.fingers = [];
         document.ontouchstart = (ev: TouchEvent) => this.onTouchStart(ev);
         document.ontouchend = (ev: TouchEvent) => this.onTouchEnd(ev);
         document.ontouchmove = (ev: TouchEvent) => this.onTouchMove(ev);
@@ -27,43 +28,40 @@ export class FakeTouchController implements ITouchController {
      * @param touch - the activating touch event 
      */
     onTouchStart(touch: TouchEvent): void {
-	Logger.Log(Logger.GetStackTrace(), "TouchStart " + touch.changedTouches[0].clientX, 1);
-        if (this.finger == null) {
-	    Logger.Log(Logger.GetStackTrace(), "First Touch", 1);
-            let first_touch = touch.changedTouches[0];
-            this.finger = {
-                ID: first_touch.identifier,
-                X: first_touch.clientX - this.videoPlayerElement.getBoundingClientRect().left,
-                Y: first_touch.clientY - - this.videoPlayerElement.getBoundingClientRect().top
-            }
-
-            let mouseEvent = new MouseEvent(touch.type, first_touch)
-
-            this.videoPlayerElement.onmouseenter(mouseEvent);
-            this.ueInputMouseMessage.sendMouseDown(MouseButton.mainButton, this.finger.X, this.finger.Y);
+        let touchInfo = touch.changedTouches[0];
+        let fingerInfo = {
+            ID: touchInfo.identifier,
+            X: touchInfo.clientX - this.videoPlayerElement.getBoundingClientRect().left,
+            Y: touchInfo.clientY - - this.videoPlayerElement.getBoundingClientRect().top
         }
+	Logger.Log(Logger.GetStackTrace(), "Touch start", 1);
+
+        this.fingers.push(fingerInfo);
+
+        let mouseEvent = new MouseEvent(touch.type, touchInfo)
+        this.videoPlayerElement.onmouseenter(mouseEvent);
+        this.ueInputMouseMessage.sendMouseDown(MouseButton.mainButton, fingerInfo.X, fingerInfo.Y);
     }
 
     /**
      * When a touch event ends 
      * @param touchEvent - the activating touch event 
      */
-    onTouchEnd(touchEvent: TouchEvent): void {
-	Logger.Log(Logger.GetStackTrace(), "TouchEnd", 1);
-        for (let i = 0; i < touchEvent.changedTouches.length; i++) {
-            let touch = touchEvent.changedTouches[i];
+    onTouchEnd(touch: TouchEvent): void {
+        let touchInfo = touch.changedTouches[0];
 
-            if (touch.identifier === this.finger.ID) {
-                let x = touch.clientX - this.videoPlayerElement.getBoundingClientRect().left;
-                let y = touch.clientY - this.videoPlayerElement.getBoundingClientRect().top;
+        for (let i = 0; i < this.fingers.length; i++) {
+            if (touchInfo.identifier === this.fingers[i].ID) {
+                let x = touchInfo.clientX - this.videoPlayerElement.getBoundingClientRect().left;
+                let y = touchInfo.clientY - this.videoPlayerElement.getBoundingClientRect().top;
                 this.ueInputMouseMessage.sendMouseUp(MouseButton.mainButton, x, y);
 
-                let mouseEvent = new MouseEvent(touchEvent.type, touch)
+                let mouseEvent = new MouseEvent(touch.type, touch)
                 this.videoPlayerElement.onmouseleave(mouseEvent);
-                this.finger = null;
+                this.fingers[i] = this.fingers[this.fingers.length - 1];
+                this.fingers.pop();
             }
         }
-
     }
 
     /**
@@ -71,14 +69,14 @@ export class FakeTouchController implements ITouchController {
      * @param touchEvent - the activating touch event 
      */
     onTouchMove(touchEvent: TouchEvent): void {
-        for (let i = 0; i < touchEvent.touches.length; i++) {
-            let touch = touchEvent.touches[i];
-            if (touch.identifier === this.finger.ID) {
-                let x = touch.clientX - this.videoPlayerElement.getBoundingClientRect().left;
-                let y = touch.clientY - this.videoPlayerElement.getBoundingClientRect().top;
-                this.ueInputMouseMessage.sendMouseMove(x, y, x - this.finger.X, y - this.finger.Y);
-                this.finger.X = x;
-                this.finger.Y = y;
+        let touchInfo = touchEvent.changedTouches[0];
+        for (let i = 0; i < this.fingers.length; i++) {
+            if (touchInfo.identifier === this.fingers[i].ID) {
+                let x = touchInfo.clientX - this.videoPlayerElement.getBoundingClientRect().left;
+                let y = touchInfo.clientY - this.videoPlayerElement.getBoundingClientRect().top;
+                this.ueInputMouseMessage.sendMouseMove(x, y, x - this.fingers[i].X, y - this.fingers[i].Y);
+                this.fingers[i].X = x;
+                this.fingers[i].Y = y;
             }
         }
     }
@@ -91,4 +89,5 @@ export interface Finger {
     ID: number;
     X: number;
     Y: number;
+
 }

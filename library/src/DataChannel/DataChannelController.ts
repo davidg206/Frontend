@@ -36,7 +36,7 @@ export class DataChannelController {
         this.dataChannel.binaryType = "arraybuffer";
         this.dataChannel.onopen = () => this.handleOnOpen();
         this.dataChannel.onclose = () => this.handleOnClose();
-        this.dataChannel.onmessage = (ev: MessageEvent<any>) => this.handleOnMessage(ev);
+        this.dataChannel.onmessage = (ev: MessageEvent<any>) => { Logger.Log(Logger.GetStackTrace(), "Error", 1); this.handleOnMessage(ev); };
     }
 
     /**
@@ -63,6 +63,7 @@ export class DataChannelController {
         Logger.Log(Logger.GetStackTrace(), "Message incoming", 6);
         Logger.Log(Logger.GetStackTrace(), "Message:" + message, 6);
 
+	console.log("Message = " + message[0]);
         switch (message[0]) {
             case DataChannelReceiveMessageType.QualityControlOwnership: {
                 Logger.Log(Logger.GetStackTrace(), "DataChannelReceiveMessageType.QualityControlOwnership", 6);
