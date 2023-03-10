@@ -196,6 +196,7 @@ export class DelegateBase implements IDelegate {
 	 * Show the webRtcAutoConnect Overlay and connect
 	 */
 	onWebRtcAutoConnect() {
+		console.log("Auto connecting now");
 		this.showTextOverlay("Auto Connecting Now");
 		this.showActionOrErrorOnDisconnect = true;
 	}
@@ -216,6 +217,7 @@ export class DelegateBase implements IDelegate {
 	 * Set up functionality to happen when receiving a webRTC answer 
 	 */
 	onWebRtcAnswer() {
+		console.log("RTC Answer");
 		this.showTextOverlay("RTC Answer");
 	}
 
@@ -223,6 +225,7 @@ export class DelegateBase implements IDelegate {
 	 * Shows a text overlay to alert the user the stream is currently loading
 	 */
 	onStreamLoading() {
+		console.log("Loading Stream");
 		this.showTextOverlay("Loading Stream");
 	}
 
@@ -238,9 +241,11 @@ export class DelegateBase implements IDelegate {
 		}
 
 		if (this.showActionOrErrorOnDisconnect == false) {
+			console.log(`Disconnected: ${eventString}`);
 			this.showErrorOverlay(`Disconnected: ${eventString}`);
 			this.showActionOrErrorOnDisconnect = true;
 		} else {
+			console.log(`Disconnected: ${eventString} \n Click to Restart`);
 			this.showDisconnectOverlay(`Disconnected: ${eventString}  \n Click To Restart`);
 		}
 	}
@@ -249,6 +254,7 @@ export class DelegateBase implements IDelegate {
 	 * Handles when Web Rtc is connecting 
 	 */
 	onWebRtcConnecting() {
+		console.log("Connected to webrtc server");
 		this.showTextOverlay("Starting connection to server, please wait");
 	}
 
@@ -256,6 +262,7 @@ export class DelegateBase implements IDelegate {
 	 * Handles when Web Rtc has connected 
 	 */
 	onWebRtcConnected() {
+		console.log("WebRTC connected, waiting for video");
 		this.showTextOverlay("WebRTC connected, waiting for video");
 	}
 
@@ -263,6 +270,7 @@ export class DelegateBase implements IDelegate {
 	 * Handles when Web Rtc fails to connect 
 	 */
 	onWebRtcFailed() {
+		console.log("Unable to setup video");
 		this.showErrorOverlay("Unable to setup video");
 	}
 

@@ -30,7 +30,7 @@ export class WebSocketController {
      * @returns - If there is a connection
      */
     connect(): boolean {
-        Logger.Log(Logger.GetStackTrace(), this.address, 6);
+        Logger.Log(Logger.GetStackTrace(), this.address, 1);
         try {
             this.webSocket = new WebSocket(this.address);
             this.webSocket.onopen = (event) => this.handleOnOpen(event);
@@ -84,20 +84,20 @@ export class WebSocketController {
         }
 
         let message: MessageReceive.MessageRecv = JSON.parse(event.data);
-        Logger.Log(Logger.GetStackTrace(), "received => \n" + JSON.stringify(JSON.parse(event.data), undefined, 4), 6);
+        Logger.Log(Logger.GetStackTrace(), "received => \n" + JSON.stringify(JSON.parse(event.data), undefined, 1), 1);
 
         switch (message.type) {
             case MessageReceive.MessageRecvTypes.PING: {
 
                 // send our pong payload back to the signalling server
                 const payload = new MessageSend.MessagePong(new Date().getTime()).payload()
-                Logger.Log(Logger.GetStackTrace(), MessageReceive.MessageRecvTypes.PING + ": " + payload, 6);
+                Logger.Log(Logger.GetStackTrace(), MessageReceive.MessageRecvTypes.PING + ": " + payload, 1);
                 this.webSocket.send(payload)
 
                 break;
             }
             case MessageReceive.MessageRecvTypes.AUTHENTICATION_REQUIRED: {
-                Logger.Log(Logger.GetStackTrace(), "AUTHENTICATION_REQUIRED", 6);
+                Logger.Log(Logger.GetStackTrace(), "AUTHENTICATION_REQUIRED", 1);
                 let authenticationRequired: MessageReceive.MessageAuthRequired = JSON.parse(event.data);
 
                 let url_string = window.location.href;
@@ -110,7 +110,7 @@ export class WebSocketController {
                 break;
             }
             case MessageReceive.MessageRecvTypes.AUTHENTICATION_RESPONSE: {
-                Logger.Log(Logger.GetStackTrace(), "AUTHENTICATION_RESPONSE", 6);
+                Logger.Log(Logger.GetStackTrace(), "AUTHENTICATION_RESPONSE", 1);
                 let authenticationResponse: MessageReceive.MessageAuthResponse = JSON.parse(event.data);
 
                 this.onAuthenticationResponse(authenticationResponse);
@@ -121,7 +121,7 @@ export class WebSocketController {
                         break;
                     }
                     case MessageReceive.MessageAuthResponseOutcomeType.AUTHENTICATED: {
-                        Logger.Log(Logger.GetStackTrace(), "User is authenticated and now requesting an instance", 6);
+                        Logger.Log(Logger.GetStackTrace(), "User is authenticated and now requesting an instance", 1);
 
                         this.webSocket.send(new MessageSend.MessageRequestInstance().payload());
                         break;
@@ -142,32 +142,32 @@ export class WebSocketController {
                 break;
             }
             case MessageReceive.MessageRecvTypes.INSTANCE_STATE: {
-                Logger.Log(Logger.GetStackTrace(), "INSTANCE_STATE", 6);
+                Logger.Log(Logger.GetStackTrace(), "INSTANCE_STATE", 1);
                 let instanceState: MessageReceive.MessageInstanceState = JSON.parse(event.data);
                 this.onInstanceStateChange(instanceState);
                 break;
             }
             case MessageReceive.MessageRecvTypes.CONFIG: {
-                Logger.Log(Logger.GetStackTrace(), "CONFIG", 6);
+                Logger.Log(Logger.GetStackTrace(), "CONFIG", 1);
                 let config: MessageReceive.MessageConfig = JSON.parse(event.data);
                 this.onConfig(config);
                 break;
             }
             case MessageReceive.MessageRecvTypes.PLAYER_COUNT: {
-                Logger.Log(Logger.GetStackTrace(), "PLAYER_COUNT", 6);
+                Logger.Log(Logger.GetStackTrace(), "PLAYER_COUNT", 1);
                 let playerCount: MessageReceive.MessagePlayerCount = JSON.parse(event.data);
                 Logger.Log(Logger.GetStackTrace(), "Player Count: " + (playerCount.count - 1), 6);
 
                 break;
             }
             case MessageReceive.MessageRecvTypes.ANSWER: {
-                Logger.Log(Logger.GetStackTrace(), "ANSWER", 6);
+                Logger.Log(Logger.GetStackTrace(), "ANSWER", 1);
                 let answer: MessageReceive.MessageAnswer = JSON.parse(event.data);
                 this.onWebRtcAnswer(answer);
                 break;
             }
             case MessageReceive.MessageRecvTypes.ICE_CANDIDATE: {
-                Logger.Log(Logger.GetStackTrace(), "ICE_CANDIDATE", 6);
+                Logger.Log(Logger.GetStackTrace(), "ICE_CANDIDATE", 1);
                 let iceCandidate: MessageReceive.MessageIceCandidate = JSON.parse(event.data);
                 this.onIceCandidate(iceCandidate.candidate);
                 break;
@@ -184,7 +184,7 @@ export class WebSocketController {
      * @param event - Not Used
      */
     handleOnOpen(event: Event) {
-        Logger.Log(Logger.GetStackTrace(), "Connected to the signalling server via WebSocket", 6);
+        Logger.Log(Logger.GetStackTrace(), "Connected to the signalling server via WebSocket", 1);
     }
 
     /**
@@ -202,7 +202,7 @@ export class WebSocketController {
      */
     handleOnClose(event: CloseEvent) {
         this.onWebSocketOncloseOverlayMessage(event);
-        Logger.Log(Logger.GetStackTrace(), "Disconnected to the signalling server via WebSocket: " + JSON.stringify(event.code) + " - " + event.reason);
+        Logger.Log(Logger.GetStackTrace(), "Disconnected to the signalling server via WebSocket: " + JSON.stringify(event.code) + " - " + event.reason, 1);
         this.stopAfkWarningTimer();
     }
 
@@ -221,7 +221,7 @@ export class WebSocketController {
      * @param candidate - RTC Ice Candidate
      */
     sendIceCandidate(candidate: RTCIceCandidate) {
-        Logger.Log(Logger.GetStackTrace(), "Sending Ice Candidate");
+        Logger.Log(Logger.GetStackTrace(), "Sending Ice Candidate", 1);
         if (this.webSocket && this.webSocket.readyState === this.WS_OPEN_STATE) {
             //ws.send(JSON.stringify({ type: 'iceCandidate', candidate: candidate }));
             let IceCandidate = new MessageSend.MessageIceCandidate(candidate);

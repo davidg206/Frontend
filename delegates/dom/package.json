@@ -8,7 +8,6 @@
     "watch": "npx webpack --watch",
     "start": "npx webpack && open-cli ./dist/index.html",
     "serve": "webpack serve",
-
     "symlink": "cd ../../library && npm link && cd ../delegates/dom && npm link @tensorworks/libspsfrontend",
     "build-all": "cd ../../library && npm run build && cd ../delegates/dom && npm run symlink && npm run build"
   },
@@ -20,6 +19,8 @@
     "bootstrap": "^5.0.2",
     "css-loader": "^6.2.0",
     "file-loader": "^6.2.0",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.12.4",
     "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.3.2",
     "http-proxy-middleware": "^2.0.6",
@@ -37,8 +38,14 @@
     "wrangler": "2.7.1"
   },
   "dependencies": {
+    "@bufbuild/buf": "^1.15.0",
     "@esbuild/linux-x64": "^0.17.3",
+    "@grpc/grpc-js": "^1.8.12",
+    "@improbable-eng/grpc-web": "^0.15.0",
     "@popperjs/core": "^2.11.6",
+    "grpc-web": "^1.4.2",
+    "nodemon": "^2.0.21",
+    "protoc-gen-ts": "^0.8.5",
     "svg-inline-loader": "^0.8.2"
   }
 }

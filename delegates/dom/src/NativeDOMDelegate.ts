@@ -604,6 +604,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// append the spinner to the element
 		spinnerDiv.appendChild(spinnerSpan);
+		console.log("Loading stream...");
 
 		this.showTextOverlay("Loading Stream " + spinnerDiv.outerHTML);
 	}
@@ -646,10 +647,11 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				instanceStateMessage = "Unhandled Instance State" + instanceState.state + " " + instanceState.details;
 				break;
 		}
+		console.log(instanceStateMessage);
 
-		if (isError) {
+		if (isError) {console.log("ERROR");
 			this.showErrorOverlay(instanceStateMessage);
-		} else if (isInstancePending) {
+		} else if (isInstancePending) {console.log("instance pending...");
 			//check if there is already and instance pending if so return 
 			let preExistingPendingMessage = document.getElementById('loading-spinner') as HTMLDivElement;
 			if (preExistingPendingMessage) {
@@ -686,7 +688,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 			// insert the inner html into the base div
 			this.showTextOverlay(wrapperDiv.outerHTML);
-		} else {
+		} else {console.log("Ready!");
 			//this.showTextOverlay(instanceStateMessage);
 			let containerLoader: HTMLElement = document.querySelector('.textContainer');
 			document.querySelector('.loadingText').innerHTML = "Press to Enter";
@@ -759,6 +761,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				instanceStateMessage = "Unhandled Auth Response: " + authResponse.outcome;
 				break;
 		}
+		console.log("Auth response: " + instanceStateMessage);
 
 		// if the response is an error show the error instead of the info 
 		if (isError) {
