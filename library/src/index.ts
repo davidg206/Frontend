@@ -15,6 +15,7 @@ export { Encoder, InitialSettings, WebRTC } from './DataChannel/InitialSettings'
 export { AggregatedStats } from './PeerConnectionController/AggregatedStats';
 export { MessageInstanceState, InstanceState, MessageAuthResponse, MessageAuthResponseOutcomeType } from './WebSockets/MessageReceive';
 export { Logger } from './Logger/Logger';
+export { DataChannelController } from './DataChannel/DataChannelController'
 
 declare var LIBRARY_VERSION: string;
 export const version = LIBRARY_VERSION;

@@ -1,5 +1,9 @@
 import {credentials} from '@grpc/grpc-js';
 
-#import {HelloServiceClient} from '../proto/services/hello/v1/hello_service_grpc_pb';
+import {AuthenticationPluginClient} from '../proto/com/language/v1/authentication_grpc_pb';
 
-#const client = new HelloServiceClient('localhost:4000', credentials.createInsecure());
+const client = new AuthenticationPluginClient('localhost:4000', credentials.createInsecure());
+
+const request = new AuthenticationRequest();
+
+// need to request a token from an identity provider

@@ -9,7 +9,7 @@ plugins:
     out: ../src/proto
     opt: grpc_js
     path: grpc_tools_node_protoc_plugin
-  - name: ts
-    out: ../src/proto
-    opt: grpc_js
-    path: protoc-gen-ts
+  - name: buf.build.grpc.web
+    out: gen/js
+  - name: buf.build.ts
+    out: gen/ts

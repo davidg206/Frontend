@@ -15,6 +15,14 @@ export class DataChannelController {
     datachannelOptions: RTCDataChannelInit;
     label: string;
     isReceivingFreezeFrame = false;
+    // If the user focuses on a UE input widget then we show them a button to open
+    // the on-screen keyboard. JavaScript security means we can only show the
+    // on-screen keyboard in response to a user interaction.
+    static editTextButton: HTMLButtonElement = undefined;
+
+    // A hidden input text box which is used only for focusing and opening the
+    // on-screen keyboard.
+    static hiddenInput: HTMLInputElement = undefined;
 
     /**
      * To Create and Set up a Data Channel
@@ -149,9 +157,26 @@ export class DataChannelController {
         Logger.Log(Logger.GetStackTrace(), "Data Channel Command: " + commandAsString, 6);
         let command: InstanceCommand = JSON.parse(commandAsString);
         if (command.command === "onScreenKeyboard") {
-            //show on screen Keyboard;
-	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard", 1);
+            //show on screen Keyboard
+	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard: " + commandAsString, 1);
+	    //showOnScreenKeyboard(command);
         }
+    }
+
+    showOnScreenKeyboard(command: InstanceCommand) {
+        /*if (command.showOnScreenKeyboard) {
+            // Show the 'edit text' button.
+            DataChannelController.editTextButton.classList.remove('hiddenState');
+            // Place the 'edit text' button near the UE input widget.
+            //let pos = unquantizeAndDenormalizeUnsigned(command.x, command.y);
+            //DataChannelController.editTextButton.style.top = pos.y.toString() + 'px';
+            //DataChannelController.editTextButton.style.left = (pos.x - 40).toString() + 'px';
+        } else {
+            // Hide the 'edit text' button.
+            DataChannelController.editTextButton.classList.add('hiddenState');
+            // Hide the on-screen keyboard.
+            DataChannelController.hiddenInput.blur();
+        }*/
     }
 
     /**

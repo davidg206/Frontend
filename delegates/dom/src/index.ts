@@ -56,14 +56,44 @@ function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegat
     return new libspsfrontend.webRtcPlayerController(config, delegate);
 }
 
-/*
+
 document.addEventListener("touchmove", (event: TouchEvent) => {
     event.preventDefault();
-}, {passive:false});
-*/
+});
 
 // Create a config object instance 
 function CreateConfig(signalingAddress: string, playerElement: HTMLDivElement) {
     let config = new libspsfrontend.Config(signalingAddress, playerElement);
     return config;
+}
+
+// On a touch device we will need special ways to show the on-screen keyboard.
+if ('ontouchstart' in document.documentElement) {
+    createOnScreenKeyboardHelpers(playerElement);
+}
+
+function createOnScreenKeyboardHelpers(htmlElement: HTMLDivElement) {
+    let hiddenInput: HTMLInputElement = libspsfrontend.DataChannelController.hiddenInput;
+    let editTextButton: HTMLButtonElement = libspsfrontend.DataChannelController.editTextButton;
+    if (document.getElementById('hiddenInput') === null) {
+        hiddenInput = document.createElement('input');
+        hiddenInput.id = 'hiddenInput';
+        hiddenInput.maxLength = 0;
+        htmlElement.appendChild(hiddenInput);
+    }
+
+    if (document.getElementById('editTextButton') === null) {
+        editTextButton = document.createElement('button');
+        editTextButton.id = 'editTextButton';
+        editTextButton.innerHTML = 'edit text';
+        htmlElement.appendChild(editTextButton);
+
+        // Hide the 'edit text' button.
+        editTextButton.classList.add('hiddenState');
+
+        editTextButton.addEventListener('click', function() {
+            // Show the on-screen keyboard.
+            hiddenInput.focus();
+        });
+    }
 }

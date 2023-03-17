@@ -604,8 +604,6 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// append the spinner to the element
 		spinnerDiv.appendChild(spinnerSpan);
-		console.log("Loading stream...");
-
 		this.showTextOverlay("Loading Stream " + spinnerDiv.outerHTML);
 	}
 
