@@ -43,7 +43,7 @@ config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = false;
 config.afkTimeout = 600;
-config.fakeMouseWithTouches = true;
+config.fakeMouseWithTouches = false;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);
@@ -55,11 +55,11 @@ let RTCPlayer = create(config, delegate);
 function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegate) {
     return new libspsfrontend.webRtcPlayerController(config, delegate);
 }
-
-
+/*
 document.addEventListener("touchmove", (event: TouchEvent) => {
     event.preventDefault();
-});
+}, { passive: false });
+*/
 
 // Create a config object instance 
 function CreateConfig(signalingAddress: string, playerElement: HTMLDivElement) {
@@ -92,7 +92,8 @@ function createOnScreenKeyboardHelpers(htmlElement: HTMLDivElement) {
         editTextButton.classList.add('hiddenState');
 
         editTextButton.addEventListener('click', function() {
-            // Show the on-screen keyboard.
+            console.log("Hidden keyboard clicked");
+	    // Show the on-screen keyboard.
             hiddenInput.focus();
         });
     }

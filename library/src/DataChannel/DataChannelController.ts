@@ -44,7 +44,7 @@ export class DataChannelController {
         this.dataChannel.binaryType = "arraybuffer";
         this.dataChannel.onopen = () => this.handleOnOpen();
         this.dataChannel.onclose = () => this.handleOnClose();
-        this.dataChannel.onmessage = (ev: MessageEvent<any>) => { Logger.Log(Logger.GetStackTrace(), "Error", 1); this.handleOnMessage(ev); };
+        this.dataChannel.onmessage = (ev: MessageEvent<any>) => { this.handleOnMessage(ev); };
     }
 
     /**
@@ -71,7 +71,6 @@ export class DataChannelController {
         Logger.Log(Logger.GetStackTrace(), "Message incoming", 6);
         Logger.Log(Logger.GetStackTrace(), "Message:" + message, 6);
 
-	console.log("Message = " + message[0]);
         switch (message[0]) {
             case DataChannelReceiveMessageType.QualityControlOwnership: {
                 Logger.Log(Logger.GetStackTrace(), "DataChannelReceiveMessageType.QualityControlOwnership", 6);
@@ -128,8 +127,8 @@ export class DataChannelController {
                 break;
             }
             default: {
-                Logger.Log(Logger.GetStackTrace(), message[0].toString());
-                Logger.Error(Logger.GetStackTrace(), "unknown message sent on the Data channel");
+                //Logger.Log(Logger.GetStackTrace(), message[0].toString());
+                //Logger.Error(Logger.GetStackTrace(), "unknown message sent on the Data channel");
                 break;
             }
         }
@@ -155,28 +154,29 @@ export class DataChannelController {
 
         let commandAsString = new TextDecoder("utf-16").decode(message.slice(1));
         Logger.Log(Logger.GetStackTrace(), "Data Channel Command: " + commandAsString, 6);
-        let command: InstanceCommand = JSON.parse(commandAsString);
+        let command: any = JSON.parse(commandAsString);
+	console.log(command);
         if (command.command === "onScreenKeyboard") {
             //show on screen Keyboard
 	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard: " + commandAsString, 1);
-	    //showOnScreenKeyboard(command);
+	    this.showOnScreenKeyboard(command);
         }
     }
 
-    showOnScreenKeyboard(command: InstanceCommand) {
-        /*if (command.showOnScreenKeyboard) {
+    showOnScreenKeyboard(command: any) {
+        if (command.command == "showOnScreenKeyboard") {
             // Show the 'edit text' button.
             DataChannelController.editTextButton.classList.remove('hiddenState');
             // Place the 'edit text' button near the UE input widget.
             //let pos = unquantizeAndDenormalizeUnsigned(command.x, command.y);
-            //DataChannelController.editTextButton.style.top = pos.y.toString() + 'px';
-            //DataChannelController.editTextButton.style.left = (pos.x - 40).toString() + 'px';
+            DataChannelController.editTextButton.style.top = command.y.toString() + 'px';
+            DataChannelController.editTextButton.style.left = (command.x - 40).toString() + 'px';
         } else {
             // Hide the 'edit text' button.
             DataChannelController.editTextButton.classList.add('hiddenState');
             // Hide the on-screen keyboard.
             DataChannelController.hiddenInput.blur();
-        }*/
+        }
     }
 
     /**

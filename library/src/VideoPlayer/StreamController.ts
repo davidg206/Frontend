@@ -32,7 +32,7 @@ export class StreamController {
             return;
         } else if (rtcTrackEvent.track.kind == "video" && videoElement.srcObject !== rtcTrackEvent.streams[0]) {
             videoElement.srcObject = rtcTrackEvent.streams[0];
-            Logger.Log(Logger.GetStackTrace(), 'Set video source from video track ontrack.',);
+            Logger.Log(Logger.GetStackTrace(), 'Set video source from video track ontrack.', 6);
             return;
         }
     }
@@ -52,7 +52,7 @@ export class StreamController {
         else if (videoElement.srcObject && videoElement.srcObject !== audioMediaStream) {
             // create a new audio element
             this.audioElement.srcObject = audioMediaStream;
-            Logger.Log(Logger.GetStackTrace(), 'Created new audio element to play separate audio stream.',);
+            Logger.Log(Logger.GetStackTrace(), 'Created new audio element to play separate audio stream.', 6);
         }
     }
 }

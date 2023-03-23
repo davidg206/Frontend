@@ -20,7 +20,7 @@ export class PeerConnectionController {
 
         if (this.forceTurn === true) {
             options.iceTransportPolicy = "relay";
-            Logger.Log(Logger.GetStackTrace(), "Forcing TURN usage by setting ICE Transport Policy in peer connection config.", 1);
+            Logger.Log(Logger.GetStackTrace(), "Forcing TURN usage by setting ICE Transport Policy in peer connection config.", 6);
         }
 
         // build a new peer connection with the options
@@ -38,7 +38,7 @@ export class PeerConnectionController {
      * @param offerOptions - RTC Offer Options
      */
     createOffer(offerOptions: RTCOfferOptions, useMic: boolean) {
-        Logger.Log(Logger.GetStackTrace(), "Create Offer", 1);
+        Logger.Log(Logger.GetStackTrace(), "Create Offer", 6);
 
         this.setupTracksToSendAsync(useMic).finally(() => { });
 
@@ -56,10 +56,10 @@ export class PeerConnectionController {
      * Generate Aggregated Stats and then fire a onVideo Stats event
      */
     generateStats() {
-        this.peerConnection.getStats(null).then((StatsData: RTCStatsReport) => {
+        /*this.peerConnection.getStats(null).then((StatsData: RTCStatsReport) => {
             this.aggregatedStats.processStats(StatsData);
             this.onVideoStats(this.aggregatedStats);
-        });
+        });*/
     }
 
     /**
@@ -104,7 +104,7 @@ export class PeerConnectionController {
      * @param iceCandidate - RTC Ice Candidate from the Signaling Server
      */
     handleOnIce(iceCandidate: RTCIceCandidate) {
-        Logger.Log(Logger.GetStackTrace(), "peerconnection handleOnIce", 1);
+        Logger.Log(Logger.GetStackTrace(), "peerconnection handleOnIce", 6);
 
         // // if forcing TURN, reject any candidates not relay
         if (this.forceTurn) {
@@ -123,7 +123,7 @@ export class PeerConnectionController {
      * @param state - Signaling Server State Change Event
      */
     handleSignalStateChange(state: Event) {
-        Logger.Log(Logger.GetStackTrace(), 'signaling state change: ' + state, 1);
+        Logger.Log(Logger.GetStackTrace(), 'signaling state change: ' + state, 6);
     }
 
     /**
@@ -131,7 +131,7 @@ export class PeerConnectionController {
      * @param state - Ice Connection State
      */
     handleIceConnectionStateChange(state: Event) {
-        Logger.Log(Logger.GetStackTrace(), 'ice connection state change: ' + state, 1);
+        Logger.Log(Logger.GetStackTrace(), 'ice connection state change: ' + state, 6);
     }
 
     /**
@@ -139,7 +139,7 @@ export class PeerConnectionController {
      * @param state - Ice Gathering State Change
      */
     handleIceGatheringStateChange(state: Event) {
-        Logger.Log(Logger.GetStackTrace(), 'ice gathering state change: ' + JSON.stringify(state), 1);
+        Logger.Log(Logger.GetStackTrace(), 'ice gathering state change: ' + JSON.stringify(state), 6);
     }
 
     /**

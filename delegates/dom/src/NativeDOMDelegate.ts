@@ -645,11 +645,10 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				instanceStateMessage = "Unhandled Instance State" + instanceState.state + " " + instanceState.details;
 				break;
 		}
-		console.log(instanceStateMessage);
 
-		if (isError) {console.log("ERROR");
+		if (isError) {
 			this.showErrorOverlay(instanceStateMessage);
-		} else if (isInstancePending) {console.log("instance pending...");
+		} else if (isInstancePending) {
 			//check if there is already and instance pending if so return 
 			let preExistingPendingMessage = document.getElementById('loading-spinner') as HTMLDivElement;
 			if (preExistingPendingMessage) {
@@ -686,7 +685,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 			// insert the inner html into the base div
 			this.showTextOverlay(wrapperDiv.outerHTML);
-		} else {console.log("Ready!");
+		} else {
 			//this.showTextOverlay(instanceStateMessage);
 			let containerLoader: HTMLElement = document.querySelector('.textContainer');
 			document.querySelector('.loadingText').innerHTML = "Press to Enter";
@@ -759,7 +758,6 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				instanceStateMessage = "Unhandled Auth Response: " + authResponse.outcome;
 				break;
 		}
-		console.log("Auth response: " + instanceStateMessage);
 
 		// if the response is an error show the error instead of the info 
 		if (isError) {

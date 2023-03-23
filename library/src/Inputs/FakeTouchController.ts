@@ -34,7 +34,7 @@ export class FakeTouchController implements ITouchController {
             X: touchInfo.clientX - this.videoPlayerElement.getBoundingClientRect().left,
             Y: touchInfo.clientY - - this.videoPlayerElement.getBoundingClientRect().top
         }
-	Logger.Log(Logger.GetStackTrace(), "Touch start", 1);
+	Logger.Log(Logger.GetStackTrace(), "Touch start", 6);
 
         this.fingers.push(fingerInfo);
 

@@ -40,7 +40,7 @@ export class KeyboardController {
         /* this needs to be tested but it is believed that this is not needed*/
         // backSpace is not considered a keypress in JavaScript but we need it
         // to be so characters may be deleted in a UE4 text entry field.
-        if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {
+	if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {
             document.onkeypress(new KeyboardEvent("keypress", { charCode: SpecialKeyCodes.backSpace }));
         }
 
@@ -54,7 +54,7 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event
      */
     handleOnKeyUp(keyboardEvent: KeyboardEvent) {
-        //Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 1);
+        //Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 6);
         this.ueInputKeyBoardMessage.sendKeyUp(this.getKeycode(keyboardEvent));
 
         if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
