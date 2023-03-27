@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'
 import 'bootstrap/dist/css/bootstrap-utilities.min.css'
+import * as auth from "../proto/com/language/v1/authentication";
+import * as custom from "../proto/com/language/v1/customisation";
 import { NativeDOMDelegate } from "./NativeDOMDelegate";
 import * as libspsfrontend from '@tensorworks/libspsfrontend';
 
