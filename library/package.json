@@ -1,5 +1,5 @@
 {
-  "name": "@davidg206/libspsfrontend",
+  "name": "backend-dom-components",
   "version": "0.1.4",
   "description": "Frontend library for Scalable Pixel Streaming",
   "main": "dist/libspsfrontend.min.js",

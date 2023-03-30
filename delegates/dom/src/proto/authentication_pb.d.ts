@@ -1,5 +1,5 @@
 // package: proto
-// file: com/language/v1/authentication.proto
+// file: authentication.proto
 
 /* tslint:disable */
 /* eslint-disable */

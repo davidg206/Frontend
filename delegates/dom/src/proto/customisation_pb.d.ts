@@ -1,5 +1,5 @@
 // package: proto
-// file: com/language/v1/customisation.proto
+// file: customisation.proto
 
 /* tslint:disable */
 /* eslint-disable */

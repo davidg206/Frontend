@@ -1,4 +1,4 @@
-// source: com/language/v1/customisation.proto
+// source: customisation.proto
 /**
  * @fileoverview
  * @enhanceable

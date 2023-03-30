@@ -1,4 +1,4 @@
-// source: com/language/v1/authentication.proto
+// source: authentication.proto
 /**
  * @fileoverview
  * @enhanceable

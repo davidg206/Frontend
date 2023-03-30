@@ -1,6 +1,6 @@
 /* eslint-disable */
-import * as Long from "long";
-import * as _m0 from "protobufjs/minimal";
+import Long from "long";
+import _m0 from "protobufjs/minimal";
 
 export const protobufPackage = "proto";
 
@@ -87,25 +87,38 @@ export const UpdateRuntimeOptionsRequest = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): UpdateRuntimeOptionsRequest {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseUpdateRuntimeOptionsRequest();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.instance = reader.string();
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.pluginOptions = reader.string();
-          break;
+          continue;
         case 3:
+          if (tag != 26) {
+            break;
+          }
+
           message.runtimeOptions = RuntimeOptions.decode(reader, reader.uint32());
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -155,19 +168,24 @@ export const UpdateRuntimeOptionsResponse = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): UpdateRuntimeOptionsResponse {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseUpdateRuntimeOptionsResponse();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.runtimeOptions = RuntimeOptions.decode(reader, reader.uint32());
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -223,34 +241,55 @@ export const RuntimeOptions = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.resolution = RuntimeOptions_Resolution.decode(reader, reader.uint32());
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.args.push(reader.string());
-          break;
+          continue;
         case 3:
+          if (tag != 26) {
+            break;
+          }
+
           const entry3 = RuntimeOptions_EnvironmentVariablesEntry.decode(reader, reader.uint32());
           if (entry3.value !== undefined) {
             message.environmentVariables[entry3.key] = entry3.value;
           }
-          break;
+          continue;
         case 4:
+          if (tag != 34) {
+            break;
+          }
+
           message.volumeMounts.push(RuntimeOptions_VolumeMounts.decode(reader, reader.uint32()));
-          break;
+          continue;
         case 5:
+          if (tag != 42) {
+            break;
+          }
+
           message.pixelStreaming = RuntimeOptions_PixelStreaming.decode(reader, reader.uint32());
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -343,22 +382,31 @@ export const RuntimeOptions_Resolution = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions_Resolution {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions_Resolution();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 8) {
+            break;
+          }
+
           message.x = reader.int32();
-          break;
+          continue;
         case 2:
+          if (tag != 16) {
+            break;
+          }
+
           message.y = reader.int32();
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -399,19 +447,24 @@ export const RuntimeOptions_PixelStreaming = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions_PixelStreaming {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions_PixelStreaming();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.webRTC = RuntimeOptions_PixelStreaming_WebRTC.decode(reader, reader.uint32());
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -455,19 +508,24 @@ export const RuntimeOptions_PixelStreaming_WebRTC = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions_PixelStreaming_WebRTC {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions_PixelStreaming_WebRTC();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 8) {
+            break;
+          }
+
           message.maxFPS = longToNumber(reader.int64() as Long);
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -513,22 +571,31 @@ export const RuntimeOptions_EnvironmentVariablesEntry = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions_EnvironmentVariablesEntry {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions_EnvironmentVariablesEntry();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.key = reader.string();
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.value = reader.string();
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -579,25 +646,38 @@ export const RuntimeOptions_VolumeMounts = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): RuntimeOptions_VolumeMounts {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseRuntimeOptions_VolumeMounts();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.name = reader.string();
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.mountPath = reader.string();
-          break;
+          continue;
         case 3:
+          if (tag != 24) {
+            break;
+          }
+
           message.readOnly = reader.bool();
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -648,7 +728,7 @@ export class InstanceCustomisationPluginClientImpl implements InstanceCustomisat
   UpdateRuntimeOptions(request: UpdateRuntimeOptionsRequest): Promise<UpdateRuntimeOptionsResponse> {
     const data = UpdateRuntimeOptionsRequest.encode(request).finish();
     const promise = this.rpc.request(this.service, "UpdateRuntimeOptions", data);
-    return promise.then((data) => UpdateRuntimeOptionsResponse.decode(new _m0.Reader(data)));
+    return promise.then((data) => UpdateRuntimeOptionsResponse.decode(_m0.Reader.create(data)));
   }
 }
 
@@ -693,8 +773,6 @@ function longToNumber(long: Long): number {
   return long.toNumber();
 }
 
-// If you get a compile-error about 'Constructor<Long> and ... have no overlap',
-// add '--ts_proto_opt=esModuleInterop=true' as a flag when calling 'protoc'.
 if (_m0.util.Long !== Long) {
   _m0.util.Long = Long as any;
   _m0.configure();

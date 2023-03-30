@@ -1,7 +1,7 @@
 import './assets/css/player.css';
 import playButton from './assets/images/Play.png';
 import { EventEmitter } from "events";
-import * as libspsfrontend from '@tensorworks/libspsfrontend'
+import * as libspsfrontend from 'backend-dom-components'
 
 /**
  * Class for the base overlay structure 

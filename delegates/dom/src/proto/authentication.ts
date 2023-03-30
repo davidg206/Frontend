@@ -1,5 +1,5 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import _m0 from "protobufjs/minimal";
 
 export const protobufPackage = "proto";
 
@@ -107,22 +107,31 @@ export const AuthenticationRequest = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): AuthenticationRequest {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseAuthenticationRequest();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 10) {
+            break;
+          }
+
           message.token = reader.string();
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.provider = reader.string();
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -175,28 +184,45 @@ export const AuthenticationResponse = {
   },
 
   decode(input: _m0.Reader | Uint8Array, length?: number): AuthenticationResponse {
-    const reader = input instanceof _m0.Reader ? input : new _m0.Reader(input);
+    const reader = input instanceof _m0.Reader ? input : _m0.Reader.create(input);
     let end = length === undefined ? reader.len : reader.pos + length;
     const message = createBaseAuthenticationResponse();
     while (reader.pos < end) {
       const tag = reader.uint32();
       switch (tag >>> 3) {
         case 1:
+          if (tag != 8) {
+            break;
+          }
+
           message.outcome = reader.int32() as any;
-          break;
+          continue;
         case 2:
+          if (tag != 18) {
+            break;
+          }
+
           message.url = reader.string();
-          break;
+          continue;
         case 3:
+          if (tag != 26) {
+            break;
+          }
+
           message.id = reader.string();
-          break;
+          continue;
         case 4:
+          if (tag != 34) {
+            break;
+          }
+
           message.error = reader.string();
-          break;
-        default:
-          reader.skipType(tag & 7);
-          break;
+          continue;
       }
+      if ((tag & 7) == 4 || tag == 0) {
+        break;
+      }
+      reader.skipType(tag & 7);
     }
     return message;
   },
@@ -250,7 +276,7 @@ export class AuthenticationPluginClientImpl implements AuthenticationPlugin {
   Authenticate(request: AuthenticationRequest): Promise<AuthenticationResponse> {
     const data = AuthenticationRequest.encode(request).finish();
     const promise = this.rpc.request(this.service, "Authenticate", data);
-    return promise.then((data) => AuthenticationResponse.decode(new _m0.Reader(data)));
+    return promise.then((data) => AuthenticationResponse.decode(_m0.Reader.create(data)));
   }
 }
 

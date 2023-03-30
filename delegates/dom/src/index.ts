@@ -3,10 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'
 import 'bootstrap/dist/css/bootstrap-utilities.min.css'
-import * as auth from "../proto/com/language/v1/authentication";
-import * as custom from "../proto/com/language/v1/customisation";
+import { AuthenticationRequest, AuthenticationResponse } from "./proto/authentication_pb";
+import { UpdateRuntimeOptionsRequest, UpdateRuntimeOptionsResponse, RuntimeOptions } from "./proto/customisation_pb";
+import { AuthenticationPluginClient } from "./proto/authentication_grpc_pb";
+import { InstanceCustomisationPluginClient } from "./proto/customisation_grpc_pb";
 import { NativeDOMDelegate } from "./NativeDOMDelegate";
-import * as libspsfrontend from '@tensorworks/libspsfrontend';
+import * as grpc from '@grpc/grpc-js';
+//import { DataChannelController } from '@tensorworks/libspsfrontend';
+import * as libspsfrontend from 'backend-dom-components';
 
 // set the logger level
 //libspsfrontend.Logger.SetLoggerVerbosity(10);
@@ -43,7 +47,7 @@ let playerElement = document.getElementById("player") as HTMLDivElement;
 let config = CreateConfig(signallingServerAddress, playerElement);
 config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
-config.suppressBrowserKeys = false;
+config.suppressBrowserKeys = true;
 config.afkTimeout = 600;
 config.fakeMouseWithTouches = false;
 
@@ -53,10 +57,18 @@ let delegate = new NativeDOMDelegate(config);
 // Create and return a new webRtcPlayerController instance 
 let RTCPlayer = create(config, delegate);
 
+//const x : any  = grpc.credentials;
+//const service = new AuthenticationPluginClient('localhost:3000', credentials.createInsecure());
+//request.token = "s3lQci5K5JW1MUJZn2wgcwKFPPmlnTXe";
+
+//const plugin = new AuthenticationPluginClientImpl();
+
+
 // create takes in a delage interface type which our NativeDomDelegate class implements
 function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegate) {
     return new libspsfrontend.webRtcPlayerController(config, delegate);
 }
+
 /*
 document.addEventListener("touchmove", (event: TouchEvent) => {
     event.preventDefault();

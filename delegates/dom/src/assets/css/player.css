@@ -30,12 +30,9 @@
 									supported by Chrome, Edge, Opera and Firefox */
 }
 
-body {
-  overscroll-behavior: none; 
-}
-
 html, body {
   overscroll-behavior: none;
+  overflow: hidden;
 }
 
 body {

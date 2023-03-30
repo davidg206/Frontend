@@ -1,15 +1,21 @@
 # /proto/buf.gen.yaml
 version: v1beta1
 plugins:
-  - name: js
-    out: ../src/proto
-    opt: import_style=commonjs,binary
-    path: protoc-gen-js
-  - name: grpc
-    out: ../src/proto
-    opt: grpc_js
-    path: grpc_tools_node_protoc_plugin
-  - name: buf.build.grpc.web
-    out: gen/js
+#  - name: js
+#    out: ../src/proto
+#    opt: import_style=commonjs,binary
+#    path: protoc-gen-js
+#  - name: grpc
+#    out: ../src/proto
+#    opt: grpc_js
+#    path: grpc_tools_node_protoc_plugin
+#  - name: buf.build.grpc.web
+#    out: gen/js
+#  - name: buf.build.ts
+#    out: gen/ts
   - name: buf.build.ts
-    out: gen/ts
+    out: .
+    opt:
+      - grpc_js
+      - ts_proto_opt=esModuleInterop=true
+    path: protoc-gen-ts
