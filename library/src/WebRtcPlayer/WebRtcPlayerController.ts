@@ -468,9 +468,12 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 	 */
 	updateVideoStreamSize() {
 		// Call the setter before calling this function
+		//this.matchViewportResolution = true;
 		if (!this.matchViewportResolution) {
+			console.log("MVR not on");
 			return;
 		}
+		console.log("Match viewport resolution enabled");
 
 		let now = new Date().getTime();
 		if (now - this.lastTimeResized > 1000) {

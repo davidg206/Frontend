@@ -1,0 +1,21 @@
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:3030/
+<i> [webpack-dev-server] Content not from webpack is served from '/home/david/Frontend/delegates/dom/public' directory
+<i> [webpack-dev-middleware] wait until bundle finished: /
+<i> [webpack-dev-middleware] wait until bundle finished: /
+<i> [webpack-dev-middleware] wait until bundle finished: /index.24738df557a1dd829c98.js
+<i> [webpack-dev-middleware] wait until bundle finished: /index.css
+<i> [webpack-dev-middleware] wait until bundle finished: /
+:3258:7)
+    at async Command.<anonymous> (/home/david/Frontend/delegates/dom/node_modules/@webpack-cli/serve/lib/index.js:244:25)
+    at async Promise.all (index 1)
+    at async Command.<anonymous> (/home/david/Frontend/delegates/dom/node_modules/webpack-cli/lib/webpack-cli.js:1516:13) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3030
+}
+at module.exports (/home/david/.nvm/versions/node/v18.14.2/lib/node_modules/npm/lib/cli.js:81:23)
+    at Object.<anonymous> (/home/david/.nvm/versions/node/v18.14.2/lib/node_modules/npm/bin/npm-cli.js:2:25)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)

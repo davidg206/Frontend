@@ -1,6 +1,6 @@
 {
   "name": "backend-dom-components",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "Frontend library for Scalable Pixel Streaming",
   "main": "dist/libspsfrontend.min.js",
   "types": "types/index.d.ts",

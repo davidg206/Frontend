@@ -829,6 +829,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// make the player match the view port resolution 
 		this.toggleMatchViewPortRes.onchange = () => {
+			console.log("calling onchange");
 			this.iWebRtcController.matchViewportResolution = this.toggleMatchViewPortRes.checked;
 			this.iWebRtcController.updateVideoStreamSize();
 		};

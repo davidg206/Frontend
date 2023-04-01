@@ -1,0 +1,990 @@
+
+> sps-delegate-dom@0.1.0 serve
+> webpack serve "--env" "WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/demo/ws" "--port" "1212"
+
+asset index.0a2f515452c615108c45.js 3.01 MiB [emitted] [immutable] (name: index)
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.24 MiB = index.css 1.23 MiB index.0a2f515452c615108c45.js 3.01 MiB
+runtime modules 30.2 KiB 14 modules
+javascript modules 1.11 MiB 93 modules
+css modules 280 KiB
+  css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.min.css 159 KiB [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-grid.min.css 50.1 KiB [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 4.54 KiB [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 52.2 KiB [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.4 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 31084 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.57470f66f86a6a51416c.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.27d167f2fc817fcf2d72.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.27d167f2fc817fcf2d72.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.57470f66f86a6a51416c.js 3.01 MiB index.27d167f2fc817fcf2d72.hot-update.js 12.3 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.74 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 53:32-42
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(53,33)
+      TS2554: Expected 1 arguments, but got 0.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 9927 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.d7ec4c53a8f77f897075.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.3d5ebe17da1d3a100893.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.3d5ebe17da1d3a100893.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.d7ec4c53a8f77f897075.js 3.01 MiB index.3d5ebe17da1d3a100893.hot-update.js 12.3 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.74 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1383 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.9bc5c9db7e908fa5b31b.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.06f6d7c7ea06308028f7.hot-update.js 12.4 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.06f6d7c7ea06308028f7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.9bc5c9db7e908fa5b31b.js 3.01 MiB index.06f6d7c7ea06308028f7.hot-update.js 12.4 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.8 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 686 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.4a00a08368e588d660e2.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.ed50706ada5f432a6430.hot-update.js 12.6 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ed50706ada5f432a6430.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.4a00a08368e588d660e2.js 3.01 MiB index.ed50706ada5f432a6430.hot-update.js 12.6 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.88 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1268 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.5d188b9d4fb0e765ffa6.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.56c22d24f2a48194bc22.hot-update.js 12.6 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.56c22d24f2a48194bc22.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.5d188b9d4fb0e765ffa6.js 3.01 MiB index.56c22d24f2a48194bc22.hot-update.js 12.6 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.87 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 55:50-57
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(55,51)
+      TS2339: Property 'checked' does not exist on type 'HTMLElement'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 806 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.fb28d3fa17e260fdaed0.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.ec13d19814a5d8d18005.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ec13d19814a5d8d18005.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.fb28d3fa17e260fdaed0.js 3.01 MiB index.ec13d19814a5d8d18005.hot-update.js 12.7 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 55:4-12
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(55,5)
+      TS2740: Type 'HTMLElement' is missing the following properties from type 'HTMLInputElement': accept, align, alt, autocomplete, and 53 more.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 677 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.01 MiB [immutable]
+  asset index.29dad4c118265a47f67a.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.2ad45d5b9961c1ce4fea.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.2ad45d5b9961c1ce4fea.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.29dad4c118265a47f67a.js 3.01 MiB index.2ad45d5b9961c1ce4fea.hot-update.js 690 bytes
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 56:9-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(56,10)
+      TS2339: Property 'checked' does not exist on type 'HTMLElement'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 1153 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.01 MiB [immutable]
+  asset index.d31e168d25233fca15ab.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.764a7866241dc21f38dd.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.764a7866241dc21f38dd.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.d31e168d25233fca15ab.js 3.01 MiB index.764a7866241dc21f38dd.hot-update.js 690 bytes
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 705 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.b7fb1a95e9b92eca3ae6.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.7b6edb163644bd86b728.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7b6edb163644bd86b728.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.b7fb1a95e9b92eca3ae6.js 3.01 MiB index.7b6edb163644bd86b728.hot-update.js 12.7 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.92 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 651 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.3f67ac572973db257a4e.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.cc64c3997585efced9c4.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.cc64c3997585efced9c4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.3f67ac572973db257a4e.js 3.01 MiB index.cc64c3997585efced9c4.hot-update.js 12.7 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1147 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.aa23bce6a5a3522f3deb.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.f49b149ace07d4168622.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f49b149ace07d4168622.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.aa23bce6a5a3522f3deb.js 3.01 MiB index.f49b149ace07d4168622.hot-update.js 12.7 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.92 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 691 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.1131d2de0ea5fe9167d0.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.5d450ec498bbc308c838.hot-update.js 12.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5d450ec498bbc308c838.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.1131d2de0ea5fe9167d0.js 3.01 MiB index.5d450ec498bbc308c838.hot-update.js 12.7 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 697 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.24535d4eb0ed2bfbbaa3.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.48d8c2d118b4dbc9c616.hot-update.js 12.6 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.48d8c2d118b4dbc9c616.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.24535d4eb0ed2bfbbaa3.js 3.01 MiB index.48d8c2d118b4dbc9c616.hot-update.js 12.6 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.89 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 598 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.3d9ae4d40e5774960878.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.60f3435548fbb8cdf246.hot-update.js 12.4 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.60f3435548fbb8cdf246.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.3d9ae4d40e5774960878.js 3.01 MiB index.60f3435548fbb8cdf246.hot-update.js 12.4 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.78 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 57:9-19
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(57,10)
+      TS2554: Expected 1 arguments, but got 0.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 1066 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.55941e9824a2e2adae36.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.53a56c47430d85e96269.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.53a56c47430d85e96269.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.55941e9824a2e2adae36.js 3.01 MiB index.53a56c47430d85e96269.hot-update.js 12.3 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.74 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 56:32-42
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(56,33)
+      TS2554: Expected 1 arguments, but got 0.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 773 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.26c194bd7c5b942ec1b9.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.8c55d6cabedf365646e9.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.8c55d6cabedf365646e9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.26c194bd7c5b942ec1b9.js 3.01 MiB index.8c55d6cabedf365646e9.hot-update.js 12.3 KiB
+cached modules 1.1 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.74 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 660 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 1.52 MiB [immutable]
+  asset index.adac2866d22a19a5e951.js 1.38 MiB [emitted] [immutable] (name: index)
+  asset index.500fbc364ce4bd594e3a.hot-update.js 142 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.500fbc364ce4bd594e3a.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 2.75 MiB = index.css 1.23 MiB index.adac2866d22a19a5e951.js 1.38 MiB index.500fbc364ce4bd594e3a.hot-update.js 142 KiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 53.4 KiB
+  ./src/index.ts 3.74 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/NativeDOMDelegate.ts 54:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 6:0-56 37:19-36
+
+ERROR in ./src/index.ts 7:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.76.3 compiled with 2 errors in 2561 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.78 MiB [immutable]
+  asset index.93a773ec07ae2b52bdc5.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.32f10a4f08192efc2500.hot-update.js 1.77 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.32f10a4f08192efc2500.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 6.02 MiB = index.css 1.23 MiB index.93a773ec07ae2b52bdc5.js 3.01 MiB index.32f10a4f08192efc2500.hot-update.js 1.77 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 747 KiB
+  ./src/index.ts 3.74 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 693 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1661 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.c4258ca40093bf4401b8.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.e972b52421bbecb2a8dd.hot-update.js 12.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.e972b52421bbecb2a8dd.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.c4258ca40093bf4401b8.js 3.01 MiB index.e972b52421bbecb2a8dd.hot-update.js 12.3 KiB
+cached modules 1.11 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.76 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1612 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 1.52 MiB [immutable]
+  asset index.a5e7e4804c635c48da6d.js 1.38 MiB [emitted] [immutable] (name: index)
+  asset index.9531d49170456e91cd36.hot-update.js 142 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.9531d49170456e91cd36.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 2.75 MiB = index.css 1.23 MiB index.a5e7e4804c635c48da6d.js 1.38 MiB index.9531d49170456e91cd36.hot-update.js 142 KiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 53.5 KiB
+  ./src/index.ts 3.76 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/NativeDOMDelegate.ts 54:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 6:0-56 37:19-36
+
+ERROR in ./src/index.ts 7:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.76.3 compiled with 2 errors in 2859 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.78 MiB [immutable]
+  asset index.664b422409d379c0bf4e.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.6079b1b87d234a6940ad.hot-update.js 1.77 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6079b1b87d234a6940ad.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 6.02 MiB = index.css 1.23 MiB index.664b422409d379c0bf4e.js 3.01 MiB index.6079b1b87d234a6940ad.hot-update.js 1.77 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 747 KiB
+  ./src/index.ts 3.76 KiB [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 693 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1520 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.eb158e2cb5fb78421706.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.f9b058b619f7f915d9ad.hot-update.js 129 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f9b058b619f7f915d9ad.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.37 MiB = index.css 1.23 MiB index.eb158e2cb5fb78421706.js 3.01 MiB index.f9b058b619f7f915d9ad.hot-update.js 129 KiB
+cached modules 1.06 MiB (javascript) 280 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 53.5 KiB
+  ./src/index.ts 3.76 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 3723 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.dbfc3da3e5c193af8ed3.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.9a2c4fd9afa4d636ee1a.hot-update.js 12.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.9a2c4fd9afa4d636ee1a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.dbfc3da3e5c193af8ed3.js 3.01 MiB index.9a2c4fd9afa4d636ee1a.hot-update.js 12.5 KiB
+cached modules 1.11 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.81 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1334 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.65 MiB [immutable]
+  asset index.41028781d01c73997a8d.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.99dd40e4bb48d6db2b52.hot-update.js 1.64 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.99dd40e4bb48d6db2b52.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 5.88 MiB = index.css 1.23 MiB index.41028781d01c73997a8d.js 3.01 MiB index.99dd40e4bb48d6db2b52.hot-update.js 1.64 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 747 KiB
+  ./src/index.ts 3.81 KiB [built]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 693 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 3674 ms
+assets by status 4.25 MiB [cached] 2 assets
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.41028781d01c73997a8d.js 3.01 MiB
+cached modules 1.11 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 112 modules
+webpack 5.76.3 compiled successfully in 103 ms
+assets by info 3.01 MiB [immutable]
+  asset index.a87ec4706f46565afbb3.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.85b9392ad0ce5cdec018.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.85b9392ad0ce5cdec018.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.a87ec4706f46565afbb3.js 3.01 MiB index.85b9392ad0ce5cdec018.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.4 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.4 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 726 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.02 MiB [immutable]
+  asset index.c28ddefa82ef122ea5c1.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.f3d42ff9c7d4c6b9c98e.hot-update.js 12.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f3d42ff9c7d4c6b9c98e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.26 MiB = index.css 1.23 MiB index.c28ddefa82ef122ea5c1.js 3.01 MiB index.f3d42ff9c7d4c6b9c98e.hot-update.js 12.5 KiB
+cached modules 1.11 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 3.82 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1512 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 1.52 MiB [immutable]
+  asset index.695762487440577aec51.js 1.38 MiB [emitted] [immutable] (name: index)
+  asset index.78b9b9c7db3ea198f3e0.hot-update.js 142 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.78b9b9c7db3ea198f3e0.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 2.75 MiB = index.css 1.23 MiB index.695762487440577aec51.js 1.38 MiB index.78b9b9c7db3ea198f3e0.hot-update.js 142 KiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 53.6 KiB
+  ./src/index.ts 3.82 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/NativeDOMDelegate.ts 54:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 6:0-56 37:19-36
+
+ERROR in ./src/index.ts 7:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.76.3 compiled with 2 errors in 2385 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.78 MiB [immutable]
+  asset index.a76f9f9e30a01ccee8f2.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.6a7093711bba00d13623.hot-update.js 1.77 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6a7093711bba00d13623.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 6.02 MiB = index.css 1.23 MiB index.a76f9f9e30a01ccee8f2.js 3.01 MiB index.6a7093711bba00d13623.hot-update.js 1.77 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 747 KiB
+  ./src/index.ts 3.82 KiB [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 693 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 863 ms
+assets by info 3.01 MiB [immutable]
+  asset index.00ba2f1bf4e30d0f785c.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.5f93d3e36b4431f80f48.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5f93d3e36b4431f80f48.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.00ba2f1bf4e30d0f785c.js 3.01 MiB index.5f93d3e36b4431f80f48.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.4 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.4 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 514 ms
+assets by info 3.01 MiB [immutable]
+  asset index.8dbd92f5f712fb035de0.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.0fda6c4150b9d1c2aa27.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0fda6c4150b9d1c2aa27.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.8dbd92f5f712fb035de0.js 3.01 MiB index.0fda6c4150b9d1c2aa27.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.4 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.4 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 537 ms
+assets by info 3.01 MiB [immutable]
+  asset index.1e490311bf2e705aa15f.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.adc9bacba84e23600fcb.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.adc9bacba84e23600fcb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.1e490311bf2e705aa15f.js 3.01 MiB index.adc9bacba84e23600fcb.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 482 ms
+assets by info 3.01 MiB [immutable]
+  asset index.2f0697f72c29bedc62c8.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.7dc2c2599beb10dfe8f9.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7dc2c2599beb10dfe8f9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.2f0697f72c29bedc62c8.js 3.01 MiB index.7dc2c2599beb10dfe8f9.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 546 ms
+assets by info 3.01 MiB [immutable]
+  asset index.b2fe9713221d90fa09eb.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.85526fadb826f64d62bb.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.85526fadb826f64d62bb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.b2fe9713221d90fa09eb.js 3.01 MiB index.85526fadb826f64d62bb.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 545 ms
+assets by info 3.01 MiB [immutable]
+  asset index.e6c162662a065c30767b.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.b6e9ea94327556c12876.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.b6e9ea94327556c12876.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.e6c162662a065c30767b.js 3.01 MiB index.b6e9ea94327556c12876.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 464 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.01 MiB [immutable]
+  asset index.f664e31c6d17f5aa1a57.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.b963e43488470e74bc4a.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.b963e43488470e74bc4a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.f664e31c6d17f5aa1a57.js 3.01 MiB index.b963e43488470e74bc4a.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built]
+webpack 5.76.3 compiled successfully in 761 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.01 MiB [immutable]
+  asset index.cbffe8aace7cd89fc5ef.js 3.01 MiB [emitted] [immutable] (name: index)
+  asset index.760980c5e50dc18a1102.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.760980c5e50dc18a1102.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 19.6 KiB [emitted]
+Entrypoint index 4.25 MiB = index.css 1.23 MiB index.cbffe8aace7cd89fc5ef.js 3.01 MiB index.760980c5e50dc18a1102.hot-update.js 2.05 KiB
+cached modules 1.11 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.5 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.5 KiB [built]
+webpack 5.76.3 compiled successfully in 968 ms

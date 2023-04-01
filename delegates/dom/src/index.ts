@@ -9,7 +9,6 @@ import { AuthenticationPluginClient } from "./proto/authentication_grpc_pb";
 import { InstanceCustomisationPluginClient } from "./proto/customisation_grpc_pb";
 import { NativeDOMDelegate } from "./NativeDOMDelegate";
 import * as grpc from '@grpc/grpc-js';
-//import { DataChannelController } from '@tensorworks/libspsfrontend';
 import * as libspsfrontend from 'backend-dom-components';
 
 // set the logger level
@@ -38,8 +37,6 @@ if (signallingServerAddress == '') {
     }
 }
 
-//libspsfrontend.Logger.Log("hello", "whatever", 5);
-
 // prep the player div element 
 let playerElement = document.getElementById("player") as HTMLDivElement;
 
@@ -56,15 +53,16 @@ let delegate = new NativeDOMDelegate(config);
 
 // Create and return a new webRtcPlayerController instance 
 let RTCPlayer = create(config, delegate);
-
-//const x : any  = grpc.credentials;
-//const service = new AuthenticationPluginClient('localhost:3000', credentials.createInsecure());
+/*delegate.toggleMatchViewPortRes.checked = true;
+delegate.toggleMatchViewPortRes.dispatchEvent(new Event('change'));;
+*/
+//const service = new AuthenticationPluginClient('localhost:3000', grpc.credentials.createInsecure());
 //request.token = "s3lQci5K5JW1MUJZn2wgcwKFPPmlnTXe";
 
 //const plugin = new AuthenticationPluginClientImpl();
 
 
-// create takes in a delage interface type which our NativeDomDelegate class implements
+// create takes in a delegate interface type which our NativeDomDelegate class implements
 function create(config: libspsfrontend.Config, delegate: libspsfrontend.IDelegate) {
     return new libspsfrontend.webRtcPlayerController(config, delegate);
 }
