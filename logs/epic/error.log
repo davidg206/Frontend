@@ -1,4 +1,5 @@
 <i> [webpack-dev-server] Project is running at:
 <i> [webpack-dev-server] Loopback: http://localhost:6223/
 <i> [webpack-dev-server] Content not from webpack is served from '/home/david/Frontend/delegates/dom/public' directory
-<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+<i> [webpack-dev-middleware] wait until bundle finished: /favicon.ico
+s ^C again. Please wait...

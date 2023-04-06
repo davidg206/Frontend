@@ -38,9 +38,7 @@ if (signallingServerAddress == '') {
 }
 
 const epicRegex = /\/([a-zA-Z0-9_-]+)\/ws$/;
-const match = signallingServerAddress.match(epicRegex)[1];
-
-console.log(match);
+const app = signallingServerAddress.match(epicRegex)[1];
 
 // prep the player div element 
 let playerElement = document.getElementById("player") as HTMLDivElement;
@@ -51,8 +49,6 @@ config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = true;
 config.afkTimeout = 600;
-if (match == "epic")
-  config.afkTimeout = 4;
 config.fakeMouseWithTouches = false;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class

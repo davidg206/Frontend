@@ -440,15 +440,21 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// set the event Listener
 		let disconnectOverlayEvent: EventListener = () => this.onDisconnectionAction();
-		let container: HTMLDivElement = document.querySelector('.textContainer');
-		let player: HTMLDivElement = document.getElementById('player');
+		const self = this;
+
 		// add the new event listener 
 		disconnectOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
+			let container: HTMLDivElement = document.querySelector('.textContainer');
+			let video: HTMLDivElement = document.getElementById('streamingVideo');
+			let playerUI: HTMLDivElement = document.getElementById('playerUI');
+			
 			disconnectOverlayEvent(event);
+			playerUI.style.pointerEvents = 'auto';
 			container.style.display = 'flex';
-			player.style.display = 'none';
-			player.style.opacity = '0';
-			this.startNoteTimeout();
+			video.style.display = 'none';
+			video.style.opacity = '0';
+			self.startNoteTimeout();
+			document.body.classList.remove('clickableState');
 			//whuzz
 		});
 
@@ -623,11 +629,34 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.showTextOverlay("Loading Stream " + spinnerDiv.outerHTML);
 	}
 
+        fadeOutLoaderHelp(event: Event, playOverlayEvent: EventListener) {
+	    let container: HTMLElement = document.querySelector('.textContainer');
+	    let bubbleText: HTMLDivElement = document.querySelector('.loadingText');
+	    let noteText: HTMLDivElement = document.querySelector('.loadingNote');
+            event.stopPropagation();
+            playOverlayEvent(event);
+            document.body.classList.remove('clickableState');
+            container.addEventListener('transitionend', () => {
+                container.style.display = 'none';
+                container.style.opacity = '1';
+                bubbleText.innerHTML = "Loading...";
+                noteText.style.opacity = '0';
+            });
+            container.style.opacity = '0';
+            setTimeout(function() {
+                let player: HTMLDivElement = document.getElementById('streamingVideo');
+                player.style.display = 'block';
+                player.style.opacity = "1";
+                document.getElementById('player').style.pointerEvents = "auto";
+            }, 1000);
+            document.body.removeEventListener('click', fadeOutLoaderHelp);
+        };
+
 	/**
 	* Set up functionality to happen when an instance state change occurs and updates the info overlay with the response
 	* @param instanceState - the message instance state 
 	*/
-	onInstanceStateChange(instanceState: libspsfrontend.MessageInstanceState) {
+        onInstanceStateChange(instanceState: libspsfrontend.MessageInstanceState) {
 		let instanceStateMessage = "";
 		let isInstancePending = false;
 		let isError = false;
@@ -708,7 +737,6 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			
 			bubbleText.innerHTML = "Press to Enter";
 			noteText.innerHTML = '';
-			noteText.style.opacity = '0';
 
 			// set the event Listener
 			let playOverlayEvent: EventListener = () => this.onPlayAction();
@@ -721,20 +749,20 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 					container.style.display = 'none';
 					container.style.opacity = '1';
 					bubbleText.innerHTML = "Loading...";
+					noteText.style.opacity = '0';
+
+					let video: HTMLDivElement = document.getElementById('streamingVideo');
+					video.style.display = 'flex';
+					video.style.opacity = "1";
+					document.getElementById('playerUI').style.pointerEvents = "auto";
 				});
 
-				container.style.opacity = '0'; 
-				
-				setTimeout(function() {
-					let player: HTMLDivElement = document.getElementById('player');
-					player.style.display = 'block';
-					player.style.opacity = "1";
-					player.style.pointerEvents = "auto";
-				}, 1000);
+				container.style.opacity = '0';				
 				document.body.removeEventListener('click', fadeOutLoader);
 			};
 			document.body.classList.add('clickableState');
 			document.body.addEventListener('click', fadeOutLoader);
+			this.removeFadeOutListener = () => { document.body.removeEventListener('click', fadeOutLoader); };
 		}
 
                 function openFullscreen() {
@@ -1013,6 +1041,13 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.commandsContainer.classList.add("d-none");
 		this.streamingSettingsContainer.classList.add("d-none");
 		this.statsContainer.classList.add("d-none");
+		
+		document.getElementById('streamingVideo').style.display = 'none';
+		document.getElementById('streamingVideo').style.opacity = '0';
+		document.querySelector('.textContainer').style.display = 'none';
+		//document.getElementById('playerUI').style.pointerEvents = 'none';
+		this.removeFadeOutListener();
+		document.querySelector('.loadingText').innerHTML = "Loading...";
 	}
 
 	/**
