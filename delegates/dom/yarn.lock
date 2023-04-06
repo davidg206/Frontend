@@ -1654,9 +1654,9 @@ bach@^1.0.0:
     now-and-later "^2.0.0"
 
 backend-dom-components@^0.1.4:
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/backend-dom-components/-/backend-dom-components-0.1.8.tgz"
-  integrity sha512-zRdMtg21tJranGnf8PllzO7Z1g2mjZyAdEMJsDxtna09CbAzB3W8xb2ULK8wYXiw/87BQ+pU0kypoWqa/5VbxA==
+  version "0.1.9"
+  resolved "https://registry.npmjs.org/backend-dom-components/-/backend-dom-components-0.1.9.tgz"
+  integrity sha512-rIcPP0n6q7+O1bLqSdZnvZMxB/gYn3jMnmxWx8aMqPCvTPoNRnN/5sMwhVx+vizCeTFZPRMP1eUK+eXiodiFGQ==
   dependencies:
     events "^3.3.0"
 

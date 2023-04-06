@@ -35,6 +35,10 @@ export class DelegateBase implements IDelegate {
 		this.config = config;
 	}
 
+	setConfigTimeout(time: number) {
+	  this.config.afkTimeout = time;
+	}
+
 	/**
 	 * Shows the disconnect overlay 
 	 */

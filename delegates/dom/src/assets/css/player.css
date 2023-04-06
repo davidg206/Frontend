@@ -54,10 +54,10 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    z-index: 50;
     opacity: 1;
     transition: opacity 1s;
 }
-
 
 .loader {
     position: relative;
@@ -128,7 +128,7 @@ body {
   transition: opacity 1s;
 }
 
-.loadingText{
+.loadingText {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -242,7 +242,7 @@ canvas {
 	left: 2%;
 	font-family: 'Michroma', sans-serif;
 	pointer-events: all;
-	/*display: none;*/
+	display: none;
 }
 
 #controls>* {
@@ -413,7 +413,7 @@ object {
 #disconnectOverlay {
 	z-index: 30;
 	position: absolute;
-	color: black; /*var(--colour4);*/
+	color: white; /*var(--colour4);*/
 	font-size: 1.8em;
 	font-family: var(--inputFont);
 	width: 100%;
@@ -421,7 +421,10 @@ object {
 	background-color: black; /*#808080;*/
 	align-items: center;
 	justify-content: center;
+}
 
+#infoOverlay {
+	display: none;
 }
 
 #startText {
@@ -765,7 +768,7 @@ section> :first-child {
 #streamToolsSettings,
 #streamToolsStats {
 	font-size: 1em;
-	/*display: none;*/
+	display: none;
 }
 
 /* STREAM TOOLS */

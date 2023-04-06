@@ -415,18 +415,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.buildInfoOverlay();
 		this.buildErrorOverlay();
 
-		this.startNoteTimeout();
-
 		// configure all buttons 
 		this.ConfigureButtons();
-	}
-
-	startNoteTimeout() {
-		setTimeout(function() {
-			let noteText: HTMLDivElement = document.querySelector('.loadingNote');
-			noteText.style.opacity = '1';
-			noteText.style.innerHTML = 'Please refresh if the experience does not load after 30 seconds.';
-		}, 17000);
 	}
 
 	/**
@@ -441,15 +431,18 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		// set the event Listener
 		let disconnectOverlayEvent: EventListener = () => this.onDisconnectionAction();
 		let container: HTMLDivElement = document.querySelector('.textContainer');
-		let player: HTMLDivElement = document.getElementById('player');
+		let bubbleText: HTMLDivElement = document.querySelector('.loadingText');
+		let noteText: HTMLDivElement = document.querySelector('.loadingNote');
 		// add the new event listener 
 		disconnectOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
 			disconnectOverlayEvent(event);
-			container.style.display = 'flex';
-			player.style.display = 'none';
-			player.style.opacity = '0';
-			this.startNoteTimeout();
-			//whuzz
+			bubbleText.innerHTML = "Loading...";
+			noteText.innerHTML = 'Something';
+			noteText.style.display = "";
+			container.classList.remove('clickableState');
+			container.style.display = "";
+			container.style.opacity = "1";
+			//billy whuzz
 		});
 
 		// build the inner html container 
@@ -702,36 +695,27 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			// insert the inner html into the base div
 			this.showTextOverlay(wrapperDiv.outerHTML);
 		} else {
-			let container: HTMLElement = document.querySelector('.textContainer');
-			let bubbleText: HTMLDivElement = document.querySelector('.loadingText');
-			let noteText: HTMLDivElement = document.querySelector('.loadingNote');
-			
-			bubbleText.innerHTML = "Press to Enter";
-			noteText.innerHTML = '';
-			noteText.style.opacity = '0';
+			let containerLoader: HTMLElement = document.querySelector('.textContainer');
+			document.querySelector('.loadingText').innerHTML = "Press to Enter";
+			document.querySelector('.loadingNote').innerHTML = '';			
+
+			containerLoader.classList.add('clickableState');
 
 			// set the event Listener
 			let playOverlayEvent: EventListener = () => this.onPlayAction();
 			let fadeOutLoader = (event: Event) => {
 				event.stopPropagation();
 				playOverlayEvent(event);
-				document.body.classList.remove('clickableState');
-                               
-				 container.addEventListener('transitionend', () => {
-					container.style.display = 'none';
-					container.style.opacity = '1';
-					bubbleText.innerHTML = "Loading...";
-				});
-
-				container.style.opacity = '0'; 
-				
+				containerLoader.style.opacity = "0";
+				let playerUI: HTMLElement = document.getElementById('playerUI');
+				playerUI.style.cursor = "default";
 				setTimeout(function() {
-					let player: HTMLDivElement = document.getElementById('player');
-					player.style.display = 'block';
-					player.style.opacity = "1";
-					player.style.pointerEvents = "auto";
+                                        containerLoader.style.display = "none";
+                                }, 1000);
+				setTimeout(function() {
+					document.getElementById('player').style.opacity = "1";
+					document.getElementById('player').style.pointerEvents = "auto";
 				}, 1000);
-				document.body.removeEventListener('click', fadeOutLoader);
 			};
 			document.body.classList.add('clickableState');
 			document.body.addEventListener('click', fadeOutLoader);

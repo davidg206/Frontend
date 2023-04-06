@@ -37,6 +37,11 @@ if (signallingServerAddress == '') {
     }
 }
 
+const epicRegex = /\/([a-zA-Z0-9_-]+)\/ws$/;
+const match = signallingServerAddress.match(epicRegex)[1];
+
+console.log(match);
+
 // prep the player div element 
 let playerElement = document.getElementById("player") as HTMLDivElement;
 
@@ -46,6 +51,8 @@ config.enableSpsAutoConnect = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = true;
 config.afkTimeout = 600;
+if (match == "epic")
+  config.afkTimeout = 4;
 config.fakeMouseWithTouches = false;
 
 // Create a Native DOM delegate instance that implements the Delegate interface class
@@ -53,9 +60,7 @@ let delegate = new NativeDOMDelegate(config);
 
 // Create and return a new webRtcPlayerController instance 
 let RTCPlayer = create(config, delegate);
-/*delegate.toggleMatchViewPortRes.checked = true;
-delegate.toggleMatchViewPortRes.dispatchEvent(new Event('change'));;
-*/
+
 //const service = new AuthenticationPluginClient('localhost:3000', grpc.credentials.createInsecure());
 //request.token = "s3lQci5K5JW1MUJZn2wgcwKFPPmlnTXe";
 
