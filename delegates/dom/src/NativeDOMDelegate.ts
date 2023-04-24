@@ -347,6 +347,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	config: libspsfrontend.Config;
 	latencyStartTime: number;
 	videoStartTime: number;
+	mobileUser: boolean;
 
 	// instantiate the WebRtcPlayerControllers interface var 
 	iWebRtcController: libspsfrontend.IWebRtcPlayerController;
@@ -425,8 +426,13 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		setTimeout(function() {
 			let noteText: HTMLDivElement = document.querySelector('.loadingNote');
 			noteText.style.opacity = '1';
-			noteText.style.innerHTML = 'Please refresh if the experience does not load after 30 seconds.';
+			if (document.getElementById('bubble').innerHTML == "Loading...")
+				noteText.innerHTML = 'Please refresh if the experience does not load after 30 seconds.';
 		}, 17000);
+	}
+
+	updateVideoStreamSize() {
+		(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).ueDescriptorUi.sendUpdateVideoStreamSize(500, 500);
 	}
 
 	/**
@@ -444,15 +450,17 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// add the new event listener 
 		disconnectOverlayHtml.addEventListener('click', function onOverlayClick(event: Event) {
-			let container: HTMLDivElement = document.querySelector('.textContainer');
-			let video: HTMLDivElement = document.getElementById('streamingVideo');
-			let playerUI: HTMLDivElement = document.getElementById('playerUI');
+			let container: HTMLElement = document.querySelector('.textContainer');
+			let video: HTMLElement = document.getElementById('streamingVideo');
+			let playerUI: HTMLElement = document.getElementById('playerUI');
 			
 			disconnectOverlayEvent(event);
 			playerUI.style.pointerEvents = 'auto';
 			container.style.display = 'flex';
+			container.style.opacity = '1';
 			video.style.display = 'none';
 			video.style.opacity = '0';
+			video.style.pointerEvents = 'auto';
 			self.startNoteTimeout();
 			document.body.classList.remove('clickableState');
 			//whuzz
@@ -629,28 +637,12 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.showTextOverlay("Loading Stream " + spinnerDiv.outerHTML);
 	}
 
-        fadeOutLoaderHelp(event: Event, playOverlayEvent: EventListener) {
-	    let container: HTMLElement = document.querySelector('.textContainer');
-	    let bubbleText: HTMLDivElement = document.querySelector('.loadingText');
-	    let noteText: HTMLDivElement = document.querySelector('.loadingNote');
-            event.stopPropagation();
-            playOverlayEvent(event);
-            document.body.classList.remove('clickableState');
-            container.addEventListener('transitionend', () => {
-                container.style.display = 'none';
-                container.style.opacity = '1';
-                bubbleText.innerHTML = "Loading...";
-                noteText.style.opacity = '0';
-            });
-            container.style.opacity = '0';
-            setTimeout(function() {
-                let player: HTMLDivElement = document.getElementById('streamingVideo');
-                player.style.display = 'block';
-                player.style.opacity = "1";
-                document.getElementById('player').style.pointerEvents = "auto";
-            }, 1000);
-            document.body.removeEventListener('click', fadeOutLoaderHelp);
-        };
+        zoomIn() {
+            const scaleFactor = 1.2;
+            const currentScale = parseFloat(document.body.style.transform.replace('scale(', '').replace(')', ''));
+            const newScale = currentScale ? currentScale * scaleFactor : scaleFactor;
+            document.body.style.transform = `scale(${newScale})`;
+        }
 
 	/**
 	* Set up functionality to happen when an instance state change occurs and updates the info overlay with the response
@@ -734,26 +726,38 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			let container: HTMLElement = document.querySelector('.textContainer');
 			let bubbleText: HTMLDivElement = document.querySelector('.loadingText');
 			let noteText: HTMLDivElement = document.querySelector('.loadingNote');
-			
+			let bubble: HTMLElement = document.getElementById('bubble');
+
 			bubbleText.innerHTML = "Press to Enter";
 			noteText.innerHTML = '';
-
+			//%
 			// set the event Listener
 			let playOverlayEvent: EventListener = () => this.onPlayAction();
 			let fadeOutLoader = (event: Event) => {
 				event.stopPropagation();
 				playOverlayEvent(event);
+				if (this.config.isMobile) {
+					//if (document.fullscreenElement == null) this.fullScreenLogic.fullscreen();
+					//setTimeout(function() { screen.orientation.lock("landscape-primary"); }, 1000);
+				}
+
+				// enable dynamic resolution
+				this.iWebRtcController.matchViewportResolution = true;
+				this.iWebRtcController.updateVideoStreamSize();
 				document.body.classList.remove('clickableState');
                                
-				 container.addEventListener('transitionend', () => {
+				libspsfrontend.DataChannelController.coordinateConverter.setupNormalizeAndQuantize();
+
+				container.addEventListener('transitionend', () => {
 					container.style.display = 'none';
-					container.style.opacity = '1';
+					container.style.opacity = '0';
 					bubbleText.innerHTML = "Loading...";
 					noteText.style.opacity = '0';
 
-					let video: HTMLDivElement = document.getElementById('streamingVideo');
+					let video: HTMLElement = document.getElementById('streamingVideo');
 					video.style.display = 'flex';
 					video.style.opacity = "1";
+					video.style.pointerEvents = 'auto';
 					document.getElementById('playerUI').style.pointerEvents = "auto";
 				});
 
@@ -761,8 +765,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				document.body.removeEventListener('click', fadeOutLoader);
 			};
 			document.body.classList.add('clickableState');
-			document.body.addEventListener('click', fadeOutLoader);
-			this.removeFadeOutListener = () => { document.body.removeEventListener('click', fadeOutLoader); };
+			document.body.onclick = fadeOutLoader;
 		}
 
                 function openFullscreen() {
@@ -876,7 +879,6 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 
 		// make the player match the view port resolution 
 		this.toggleMatchViewPortRes.onchange = () => {
-			console.log("calling onchange");
 			this.iWebRtcController.matchViewportResolution = this.toggleMatchViewPortRes.checked;
 			this.iWebRtcController.updateVideoStreamSize();
 		};
@@ -1042,12 +1044,14 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.streamingSettingsContainer.classList.add("d-none");
 		this.statsContainer.classList.add("d-none");
 		
-		document.getElementById('streamingVideo').style.display = 'none';
-		document.getElementById('streamingVideo').style.opacity = '0';
-		document.querySelector('.textContainer').style.display = 'none';
-		//document.getElementById('playerUI').style.pointerEvents = 'none';
-		this.removeFadeOutListener();
+		const video : HTMLElement = document.getElementById('streamingVideo');
+		const bubble : HTMLElement = document.getElementById('bubble');
+		video.style.display = 'none';
+		video.style.opacity = '0';
+		bubble.style.display = 'none';
+		bubble.style.pointerEvents = 'none';
 		document.querySelector('.loadingText').innerHTML = "Loading...";
+		document.body.onclick = null;
 	}
 
 	/**

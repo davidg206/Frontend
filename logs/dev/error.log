@@ -1,10 +1,9 @@
 <i> [webpack-dev-server] Project is running at:
 <i> [webpack-dev-server] Loopback: http://localhost:3030/
 <i> [webpack-dev-server] Content not from webpack is served from '/home/david/Frontend/delegates/dom/public' directory
-<i> [webpack-dev-middleware] wait until bundle finished: /
- exit, press ^C again. Please wait...
-l bundle finished: /
-<i> [webpack-dev-middleware] wait until bundle finished: /index.24738df557a1dd829c98.js
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+utting down. To force exit, press ^C again. Please wait...
+l bundle finished: /index.24738df557a1dd829c98.js
 <i> [webpack-dev-middleware] wait until bundle finished: /index.css
 <i> [webpack-dev-middleware] wait until bundle finished: /
 <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...

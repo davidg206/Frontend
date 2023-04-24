@@ -84,7 +84,7 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		this.uiController = new UiController(this.videoPlayer);
 		this.uiController.setUpMouseAndFreezeFrame = (element: HTMLDivElement) => this.setUpMouseAndFreezeFrame(element);
 
-		this.dataChannelController = new DataChannelController();
+		this.dataChannelController = new DataChannelController(this.videoPlayer);
 		this.dataChannelController.handleOnOpen = () => this.handleDataChannelConnected();
 		this.dataChannelController.onLatencyTestResult = (latencyTestResults: LatencyTestResults) => this.handleLatencyTestResult(latencyTestResults);
 		this.dataChannelController.onVideoEncoderAvgQP = (AvgQP: number) => this.handleVideoEncoderAvgQP(AvgQP);
@@ -428,7 +428,7 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		this.inputController = new InputController(this.dataChannelController, this.videoPlayer);
 
 		this.ueControlMessage = new UeControlMessage(this.dataChannelController);
-		this.ueDescriptorUi = new UeDescriptorUi(this.dataChannelController);
+		this.ueDescriptorUi = new UeDescriptorUi(this.dataChannelController, this.config);
 
 		this.activateRegisterMouse()
 		this.inputController.registerKeyBoard(this.config.suppressBrowserKeys);
@@ -468,20 +468,17 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 	 */
 	updateVideoStreamSize() {
 		// Call the setter before calling this function
-		//this.matchViewportResolution = true;
 		if (!this.matchViewportResolution) {
-			console.log("MVR not on");
 			return;
 		}
-		console.log("Match viewport resolution enabled");
-
+		//?
 		let now = new Date().getTime();
 		if (now - this.lastTimeResized > 1000) {
 			// get the root div from config 
 			if (!this.config.playerElement) {
 				return;
 			}
-			this.ueDescriptorUi.sendUpdateVideoStreamSize(this.videoPlayer.videoElement.clientWidth, this.videoPlayer.videoElement.clientHeight)
+			this.ueDescriptorUi.sendUpdateVideoStreamSize(this.videoPlayer.videoElement.clientWidth, this.videoPlayer.videoElement.clientHeight);
 			this.lastTimeResized = new Date().getTime();
 		}
 		else {

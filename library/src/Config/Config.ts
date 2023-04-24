@@ -10,6 +10,9 @@ export class Config {
 	// start the video muted
 	startVideoMuted = false;
 
+	// mobile user
+	isMobile = false
+
 	// set the amount of wait time in seconds while there is inactivity for afk to occur 
 	afkTimeout: number = 120;
 
@@ -34,9 +37,10 @@ export class Config {
 	 * @param signallingServerAddress - the address of the signaling server 
 	 * @param playerElement - the player element ID 
 	 */
-	constructor(signallingServerAddress: string, playerElement: HTMLDivElement) {
+	constructor(signallingServerAddress: string, playerElement: HTMLDivElement, isMobile: boolean = false) {
 		this.signallingServerAddress = signallingServerAddress;
 		this.playerElement = playerElement;
+		this.isMobile = isMobile;
 	}
 }
 

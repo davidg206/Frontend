@@ -4,7 +4,109 @@ import { IInitialSettings, } from "./IInitialSettings";
 import { InitialSettings, } from "./InitialSettings";
 import { ILatencyTestResults } from "../DataChannel/ILatencyTestResults"
 import { LatencyTestResults } from "../DataChannel/LatencyTestResults"
+import { VideoPlayer } from "../VideoPlayer/VideoPlayer"
 
+class at {
+    public inRange: any;
+    public x: any;
+    public y: any;
+    constructor(e: any, t: any, s: any) {
+        this.inRange = e, this.x = t, this.y = s
+    }
+}
+class lt {
+    public x: any;
+    public y: any;
+    constructor(e: any, t: any) {
+        this.x = e, this.y = t
+    }
+}
+class dt {
+    public x: any;
+    public y: any;
+    constructor(e: any, t: any) {
+        this.x = e, this.y = t
+    }
+}
+class ot {
+    private videoElementProvider: any;
+    private videoElementParent: HTMLElement | null = null;
+    private videoElement: HTMLVideoElement | null = null;
+    private ratio = 0;
+    private normalizeAndQuantizeUnsignedFunc: (e: number, t: number) => any;
+    private normalizeAndQuantizeSignedFunc: (e: number, t: number) => any;
+    private denormalizeAndUnquantizeUnsignedFunc: (e: number, t: number) => any;
+    constructor(e: any) {
+        this.videoElementProvider = e;
+        this.normalizeAndQuantizeUnsignedFunc = () => {
+            throw new Error("Normalize and quantize unsigned, method not implemented.");
+        };
+        this.normalizeAndQuantizeSignedFunc = () => {
+            throw new Error("Normalize and unquantize signed, method not implemented.");
+        };
+        this.denormalizeAndUnquantizeUnsignedFunc = () => {
+            throw new Error("Denormalize and unquantize unsigned, method not implemented.");
+        };
+    }
+    public normalizeAndQuantizeUnsigned(e: number, t: number): any {
+        return this.normalizeAndQuantizeUnsignedFunc(e, t);
+    }
+    public unquantizeAndDenormalizeUnsigned(e: number, t: number): any {
+        return this.denormalizeAndUnquantizeUnsignedFunc(e, t);
+    }
+    public normalizeAndQuantizeSigned(e: number, t: number): any {
+        return this.normalizeAndQuantizeSignedFunc(e, t);
+    }
+    public setupNormalizeAndQuantize(): void {
+        if ((this.videoElementParent = this.videoElementProvider.getVideoParentElement(), this.videoElement = this.videoElementProvider.getVideoElement(), this.videoElementParent && this.videoElement)) {
+            const e = this.videoElementParent.clientHeight / this.videoElementParent.clientWidth;
+            const t = this.videoElement.videoHeight / this.videoElement.videoWidth;
+            if (e > t) {
+                //console.log("Setup Normalize and Quantize for playerAspectRatio > videoAspectRatio");
+                this.ratio = e / t;
+                this.normalizeAndQuantizeUnsignedFunc = (e: number, t: number) => this.normalizeAndQuantizeUnsignedPlayerBigger(e, t);
+                this.normalizeAndQuantizeSignedFunc = (e: number, t: number) => this.normalizeAndQuantizeSignedPlayerBigger(e, t);
+                this.denormalizeAndUnquantizeUnsignedFunc = (e: number, t: number) => this.denormalizeAndUnquantizeUnsignedPlayerBigger(e, t);
+            } else {
+                //console.log("Setup Normalize and Quantize for playerAspectRatio <= videoAspectRatio");
+                this.ratio = t / e;
+                this.normalizeAndQuantizeUnsignedFunc = (e: number, t: number) => this.normalizeAndQuantizeUnsignedPlayerSmaller(e, t);
+                this.normalizeAndQuantizeSignedFunc = (e: number, t: number) => this.normalizeAndQuantizeSignedPlayerSmaller(e, t);
+                this.denormalizeAndUnquantizeUnsignedFunc = (e: number, t: number) => this.denormalizeAndUnquantizeUnsignedPlayerSmaller(e, t);
+            }
+        }
+    }
+    private normalizeAndQuantizeUnsignedPlayerBigger(e: number, t: number): any {
+        const s = e / this.videoElementParent!.clientWidth;
+        const n = this.ratio * (t / this.videoElementParent!.clientHeight - 0.5) + 0.5;
+        return (s < 0 || s > 1 || n < 0 || n > 1 ? new at(!1, 65535, 65535) : new at(!0, 65536 * s, 65536 * n));
+    }
+    denormalizeAndUnquantizeUnsignedPlayerBigger(e: number, t: number): lt {
+        const s: number = e / 65536;
+        const n: number = (t / 65536 - 0.5) / this.ratio + 0.5;
+        return new lt(s * this.videoElementParent.clientWidth, n * this.videoElementParent.clientHeight);
+    }
+    normalizeAndQuantizeSignedPlayerBigger(e: number, t: number): dt {
+        const s: number = e / (0.5 * this.videoElementParent.clientWidth);
+        const n: number = this.ratio * t / (0.5 * this.videoElementParent.clientHeight);
+        return new dt(32767 * s, 32767 * n);
+    }
+    normalizeAndQuantizeUnsignedPlayerSmaller(e: number, t: number): at {
+        const s: number = this.ratio * (e / this.videoElementParent.clientWidth - 0.5) + 0.5;
+        const n: number = t / this.videoElementParent.clientHeight;
+        return s < 0 || s > 1 || n < 0 || n > 1 ? new at(false, 65535, 65535) : new at(true, 65536 * s, 65536 * n);
+    }
+    denormalizeAndUnquantizeUnsignedPlayerSmaller(e: number, t: number): lt {
+        const s: number = (e / 65536 - 0.5) / this.ratio + 0.5;
+        const n: number = t / 65536;
+        return new lt(s * this.videoElementParent.clientWidth, n * this.videoElementParent.clientHeight);
+    }
+    normalizeAndQuantizeSignedPlayerSmaller(e: number, t: number): dt {
+        const s: number = this.ratio * e / (0.5 * this.videoElementParent.clientWidth);
+        const n: number = t / (0.5 * this.videoElementParent.clientHeight);
+        return new dt(32767 * s, 32767 * n);
+    }
+}
 
 /**
  * Handles the Sending and Receiving of messages to the UE Instance via the Data Channel
@@ -23,6 +125,12 @@ export class DataChannelController {
     // A hidden input text box which is used only for focusing and opening the
     // on-screen keyboard.
     static hiddenInput: HTMLInputElement = undefined;
+
+    static coordinateConverter: ot;
+
+    constructor(videoElement: VideoPlayer) {
+      DataChannelController.coordinateConverter = new ot(videoElement);
+    }
 
     /**
      * To Create and Set up a Data Channel
@@ -143,6 +251,7 @@ export class DataChannelController {
         let responses = new TextDecoder("utf-16").decode(message.slice(1));
         Logger.Log(Logger.GetStackTrace(), responses, 6);
         //add to response handlers 
+	console.log("onResponse: " + JSON.parse(responses));
     }
 
     /**
@@ -151,26 +260,27 @@ export class DataChannelController {
      */
     onCommand(message: Uint8Array) {
         Logger.Log(Logger.GetStackTrace(), "DataChannelReceiveMessageType.Command", 6);
-
         let commandAsString = new TextDecoder("utf-16").decode(message.slice(1));
         Logger.Log(Logger.GetStackTrace(), "Data Channel Command: " + commandAsString, 6);
         let command: any = JSON.parse(commandAsString);
-	console.log(command);
         if (command.command === "onScreenKeyboard") {
             //show on screen Keyboard
-	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard: " + commandAsString, 1);
+	    Logger.Log(Logger.GetStackTrace(), "Show on screen keyboard: " + commandAsString, 6);
 	    this.showOnScreenKeyboard(command);
         }
     }
 
     showOnScreenKeyboard(command: any) {
-        if (command.command == "showOnScreenKeyboard") {
+        if (command.showOnScreenKeyboard) {
             // Show the 'edit text' button.
             DataChannelController.editTextButton.classList.remove('hiddenState');
             // Place the 'edit text' button near the UE input widget.
-            //let pos = unquantizeAndDenormalizeUnsigned(command.x, command.y);
-            DataChannelController.editTextButton.style.top = command.y.toString() + 'px';
-            DataChannelController.editTextButton.style.left = (command.x - 40).toString() + 'px';
+            let pos = DataChannelController.coordinateConverter.unquantizeAndDenormalizeUnsigned(command.x, command.y);
+	    if (pos.x != 0 && pos.y != 0) {
+		DataChannelController.editTextButton.style.top = pos.y.toString() + 'px';
+		DataChannelController.editTextButton.style.left = (pos.x - 40).toString() + 'px';
+	    }
+	    //DataChannelController.hiddenInput.focus();
         } else {
             // Hide the 'edit text' button.
             DataChannelController.editTextButton.classList.add('hiddenState');

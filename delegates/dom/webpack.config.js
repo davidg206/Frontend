@@ -69,19 +69,6 @@ module.exports = (env) => {
     },
     resolve: {
       extensions: ['.tsx', '.ts', '.d.ts', '.js', '.svg'],
-      fallback: {
-	stream: require.resolve("stream-browserify"),
-	path: require.resolve("path-browserify"),
-        zlib: require.resolve("browserify-zlib"),
-	util: require.resolve("util/"),
-	url: require.resolve("url/"),
-	http: require.resolve("stream-http"),
-	https: require.resolve("https-browserify"),
-	zlib: require.resolve("browserify-zlib"),
-	assert: require.resolve("assert/"),
-	os: require.resolve("os-browserify/browser"),
-	dgram: require.resolve("dgram-browserify")
-      }
     },
     output: {
       filename: '[name].[contenthash].js',

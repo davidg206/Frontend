@@ -172,6 +172,7 @@ canvas {
 #streamingVideo {
 	opacity: 0;
 	transition: opacity 1s;
+	pointer-events: none;
 }
 
 /* UI STUFF */
@@ -180,7 +181,7 @@ canvas {
 	height: 100%;
 	z-index: 15;
 	position: relative;
-	color: black; /*var(--colour2);*/
+	color: var(--colour2);
 	pointer-events: none;
 	overflow: hidden;
 }
@@ -188,7 +189,7 @@ canvas {
 .spsUiTool .tooltiptext {
 	visibility: hidden;
 	width: auto;
-	color: white; /*var(--colour4);*/
+	color: var(--colour4);
 	text-align: center;
 	border-radius: 15px;
 	padding: 0px 10px;
@@ -204,9 +205,14 @@ canvas {
 	color: white;
 }
 
-.spsUiTool:hover .tooltiptext {
-	visibility: visible;
+.desktop .spsUiTool:hover .tooltiptext {
+     	visibility: visible;
 	background-color: var(--colour7);
+}
+
+.tooltip-disabled .tooltiptext {
+  visibility: hidden;
+  background-color: transparent;
 }
 
 #connection .tooltiptext {
@@ -245,7 +251,7 @@ canvas {
 	left: 2%;
 	font-family: 'Michroma', sans-serif;
 	pointer-events: all;
-	display: none;
+	display: flex;
 }
 
 #controls>* {
@@ -260,10 +266,13 @@ canvas {
 #controls #additionalinfo {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	
 }
 
 #fullscreen-btn {
 	padding: 0.6rem !important;
+	background-color: var(--colour4);
+	display: none;
 }
 
 object {
@@ -277,17 +286,20 @@ object {
 #settingsBtn,
 #statsBtn {
 	cursor: pointer;
+	display: none;
 }
 
 #uiFeatures button {
-	background-color: var(--colour7);
+	/*background-color: var(--colour7);*/
 	border: 1px solid var(--colour7);
 	color: var(--colour4);
-	position: relative;
+	position: fixed;
 	width: 3rem;
 	height: 3rem;
 	padding: 0.5rem;
 	text-align: center;
+	top: 20px;
+	right: 20px;
 }
 
 #uiFeatures button:hover {
@@ -488,16 +500,17 @@ img#playButton {
 
 #hiddenInput {
 	position: absolute;
-	left: -10%;
-	/* Although invisible, push off-screen to prevent user interaction. */
-	width: 0px;
+	left: -30%;
 	opacity: 0;
 }
 
 #editTextButton {
-	position: absolute;
-	height: 40px;
-	width: 40px;
+	position: relative;
+	height: 28px;
+	width: 74px;
+	top: 121px;
+	left: 242px;
+	z-index: 40;
 }
 
 .overlay-button {

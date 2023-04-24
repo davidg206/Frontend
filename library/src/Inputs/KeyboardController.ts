@@ -36,17 +36,35 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event 
      */
     handleOnKeyDown(keyboardEvent: KeyboardEvent) {
-        this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
-        /* this needs to be tested but it is believed that this is not needed*/
-        // backSpace is not considered a keypress in JavaScript but we need it
-        // to be so characters may be deleted in a UE4 text entry field.
-	if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {
-            document.onkeypress(new KeyboardEvent("keypress", { charCode: SpecialKeyCodes.backSpace }));
-        }
+	if (keyboardEvent.ctrlKey && keyboardEvent.key == 'v') {
+		const self = this;
+		navigator.clipboard.readText().then(text => {
+			for (let i = 0; i < text.length; i++) {
+				const char = text.charAt(i);
+				const key = char.charCodeAt(0);
+				self.ueInputKeyBoardMessage.sendKeyDown(key, keyboardEvent.repeat);
+				document.onkeypress(new KeyboardEvent("keypress", { charCode: key }));
+			}
+		}).catch(err => {
+			console.error('Failed to read clipboard contents: ', err);
+		});
+	} else {
+		const key = keyboardEvent.key;
+		if (key == 'Unidentified') {
+			return;
+		}
+		this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
 
-        if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
-            keyboardEvent.preventDefault();
-        }
+		/* this needs to be tested but it is believed that this is not needed*/
+		// backSpace is not considered a keypress in JavaScript but we need it
+		// to be so characters may be deleted in a UE4 text entry field.
+		if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {
+			document.onkeypress(new KeyboardEvent("keypress", { charCode: SpecialKeyCodes.backSpace }));
+		}
+	}
+	if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
+		keyboardEvent.preventDefault();
+	}
     }
 
     /**
@@ -54,7 +72,7 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event
      */
     handleOnKeyUp(keyboardEvent: KeyboardEvent) {
-        //Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 6);
+        Logger.Log(Logger.GetStackTrace(), "handleOnKeyUp", 6);
         this.ueInputKeyBoardMessage.sendKeyUp(this.getKeycode(keyboardEvent));
 
         if (this.suppressBrowserKeys && this.isKeyCodeBrowserKey(keyboardEvent.keyCode)) {
@@ -67,7 +85,7 @@ export class KeyboardController {
      * @param keyboard - Keyboard Event
      */
     handleOnKeyPress(keyboard: KeyboardEvent) {
-        //Logger.Log(Logger.GetStackTrace(), "handleOnkeypress", 6);
+        Logger.Log(Logger.GetStackTrace(), "handleOnkeypress", 6);
         this.ueInputKeyBoardMessage.sendKeyPress(keyboard.charCode);
     }
 
@@ -90,6 +108,7 @@ export class KeyboardController {
      */
     isKeyCodeBrowserKey(keyCode: number) {
         // Function keys or tab key.
+	if (keyCode == 116 || keyCode == 122) return false;
         return keyCode >= 112 && keyCode <= 123 || keyCode === 9;
     }
 }

@@ -79,7 +79,7 @@ export class UeInputTouchMessage extends UeDataMessage {
 
 
             let coord = this.normaliseAndQuantiseUnsigned(x, y);
-	    Logger.Log(Logger.GetStackTrace(), "X: " + x + " Y: " + y, 1);
+	    Logger.Log(Logger.GetStackTrace(), "X: " + x + " Y: " + y, 6);
             //      byte =  2
             data.setUint16(byte, coord.x, true);
             byte += 2;

@@ -1,17 +1,23 @@
 import { DataChannelController } from "../DataChannel/DataChannelController";
 import { UeDescriptor } from "./UeDescriptor";
 import { UeMessageType } from "./UeMessageTypes";
+import { Config } from "../Config/Config";
 
 /**
  * Handles the Sending of a UI Descriptor to the UE Instance
  */
 export class UeDescriptorUi extends UeDescriptor {
 
+    dataChannelController: DataChannelController;
+    config: Config;
+
     /**
      * @param dataChannelController - Data Channel Controller
      */
-    constructor(dataChannelController: DataChannelController) {
+    constructor(dataChannelController: DataChannelController, config: Config) {
         super(dataChannelController);
+	this.dataChannelController = dataChannelController;
+	this.config = config;
     }
 
     /**
@@ -20,7 +26,25 @@ export class UeDescriptorUi extends UeDescriptor {
      * @param height - Height of res
      */
     sendUpdateVideoStreamSize(width: number, height: number) {
-        this.sendUiConsoleInteraction("r.setres " + width + "x" + height);
+	if (this.config.isMobile) {
+		width *= 2;
+		height *= 2;
+	}
+	const s = JSON.stringify({
+		"Resolution.Width": width,
+		"Resolution.Height": height
+	});
+	const n = {
+		id: 51
+	};
+	const r = new DataView(new ArrayBuffer(3 + 2 * s.length));
+	let o = 0;
+	r.setUint8(o, n.id), o++, r.setUint16(o, s.length, !0), o += 2;
+	for (let e = 0; e < s.length; e++) {
+		r.setUint16(o, s.charCodeAt(e), !0);
+		o += 2;
+	}
+	this.dataChannelController.sendData(r.buffer);	
     }
 
     /**
