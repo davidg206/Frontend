@@ -5,6 +5,7 @@ import { InitialSettings, } from "./InitialSettings";
 import { ILatencyTestResults } from "../DataChannel/ILatencyTestResults"
 import { LatencyTestResults } from "../DataChannel/LatencyTestResults"
 import { VideoPlayer } from "../VideoPlayer/VideoPlayer"
+import { Config } from "../Config/Config";
 
 class at {
     public inRange: any;
@@ -127,9 +128,38 @@ export class DataChannelController {
     static hiddenInput: HTMLInputElement = undefined;
 
     static coordinateConverter: ot;
+    isIOS: boolean;
 
-    constructor(videoElement: VideoPlayer) {
+    constructor(videoElement: VideoPlayer, config: Config) {
       DataChannelController.coordinateConverter = new ot(videoElement);
+      this.isIOS = config.isIOS;
+    }
+
+    focusAndOpenKeyboard(el: HTMLElement, timeout?:  number): void {
+        if (!timeout) {
+            timeout = 100;
+        }
+        if (el) {
+            // Align temp input element approximately where the input element is
+            // so the cursor doesn't jump around
+            const __tempEl__: HTMLInputElement = document.createElement('input');
+            __tempEl__.style.position = 'absolute';
+            __tempEl__.style.top = `${el.offsetTop + 7}px`;
+            __tempEl__.style.left = `${el.offsetLeft}px`;
+            __tempEl__.style.height = '0';
+            __tempEl__.style.opacity = '0';
+            // Put this temp element as a child of the page <body> and focus on it
+            document.body.appendChild(__tempEl__);
+            __tempEl__.focus();
+
+            // The keyboard is open. Now do a delayed focus on the target element
+            setTimeout(function() {
+                el.focus();
+                el.click();
+                // Remove the temp element
+                document.body.removeChild(__tempEl__);
+            }, timeout);
+        }
     }
 
     /**
@@ -271,21 +301,28 @@ export class DataChannelController {
     }
 
     showOnScreenKeyboard(command: any) {
+	let hiddenInput = DataChannelController.hiddenInput;
         if (command.showOnScreenKeyboard) {
-            // Show the 'edit text' button.
-            DataChannelController.editTextButton.classList.remove('hiddenState');
-            // Place the 'edit text' button near the UE input widget.
-            let pos = DataChannelController.coordinateConverter.unquantizeAndDenormalizeUnsigned(command.x, command.y);
-	    if (pos.x != 0 && pos.y != 0) {
-		DataChannelController.editTextButton.style.top = pos.y.toString() + 'px';
-		DataChannelController.editTextButton.style.left = (pos.x - 40).toString() + 'px';
+            if (true) { // this.config.isIOS
+                // Show the 'edit text' button.
+                DataChannelController.editTextButton.classList.remove('hiddenState');
+                // Place the 'edit text' button near the UE input widget.
+                let pos = DataChannelController.coordinateConverter.unquantizeAndDenormalizeUnsigned(command.x, command.y);
+                if (pos.x != 0 && pos.y != 0) {
+                    DataChannelController.editTextButton.style.top = pos.y.toString() + 'px';
+		    DataChannelController.editTextButton.style.left = (pos.x - 40).toString() + 'px';
+	        }
+	    } else {
+	        //this.focusAndOpenKeyboard(DataChannelController.hiddenInput);
+	        DataChannelController.hiddenInput.focus();
 	    }
-	    //DataChannelController.hiddenInput.focus();
+	    //hiddenInput.setSelectionRange(hiddenInput.value.length, hiddenInput.value.length);
         } else {
             // Hide the 'edit text' button.
             DataChannelController.editTextButton.classList.add('hiddenState');
             // Hide the on-screen keyboard.
             DataChannelController.hiddenInput.blur();
+	    DataChannelController.hiddenInput.value = '';
         }
     }
 

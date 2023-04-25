@@ -22,224 +22,51 @@ ERROR in /home/david/Frontend/delegates/dom/src/index.ts
 ts-loader-default_e3b0c44298fc1c14
 
 webpack 5.76.3 compiled with 1 error in 13982 ms
-s
-assets by status 1.24 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.30f9ab7d925e5cd5c040.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.fd7f2e85e06d7af7d134.hot-update.js 19.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.fd7f2e85e06d7af7d134.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.24 MiB index.30f9ab7d925e5cd5c040.js 3.08 MiB index.fd7f2e85e06d7af7d134.hot-update.js 19.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.87 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 1840 ms
-assets by status 1.24 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.461c7b1c4a752c13cea9.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.ecc7b255dea16d275789.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.ecc7b255dea16d275789.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.24 MiB index.461c7b1c4a752c13cea9.js 3.08 MiB index.ecc7b255dea16d275789.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.93 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 101:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(101,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 795 ms
-assets by status 1.24 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.2f0ee09f5e3f125df5d0.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.457f53cd6084a2aff51c.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.457f53cd6084a2aff51c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.24 MiB index.2f0ee09f5e3f125df5d0.js 3.08 MiB index.457f53cd6084a2aff51c.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.93 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 101:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(101,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 680 ms
-assets by status 1.24 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.f7a8cfc96ff1b4d024a4.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.47fa0bc8655532fc73eb.hot-update.js 19.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.47fa0bc8655532fc73eb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.24 MiB index.f7a8cfc96ff1b4d024a4.js 3.08 MiB index.47fa0bc8655532fc73eb.hot-update.js 19.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.87 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 659 ms
-assets by info 3.09 MiB [immutable]
-  asset index.c3c80ec307f71994ca5a.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.f409e02c7fe996d31400.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.f409e02c7fe996d31400.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.c3c80ec307f71994ca5a.js 3.08 MiB index.f409e02c7fe996d31400.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 343 ms
-assets by info 3.09 MiB [immutable]
-  asset index.6c1f94c80fe30a86566d.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.9d9c11969a7c5624b1fc.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.9d9c11969a7c5624b1fc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.6c1f94c80fe30a86566d.js 3.08 MiB index.9d9c11969a7c5624b1fc.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 392 ms
-assets by info 3.09 MiB [immutable]
-  asset index.24d10aa278bdf2f56c99.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.27ba31efa4c1dbeb5c4c.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.27ba31efa4c1dbeb5c4c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.24d10aa278bdf2f56c99.js 3.08 MiB index.27ba31efa4c1dbeb5c4c.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 360 ms
-assets by info 3.09 MiB [immutable]
-  asset index.d1c3f54dcb37c31ff15b.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.2be5cbe7757fd34f52e8.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.2be5cbe7757fd34f52e8.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.d1c3f54dcb37c31ff15b.js 3.08 MiB index.2be5cbe7757fd34f52e8.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 257 ms
-assets by info 3.09 MiB [immutable]
-  asset index.eb6de1b803f4362ae3f7.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.bcf5a9d1ccc8112661fe.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.bcf5a9d1ccc8112661fe.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.eb6de1b803f4362ae3f7.js 3.08 MiB index.bcf5a9d1ccc8112661fe.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 350 ms
-assets by info 3.09 MiB [immutable]
-  asset index.30b1536a3977a71a4f73.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.72f74376d1fb69fec478.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.72f74376d1fb69fec478.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.30b1536a3977a71a4f73.js 3.08 MiB index.72f74376d1fb69fec478.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 100:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 491 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.677a86bd4fd2f6a78aab.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.c016645ffff08b8709c4.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c016645ffff08b8709c4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 4.78 MiB [immutable]
+  asset index.95e25d34b7e2c3b544c7.js 3.08 MiB [emitted] [immutable] (name: index)
+  asset index.bef49cf551c3d2ef96e6.hot-update.js 1.69 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.bef49cf551c3d2ef96e6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.677a86bd4fd2f6a78aab.js 3.08 MiB index.c016645ffff08b8709c4.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 6.01 MiB = index.css 1.23 MiB index.95e25d34b7e2c3b544c7.js 3.08 MiB index.bef49cf551c3d2ef96e6.hot-update.js 1.69 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.93 KiB [built] [code generated] [1 error]
+javascript modules 778 KiB
+  ./src/index.ts 7.24 KiB [built] [code generated] [1 error]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built] [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 718 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 1319 ms
+webpack 5.76.3 compiled with 1 error in 3223 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.08 MiB [immutable]
+  asset index.e61763c2e9e94bbca0f9.js 3.08 MiB [emitted] [immutable] (name: index)
+  asset index.33ba62de1ff5dc0a3a44.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.33ba62de1ff5dc0a3a44.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.32 MiB = index.css 1.23 MiB index.e61763c2e9e94bbca0f9.js 3.08 MiB index.33ba62de1ff5dc0a3a44.hot-update.js 690 bytes
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 98 modules
+runtime modules 30.2 KiB 14 modules
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 138 ms
 assets by info 3.09 MiB [immutable]
-  asset index.a17268081c796a476ea7.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.9e02dff60f87339de63f.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.9e02dff60f87339de63f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+  asset index.461ef4e0b17bf7ecf7f3.js 3.08 MiB [emitted] [immutable] (name: index)
+  asset index.ea97ae8d08e803e50979.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ea97ae8d08e803e50979.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.css 1.23 MiB [emitted] (name: index)
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.a17268081c796a476ea7.js 3.08 MiB index.9e02dff60f87339de63f.hot-update.js 2.05 KiB
+Entrypoint index 4.32 MiB = index.css 1.23 MiB index.461ef4e0b17bf7ecf7f3.js 3.08 MiB index.ea97ae8d08e803e50979.hot-update.js 2.05 KiB
 cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
 modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
@@ -247,37 +74,19 @@ modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 375 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.af7ee9517de012ade709.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.6edf4a51caabb5ea9c4a.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6edf4a51caabb5ea9c4a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.af7ee9517de012ade709.js 3.08 MiB index.6edf4a51caabb5ea9c4a.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.94 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 899 ms
+webpack 5.76.3 compiled with 1 error in 432 ms
 assets by info 3.09 MiB [immutable]
-  asset index.9c0334069a8bed9382e6.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.31e068eefe8ed0759835.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.31e068eefe8ed0759835.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+  asset index.a5d166c919363e8f26e3.js 3.08 MiB [emitted] [immutable] (name: index)
+  asset index.10ae5100bce1d35487bc.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.10ae5100bce1d35487bc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.css 1.23 MiB [emitted] (name: index)
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.9c0334069a8bed9382e6.js 3.08 MiB index.31e068eefe8ed0759835.hot-update.js 2.05 KiB
+Entrypoint index 4.32 MiB = index.css 1.23 MiB index.a5d166c919363e8f26e3.js 3.08 MiB index.10ae5100bce1d35487bc.hot-update.js 2.05 KiB
 cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
 modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
@@ -285,186 +94,478 @@ modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 410 ms
-assets by info 3.09 MiB [immutable]
-  asset index.716ba7efb717ed9e0099.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.7bf4be2dd8aaae0916cf.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7bf4be2dd8aaae0916cf.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.716ba7efb717ed9e0099.js 3.08 MiB index.7bf4be2dd8aaae0916cf.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 318 ms
-assets by info 3.09 MiB [immutable]
-  asset index.36193f15ce61ae085f58.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.44b834aca1bfb8023b3c.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.44b834aca1bfb8023b3c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.36193f15ce61ae085f58.js 3.08 MiB index.44b834aca1bfb8023b3c.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 316 ms
+webpack 5.76.3 compiled with 1 error in 327 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.2cee58a9837fbdff441f.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.961ca96e8230a22e8097.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.961ca96e8230a22e8097.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 4.8 MiB [immutable]
+  asset index.91af592df77256af59cb.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.ea425dfcb38c078e1f19.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ea425dfcb38c078e1f19.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.2cee58a9837fbdff441f.js 3.08 MiB index.961ca96e8230a22e8097.hot-update.js 20.1 KiB
+Entrypoint index 6.03 MiB = index.css 1.23 MiB index.91af592df77256af59cb.js 3.09 MiB index.ea425dfcb38c078e1f19.hot-update.js 1.71 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 778 KiB
+  ./src/index.ts 7.28 KiB [built] [code generated] [1 error]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 719 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 2582 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.11 MiB [immutable]
+  asset index.5b8c91e0c87f0de6e107.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.005a481f61a5c8810ec8.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.005a481f61a5c8810ec8.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.34 MiB = index.css 1.23 MiB index.5b8c91e0c87f0de6e107.js 3.09 MiB index.005a481f61a5c8810ec8.hot-update.js 21 KiB
 cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.94 KiB [built] [code generated] [1 error]
+./src/index.ts 7.28 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 979 ms
+webpack 5.76.3 compiled with 1 error in 1105 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.d7de9a5c8de25dd6b26a.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.c50fb261eb550b339509.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c50fb261eb550b339509.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.11 MiB [immutable]
+  asset index.fb5a4e9dcc5c20ab4ba5.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.81169018e28f3a352704.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.81169018e28f3a352704.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.d7de9a5c8de25dd6b26a.js 3.08 MiB index.c50fb261eb550b339509.hot-update.js 20.1 KiB
+Entrypoint index 4.34 MiB = index.css 1.23 MiB index.fb5a4e9dcc5c20ab4ba5.js 3.09 MiB index.81169018e28f3a352704.hot-update.js 21 KiB
 cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.94 KiB [built] [code generated] [1 error]
+./src/index.ts 7.28 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 776 ms
+webpack 5.76.3 compiled with 1 error in 1169 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.d7412eeb840790473f47.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.748724013180a1394a8e.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.748724013180a1394a8e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.11 MiB [immutable]
+  asset index.99ef1ac1f66f061bcf12.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.61c3e655ea4222506c99.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.61c3e655ea4222506c99.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.d7412eeb840790473f47.js 3.08 MiB index.748724013180a1394a8e.hot-update.js 20.1 KiB
+Entrypoint index 4.34 MiB = index.css 1.23 MiB index.99ef1ac1f66f061bcf12.js 3.09 MiB index.61c3e655ea4222506c99.hot-update.js 21 KiB
 cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.93 KiB [built] [code generated] [1 error]
+./src/index.ts 7.28 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.76.3 compiled with 1 error in 1047 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.11 MiB [immutable]
+  asset index.0de70524fd4e08136caf.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.c6cac792eb63d78a6f08.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c6cac792eb63d78a6f08.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.34 MiB = index.css 1.23 MiB index.0de70524fd4e08136caf.js 3.09 MiB index.c6cac792eb63d78a6f08.hot-update.js 20.9 KiB
+cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.24 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
 webpack 5.76.3 compiled with 1 error in 506 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.abc44d6343f7f6a9af78.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.aa85356a434f359b2dd9.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.aa85356a434f359b2dd9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.abc44d6343f7f6a9af78.js 3.08 MiB index.aa85356a434f359b2dd9.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.94 KiB [built] [code generated] [2 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 94:8-29
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(94,9)
-      TS2322: Type 'string' is not assignable to type 'number'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 2 errors in 1002 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.4aefd134f756ec4a107b.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.52d0eda9606ce54bbbb4.hot-update.js 20.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.52d0eda9606ce54bbbb4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.4aefd134f756ec4a107b.js 3.08 MiB index.52d0eda9606ce54bbbb4.hot-update.js 20.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.94 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 789 ms
 assets by status 4.32 MiB [cached] 2 assets
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.4aefd134f756ec4a107b.js 3.08 MiB
+Entrypoint index 4.32 MiB = index.css 1.23 MiB index.0de70524fd4e08136caf.js 3.09 MiB
 cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 111 modules
-./src/index.ts 6.94 KiB [built] [1 error]
+./src/index.ts 7.24 KiB [built] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 160 ms
+webpack 5.76.3 compiled with 1 error in 196 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.1 MiB [immutable]
-  asset index.bbb6ee3928b617e10827.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.c282b00d25f37442a8ce.hot-update.js 20.2 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c282b00d25f37442a8ce.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.11 MiB [immutable]
+  asset index.a147803cfce194a04528.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.5d47e5fca00f2a96c546.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5d47e5fca00f2a96c546.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.bbb6ee3928b617e10827.js 3.09 MiB index.c282b00d25f37442a8ce.hot-update.js 20.2 KiB
+Entrypoint index 4.34 MiB = index.css 1.23 MiB index.a147803cfce194a04528.js 3.09 MiB index.5d47e5fca00f2a96c546.hot-update.js 20.9 KiB
 cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 6.98 KiB [built] [code generated] [1 error]
+./src/index.ts 7.24 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 87:74-82
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 751 ms
-assets by info 3.09 MiB [immutable]
-  asset index.0cc3370c1401a2eac5bf.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.205635cce17d14ddc2ca.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.205635cce17d14ddc2ca.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+webpack 5.76.3 compiled with 1 error in 888 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.82 MiB [immutable]
+  asset index.12903bb13a14d80edac0.js 3.09 MiB [emitted] [immutable] (name: index)
+  asset index.7160e79dbd262f9a8153.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7160e79dbd262f9a8153.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 6.05 MiB = index.css 1.23 MiB index.12903bb13a14d80edac0.js 3.09 MiB index.7160e79dbd262f9a8153.hot-update.js 1.72 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 782 KiB
+  ./src/index.ts 7.26 KiB [built] [code generated] [4 errors]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 723 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 103:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 1878 ms
+assets by info 4.8 MiB [immutable]
+  asset index.621a0aace6001b15faff.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.235d8aa29c99823fc233.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.235d8aa29c99823fc233.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.css 1.23 MiB [emitted] (name: index)
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.0cc3370c1401a2eac5bf.js 3.09 MiB index.205635cce17d14ddc2ca.hot-update.js 2.05 KiB
+Entrypoint index 6.04 MiB = index.css 1.23 MiB index.621a0aace6001b15faff.js 3.1 MiB index.235d8aa29c99823fc233.hot-update.js 1.71 MiB
+cached modules 389 KiB (javascript) 266 KiB (css/mini-extract) [cached] 93 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 783 KiB (javascript) 13.7 KiB (css/mini-extract)
+  code generated modules 724 KiB (javascript) 13.7 KiB (css/mini-extract) [code generated]
+    ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 723 KiB [built] [code generated]
+    ./src/assets/css/player.css 355 bytes [built] [code generated]
+    css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
+  modules by path ./src/*.ts 59.5 KiB
+    ./src/index.ts 7.26 KiB [built] [4 errors]
+    ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 103:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 829 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.d1e147e2ca8b4caddb1c.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.63dc8eb2e16e85ac9d3b.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.63dc8eb2e16e85ac9d3b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.d1e147e2ca8b4caddb1c.js 3.1 MiB index.63dc8eb2e16e85ac9d3b.hot-update.js 20.9 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.26 KiB [built] [code generated] [5 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 97:5-6
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(97,6)
+      TS1313: The body of an 'if' statement cannot be the empty statement.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 103:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 715 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.62c6021b7d0fd1f06067.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.e6947bf431a7ea734169.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.e6947bf431a7ea734169.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.62c6021b7d0fd1f06067.js 3.1 MiB index.e6947bf431a7ea734169.hot-update.js 20.9 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.26 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 103:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 628 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.2e2eb2aa8e631a191640.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.84eb98bc1f53f5304a9b.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.84eb98bc1f53f5304a9b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.2e2eb2aa8e631a191640.js 3.1 MiB index.84eb98bc1f53f5304a9b.hot-update.js 20.9 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.26 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 103:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 510 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.8786e5d20dcb749072d2.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.441486427395a9ebe621.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.441486427395a9ebe621.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.8786e5d20dcb749072d2.js 3.1 MiB index.441486427395a9ebe621.hot-update.js 21 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.3 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 769 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.1 MiB [immutable]
+  asset index.08fb06d80380922d449a.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.71e14f1301a04d7d15f9.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.71e14f1301a04d7d15f9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.08fb06d80380922d449a.js 3.1 MiB index.71e14f1301a04d7d15f9.hot-update.js 2.05 KiB
+cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 266 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.36825cc332fd4388fb96.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.ea9f44c76659da150e66.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ea9f44c76659da150e66.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.36825cc332fd4388fb96.js 3.1 MiB index.ea9f44c76659da150e66.hot-update.js 21 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.3 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 892 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 4.82 MiB [immutable]
+  asset index.e35520489131c9c5ccef.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.3df54da38c86b044211a.hot-update.js 1.73 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.3df54da38c86b044211a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 6.06 MiB = index.css 1.23 MiB index.e35520489131c9c5ccef.js 3.1 MiB index.3df54da38c86b044211a.hot-update.js 1.73 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 784 KiB
+  ./src/index.ts 7.39 KiB [built] [code generated] [4 errors]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 1849 ms
+assets by info 3.1 MiB [immutable]
+  asset index.aa998a5be0fd1a019db2.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.3d1aed6dd6d58f04478a.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.3d1aed6dd6d58f04478a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.aa998a5be0fd1a019db2.js 3.1 MiB index.3d1aed6dd6d58f04478a.hot-update.js 2.05 KiB
 cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
 modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
@@ -472,198 +573,867 @@ modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 231 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 301 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.cbfa6e56400a634fb286.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.d7f657c5df90d6ecdfbf.hot-update.js 20.4 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.d7f657c5df90d6ecdfbf.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.1 MiB [immutable]
+  asset index.abba794a2b82c6399707.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.2984c6a3b0763e25a85a.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.2984c6a3b0763e25a85a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.cbfa6e56400a634fb286.js 3.09 MiB index.d7f657c5df90d6ecdfbf.hot-update.js 20.4 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.abba794a2b82c6399707.js 3.1 MiB index.2984c6a3b0763e25a85a.hot-update.js 2.05 KiB
+cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.07 KiB [built] [code generated] [1 error]
+modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 695 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 200 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.9f9ee4a78fca11458bda.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.331afffa5c3631af8461.hot-update.js 20.4 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.331afffa5c3631af8461.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.12 MiB [immutable]
+  asset index.ed25eed266b096645d4b.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.e15a6796b4360e01c25f.hot-update.js 21.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.e15a6796b4360e01c25f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.9f9ee4a78fca11458bda.js 3.09 MiB index.331afffa5c3631af8461.hot-update.js 20.4 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.ed25eed266b096645d4b.js 3.1 MiB index.e15a6796b4360e01c25f.hot-update.js 21.3 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.06 KiB [built] [code generated] [1 error]
+./src/index.ts 7.39 KiB [built] [code generated] [5 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 475 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 97:5-6
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(97,6)
+      TS1313: The body of an 'if' statement cannot be the empty statement.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 1004 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.535c19d7738e0015b8c6.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.4714924bfe350be3dcb3.hot-update.js 20.6 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.4714924bfe350be3dcb3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.12 MiB [immutable]
+  asset index.269217171e17bd9e72fa.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.1d9908b15e9c12a6229d.hot-update.js 21.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.1d9908b15e9c12a6229d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.535c19d7738e0015b8c6.js 3.09 MiB index.4714924bfe350be3dcb3.hot-update.js 20.6 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.269217171e17bd9e72fa.js 3.1 MiB index.1d9908b15e9c12a6229d.hot-update.js 21.5 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.12 KiB [built] [code generated] [1 error]
+./src/index.ts 7.48 KiB [built] [code generated] [5 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 751 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.95c22833c21ae8a1af10.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.0f580ec6090850a36bfc.hot-update.js 20.5 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0f580ec6090850a36bfc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 97:5-6
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(97,6)
+      TS1313: The body of an 'if' statement cannot be the empty statement.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 106:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(106,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 785 ms
+assets by status 4.33 MiB [cached] 2 assets
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.95c22833c21ae8a1af10.js 3.09 MiB index.0f580ec6090850a36bfc.hot-update.js 20.5 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.269217171e17bd9e72fa.js 3.1 MiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 111 modules
+./src/index.ts 7.48 KiB [built] [5 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 97:5-6
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(97,6)
+      TS1313: The body of an 'if' statement cannot be the empty statement.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 106:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(106,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 204 ms
+assets by status 1.23 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.f0d8caaaeb137b657753.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.4efb96d7741eca72589e.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.4efb96d7741eca72589e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.2 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.23 MiB index.f0d8caaaeb137b657753.js 3.1 MiB index.4efb96d7741eca72589e.hot-update.js 21 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.11 KiB [built] [code generated] [1 error]
+./src/index.ts 7.3 KiB [built] [code generated] [4 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 501 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.cbc4affca8f4afedf47f.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.c8101805418d72ad8150.hot-update.js 20.6 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c8101805418d72ad8150.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 842 ms
+assets by info 4.8 MiB [immutable]
+  asset index.8e5389fc4bf87a94a1b8.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.46778a757d1d2e43c7ce.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.46778a757d1d2e43c7ce.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.23 MiB [emitted] (name: index)
 asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.cbc4affca8f4afedf47f.js 3.09 MiB index.c8101805418d72ad8150.hot-update.js 20.6 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+Entrypoint index 6.04 MiB = index.css 1.23 MiB index.8e5389fc4bf87a94a1b8.js 3.1 MiB index.46778a757d1d2e43c7ce.hot-update.js 1.71 MiB
+cached modules 389 KiB (javascript) 266 KiB (css/mini-extract) [cached] 93 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.14 KiB [built] [code generated] [1 error]
+modules by layer 784 KiB (javascript) 13.8 KiB (css/mini-extract)
+  code generated modules 724 KiB (javascript) 13.8 KiB (css/mini-extract) [code generated]
+    ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+    ./src/assets/css/player.css 355 bytes [built] [code generated]
+    css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
+  modules by path ./src/*.ts 59.5 KiB
+    ./src/index.ts 7.3 KiB [built] [4 errors]
+    ./src/NativeDOMDelegate.ts 52.2 KiB [built]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 475 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 1312 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.e1779a83ef6c8cf91970.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a18c3ca87cbfe15ae9a9.hot-update.js 20.3 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a18c3ca87cbfe15ae9a9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.e1779a83ef6c8cf91970.js 3.09 MiB index.a18c3ca87cbfe15ae9a9.hot-update.js 20.3 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+assets by info 3.1 MiB [immutable]
+  asset index.8a223fa8c1afac62926e.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.72a656f341b4cd38a765.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.72a656f341b4cd38a765.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.8a223fa8c1afac62926e.js 3.1 MiB index.72a656f341b4cd38a765.hot-update.js 690 bytes
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 98 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.03 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 515 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 235 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.f5877232dbf136598b5a.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a58a5156aa5d3e751630.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a58a5156aa5d3e751630.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.f5877232dbf136598b5a.js 3.09 MiB index.a58a5156aa5d3e751630.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+assets by info 3.1 MiB [immutable]
+  asset index.b3a5e9dcc67300a16ed2.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.5408ee93d7a51faa395e.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.5408ee93d7a51faa395e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.b3a5e9dcc67300a16ed2.js 3.1 MiB index.5408ee93d7a51faa395e.hot-update.js 690 bytes
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 98 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.25 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 743 ms
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 219 ms
 assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.09 MiB [immutable]
-  asset index.865d1655d289eafe88fa.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.9d488bfa23895dbb1676.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.9d488bfa23895dbb1676.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.865d1655d289eafe88fa.js 3.09 MiB index.9d488bfa23895dbb1676.hot-update.js 690 bytes
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+assets by info 3.1 MiB [immutable]
+  asset index.12a4eb3d31fc6b9804cd.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.10d9ed191d26281262ac.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.10d9ed191d26281262ac.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.23 MiB index.12a4eb3d31fc6b9804cd.js 3.1 MiB index.10d9ed191d26281262ac.hot-update.js 690 bytes
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 98 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.25 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 649 ms
-assets by status 4.32 MiB [cached] 2 assets
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.865d1655d289eafe88fa.js 3.09 MiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 111 modules
-./src/index.ts 7.25 KiB [built] [1 error]
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
       TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.76.3 compiled with 1 error in 115 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.879dfc844bd7446dc018.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.ad2b41d5410319d25893.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.ad2b41d5410319d25893.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.879dfc844bd7446dc018.js 3.09 MiB index.ad2b41d5410319d25893.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 161 ms
+assets by info 3.1 MiB [immutable]
+  asset index.73d325c85cd89f622397.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.c325b95b3b5b05c35ca2.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c325b95b3b5b05c35ca2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.24 MiB [emitted] (name: index)
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.24 MiB index.73d325c85cd89f622397.js 3.1 MiB index.c325b95b3b5b05c35ca2.hot-update.js 2.05 KiB
+cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.29 KiB [built] [code generated] [1 error]
+modules by layer 355 bytes (javascript) 13.8 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 503 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 1.55 MiB [immutable]
-  asset index.917533baa05b70619df3.js 1.39 MiB [emitted] [immutable] (name: index)
-  asset index.1f62fb0416e6f76165a8.hot-update.js 157 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.1f62fb0416e6f76165a8.hot-update.json 95 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 2.78 MiB = index.css 1.23 MiB index.917533baa05b70619df3.js 1.39 MiB index.1f62fb0416e6f76165a8.hot-update.js 157 KiB
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 327 ms
+assets by info 3.1 MiB [immutable]
+  asset index.a2534883ef49e70a8c2e.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.f2dac0085e304132765d.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f2dac0085e304132765d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.24 MiB [emitted] (name: index)
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.24 MiB index.a2534883ef49e70a8c2e.js 3.1 MiB index.f2dac0085e304132765d.hot-update.js 2.05 KiB
+cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
+runtime modules 30.2 KiB 14 modules
+modules by layer 355 bytes (javascript) 13.8 KiB (css/mini-extract)
+  ./src/assets/css/player.css 355 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 283 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.ae0b07624464763984bf.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.6b53a608e5f6fbd4fed7.hot-update.js 21.2 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6b53a608e5f6fbd4fed7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.ae0b07624464763984bf.js 3.1 MiB index.6b53a608e5f6fbd4fed7.hot-update.js 21.2 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.37 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 105:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(105,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 1279 ms
+assets by status 4.33 MiB [cached] 2 assets
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.24 MiB index.ae0b07624464763984bf.js 3.1 MiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 111 modules
+./src/index.ts 7.37 KiB [built] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 105:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(105,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 195 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 4.82 MiB [immutable]
+  asset index.f3d3a8b312b2526b8a6a.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.445e14baedd5b0cc42b3.hot-update.js 1.73 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.445e14baedd5b0cc42b3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 6.06 MiB = index.css 1.24 MiB index.f3d3a8b312b2526b8a6a.js 3.1 MiB index.445e14baedd5b0cc42b3.hot-update.js 1.73 MiB
 cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
 runtime modules 30.2 KiB 14 modules
-javascript modules 59.5 KiB
-  ./src/index.ts 7.29 KiB [built] [code generated] [1 error]
+javascript modules 783 KiB
+  ./src/index.ts 7.38 KiB [built] [code generated] [5 errors]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 104:18-59
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(104,19)
+      TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'HTMLInputElement'.
+  No index signature with a parameter of type 'number' was found on type 'HTMLInputElement'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 105:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(105,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 2265 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.e06a44ea140199b6c1b2.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.5e3bafb04c6f38a03163.hot-update.js 21.2 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5e3bafb04c6f38a03163.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.e06a44ea140199b6c1b2.js 3.1 MiB index.5e3bafb04c6f38a03163.hot-update.js 21.2 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.38 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 83:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 96:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 105:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(105,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 962 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.be90a76011060abb3c79.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.5fe49bab5ff4238e9d5a.hot-update.js 21.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5fe49bab5ff4238e9d5a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.be90a76011060abb3c79.js 3.1 MiB index.5fe49bab5ff4238e9d5a.hot-update.js 21.5 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.47 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 852 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.ede8668d6ae0a53ce7fd.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.a92875d3a9707d8f953a.hot-update.js 21.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.a92875d3a9707d8f953a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.ede8668d6ae0a53ce7fd.js 3.1 MiB index.a92875d3a9707d8f953a.hot-update.js 21.5 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.47 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 509 ms
+assets by path *.js 582 KiB
+  asset index.989d837480c5275442e1.js 581 KiB [emitted] [immutable] (name: index)
+  asset index.eef781619d07a04844bb.hot-update.js 1.3 KiB [emitted] [immutable] [hmr] (name: index)
+asset index.html 24.2 KiB [emitted]
+asset index.eef781619d07a04844bb.hot-update.json 4.13 KiB [emitted] [immutable] [hmr]
+Entrypoint index 582 KiB = index.989d837480c5275442e1.js 581 KiB index.eef781619d07a04844bb.hot-update.js 1.3 KiB
+cached modules 160 KiB [cached] 22 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.47 KiB [built] [code generated] [6 errors]
+
+ERROR in ./src/index.ts 65:76
+Module parse failed: Unexpected token (65:76)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| // On a touch device we will need special ways to show the on-screen keyboard.
+| if ('ontouchstart' in document.documentElement) {
+>     config.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window. ? MSStream : ;
+|     createOnScreenKeyboardHelpers(playerElement);
+| }
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:75-76
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,76)
+      TS1003: Identifier expected.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:84-85
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,85)
+      TS1005: ':' expected.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:76-84
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,77)
+      TS2304: Cannot find name 'MSStream'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 7 errors in 636 ms
+assets by status 581 KiB [cached] 1 asset
+asset index.html 24.2 KiB [emitted]
+cached modules 160 KiB (javascript) 30.2 KiB (runtime) [cached] 36 modules
+./src/index.ts 7.47 KiB [built] [6 errors]
+
+ERROR in ./src/index.ts 65:76
+Module parse failed: Unexpected token (65:76)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| // On a touch device we will need special ways to show the on-screen keyboard.
+| if ('ontouchstart' in document.documentElement) {
+>     config.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window. ? MSStream : ;
+|     createOnScreenKeyboardHelpers(playerElement);
+| }
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:75-76
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,76)
+      TS1003: Identifier expected.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:85-86
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,86)
+      TS1005: ':' expected.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:77-85
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,78)
+      TS2304: Cannot find name 'MSStream'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+6 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 7 errors in 401 ms
+assets by info 5.63 MiB [immutable]
+  asset index.e4972221a01566409de0.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.ea80f4a5798c6028b3cc.hot-update.js 2.53 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ea80f4a5798c6028b3cc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.24 MiB [emitted] (name: index)
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 6.86 MiB = index.css 1.24 MiB index.e4972221a01566409de0.js 3.1 MiB index.ea80f4a5798c6028b3cc.hot-update.js 2.53 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 783 KiB
+  ./src/index.ts 7.52 KiB [built] [code generated] [4 errors]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:76-84
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,77)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 1450 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.a783ca304903ba0034d6.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.c83f8de71787f6c2977b.hot-update.js 21.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c83f8de71787f6c2977b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.a783ca304903ba0034d6.js 3.1 MiB index.c83f8de71787f6c2977b.hot-update.js 21.5 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.47 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:75-83
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,76)
+      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 4 errors in 503 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.554d7f55c3d023cb11cb.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.b26583fccdd51dd7ae25.hot-update.js 21.5 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.b26583fccdd51dd7ae25.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.554d7f55c3d023cb11cb.js 3.1 MiB index.b26583fccdd51dd7ae25.hot-update.js 21.5 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.47 KiB [built] [code generated] [3 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 3 errors in 647 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 1.55 MiB [immutable]
+  asset index.978a13b39b924c5fc6fb.js 1.39 MiB [emitted] [immutable] (name: index)
+  asset index.272d4b6ca08261508d2e.hot-update.js 158 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.272d4b6ca08261508d2e.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 2.78 MiB = index.css 1.24 MiB index.978a13b39b924c5fc6fb.js 1.39 MiB index.272d4b6ca08261508d2e.hot-update.js 158 KiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 59.7 KiB
+  ./src/index.ts 7.47 KiB [built] [code generated] [3 errors]
   ./src/NativeDOMDelegate.ts 52.2 KiB [built] [code generated]
 
 LOG from webpack.FileSystemInfo
@@ -672,777 +1442,186 @@ LOG from webpack.FileSystemInfo
 
 ERROR in ./src/NativeDOMDelegate.ts 54:0-57
 Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
- @ ./src/index.ts 6:0-56 43:19-36
+ @ ./src/index.ts 6:0-56 46:19-36
 
 ERROR in ./src/index.ts 7:0-57
 Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+5 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 5 errors in 1398 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 4.96 MiB [immutable]
+  asset index.830d1055bdd07f8d9444.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.aca0f55cff03928b416c.hot-update.js 1.86 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.aca0f55cff03928b416c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 6.19 MiB = index.css 1.24 MiB index.830d1055bdd07f8d9444.js 3.1 MiB index.aca0f55cff03928b416c.hot-update.js 1.86 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+runtime modules 30.2 KiB 14 modules
+javascript modules 784 KiB
+  ./src/index.ts 7.47 KiB [code generated] [3 errors]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 109:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(109,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 3 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 
-webpack 5.76.3 compiled with 3 errors in 1100 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 4.93 MiB [immutable]
-  asset index.81e9e4f881c09d3df9ef.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.ac3943ad4bc821fd234a.hot-update.js 1.85 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.ac3943ad4bc821fd234a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.17 MiB = index.css 1.23 MiB index.81e9e4f881c09d3df9ef.js 3.09 MiB index.ac3943ad4bc821fd234a.hot-update.js 1.85 MiB
-cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
+webpack 5.76.3 compiled with 3 errors in 689 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.38ba233fb505aff08987.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.b9b98899b147a765cf90.hot-update.js 21.6 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.b9b98899b147a765cf90.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.38ba233fb505aff08987.js 3.1 MiB index.b9b98899b147a765cf90.hot-update.js 21.6 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-javascript modules 778 KiB
-  ./src/index.ts 7.29 KiB [built] [code generated] [1 error]
-  ./src/NativeDOMDelegate.ts 52.2 KiB [built] [code generated]
-  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 719 KiB [built] [code generated]
+./src/index.ts 7.51 KiB [built] [code generated] [3 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 1156 ms
-assets by info 3.09 MiB [immutable]
-  asset index.5da7fd5149c5a4daced0.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.5825fb259b71d7cb2281.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5825fb259b71d7cb2281.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.5da7fd5149c5a4daced0.js 3.09 MiB index.5825fb259b71d7cb2281.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:73-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,74)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 265 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.862a42a20c49a1f8dba0.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.090ae65a8a982c59318f.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.090ae65a8a982c59318f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.862a42a20c49a1f8dba0.js 3.09 MiB index.090ae65a8a982c59318f.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.27 KiB [built] [code generated] [1 error]
+./src/index.ts 100:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(100,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:70-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,71)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 110:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(110,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 1225 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.dc4d98f6f94290eb97f0.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.2f4a2cd70f30638a7953.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.2f4a2cd70f30638a7953.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.dc4d98f6f94290eb97f0.js 3.09 MiB index.2f4a2cd70f30638a7953.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.27 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 1144 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.b6701a9357fc50b43cd7.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a7dcfbe42ab027e7a618.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a7dcfbe42ab027e7a618.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.b6701a9357fc50b43cd7.js 3.09 MiB index.a7dcfbe42ab027e7a618.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 593 ms
-assets by path *.js 582 KiB
-  asset index.fbeda057cba5072a10d1.js 581 KiB [emitted] [immutable] (name: index)
-  asset index.3e3d7e47da0bc41689e4.hot-update.js 1.2 KiB [emitted] [immutable] [hmr] (name: index)
-asset index.html 24.2 KiB [emitted]
-asset index.3e3d7e47da0bc41689e4.hot-update.json 4.13 KiB [emitted] [immutable] [hmr]
-Entrypoint index 582 KiB = index.fbeda057cba5072a10d1.js 581 KiB index.3e3d7e47da0bc41689e4.hot-update.js 1.2 KiB
-cached modules 160 KiB [cached] 22 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.29 KiB [built] [code generated] [4 errors]
-
-ERROR in ./src/index.ts 89:5
-Module parse failed: Unexpected token (89:5)
-File was processed with these loaders:
- * ./node_modules/ts-loader/index.js
-You may need an additional loader to handle the result of these loaders.
-|         event.preventDefault();
-|     });
->      * /;
-|     if (document.getElementById('editTextButton') === null) {
-|         editTextButton = document.createElement('button');
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 113:7-8
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(113,8)
-      TS1109: Expression expected.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 113:9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(113,10)
-      TS1161: Unterminated regular expression literal.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 113:8-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(113,9)
-      TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
-
-4 errors have detailed information that is not shown.
+3 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 
-webpack 5.76.3 compiled with 5 errors in 446 ms
-assets by info 5.61 MiB [immutable]
-  asset index.ff78edd0a282d58e8732.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.df38be12ebc70704ef11.hot-update.js 2.52 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.df38be12ebc70704ef11.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.84 MiB = index.css 1.23 MiB index.ff78edd0a282d58e8732.js 3.09 MiB index.df38be12ebc70704ef11.hot-update.js 2.52 MiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+webpack 5.76.3 compiled with 3 errors in 733 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.c2ea841cd120f5982fe1.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.14e2cdf34324c95f96b2.hot-update.js 21.7 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.14e2cdf34324c95f96b2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.c2ea841cd120f5982fe1.js 3.1 MiB index.14e2cdf34324c95f96b2.hot-update.js 21.7 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
+./src/index.ts 7.55 KiB [built] [code generated] [3 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 650 ms
-assets by info 3.09 MiB [immutable]
-  asset index.981c2762708252e3db83.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.64900657bc90cd6ca701.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.64900657bc90cd6ca701.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.981c2762708252e3db83.js 3.09 MiB index.64900657bc90cd6ca701.hot-update.js 2.05 KiB
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 101:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(101,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 111:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(111,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
+
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 3 errors in 592 ms
+assets by info 3.1 MiB [immutable]
+  asset index.06be18ba634f4f458672.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.79e81d284589ddeafa23.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.79e81d284589ddeafa23.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.24 MiB [emitted] (name: index)
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.34 MiB = index.css 1.24 MiB index.06be18ba634f4f458672.js 3.1 MiB index.79e81d284589ddeafa23.hot-update.js 2.05 KiB
 cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
 runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
+modules by layer 355 bytes (javascript) 13.8 KiB (css/mini-extract)
   ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 341 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.ef9d9169c7f50c4420ea.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.0d932284cfdd1a0c2143.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0d932284cfdd1a0c2143.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.ef9d9169c7f50c4420ea.js 3.09 MiB index.0d932284cfdd1a0c2143.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
+./src/index.ts 87:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 540 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.67fee7eaf697c1125213.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.8a20aa87a2400cbe50ab.hot-update.js 21.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.8a20aa87a2400cbe50ab.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.67fee7eaf697c1125213.js 3.09 MiB index.8a20aa87a2400cbe50ab.hot-update.js 21.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.65 KiB [built] [code generated] [1 error]
+./src/index.ts 101:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(101,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 111:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(111,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 717 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.1b6634fea34679f5ca25.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.fa7708a3e9b14fd3cc4f.hot-update.js 21.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.fa7708a3e9b14fd3cc4f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.1b6634fea34679f5ca25.js 3.09 MiB index.fa7708a3e9b14fd3cc4f.hot-update.js 21.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.76.3 compiled with 3 errors in 444 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.5f242fd30449c7b16163.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.62a7d828577a927dd862.hot-update.js 21.4 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.62a7d828577a927dd862.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.5f242fd30449c7b16163.js 3.1 MiB index.62a7d828577a927dd862.hot-update.js 21.4 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
 runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.64 KiB [built] [code generated] [1 error]
+./src/index.ts 7.46 KiB [built] [code generated] [3 errors]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 560 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.da8ecf8ec55da1b0e2e7.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.542f902b7366a3e05d0f.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.542f902b7366a3e05d0f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.da8ecf8ec55da1b0e2e7.js 3.09 MiB index.542f902b7366a3e05d0f.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.3 KiB [built] [code generated] [1 error]
+./src/index.ts 83:11-16
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 594 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.88b6d1286d97952fad86.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.4e4a197a64e8474de860.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.4e4a197a64e8474de860.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.88b6d1286d97952fad86.js 3.09 MiB index.4e4a197a64e8474de860.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.29 KiB [built] [code generated] [1 error]
+./src/index.ts 97:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(97,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+./src/index.ts 107:13-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(107,14)
+      TS2339: Property 'isIOS' does not exist on type 'Config'.
 
-webpack 5.76.3 compiled with 1 error in 590 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.f0377661ddae0aed6f82.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.e450765af4fa284ccb63.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.e450765af4fa284ccb63.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.f0377661ddae0aed6f82.js 3.09 MiB index.e450765af4fa284ccb63.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
+3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 507 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.e17e1d6b4ee51b74c3d4.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.af2d5f6f712c730dcb06.hot-update.js 22.7 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.af2d5f6f712c730dcb06.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.e17e1d6b4ee51b74c3d4.js 3.09 MiB index.af2d5f6f712c730dcb06.hot-update.js 22.7 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.96 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 689 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.a36b211850cb6751db61.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.c100fcdd2076088784ab.hot-update.js 22.6 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c100fcdd2076088784ab.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.a36b211850cb6751db61.js 3.09 MiB index.c100fcdd2076088784ab.hot-update.js 22.6 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.91 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 561 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.be7fe5707383d01c40f8.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.72c85fd6e65e22085740.hot-update.js 22.6 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.72c85fd6e65e22085740.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.be7fe5707383d01c40f8.js 3.09 MiB index.72c85fd6e65e22085740.hot-update.js 22.6 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.91 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 506 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.5f19c35175f9b2eeaa91.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a81f310c98e3c304cd78.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a81f310c98e3c304cd78.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.5f19c35175f9b2eeaa91.js 3.09 MiB index.a81f310c98e3c304cd78.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 480 ms
-assets by info 3.09 MiB [immutable]
-  asset index.8e413c6c0e22c6b88b7e.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.17103afc2ad6ccd75eca.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.17103afc2ad6ccd75eca.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.8e413c6c0e22c6b88b7e.js 3.09 MiB index.17103afc2ad6ccd75eca.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 276 ms
-assets by info 3.09 MiB [immutable]
-  asset index.033e9ced82b7fde36cbe.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.bcd024284a6da9bb4bf6.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.bcd024284a6da9bb4bf6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.033e9ced82b7fde36cbe.js 3.09 MiB index.bcd024284a6da9bb4bf6.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 298 ms
-assets by info 3.09 MiB [immutable]
-  asset index.e8361052bd7fdf8f68d4.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.bb7f4afc5e656bf78867.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.bb7f4afc5e656bf78867.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.e8361052bd7fdf8f68d4.js 3.09 MiB index.bb7f4afc5e656bf78867.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 345 ms
-assets by info 3.09 MiB [immutable]
-  asset index.ad35f1448599e38e9132.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.73e228052fa69c2179bf.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.73e228052fa69c2179bf.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.ad35f1448599e38e9132.js 3.09 MiB index.73e228052fa69c2179bf.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 323 ms
-assets by info 3.09 MiB [immutable]
-  asset index.63ae1f228d82eacd8de7.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a34167f726eff736d477.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a34167f726eff736d477.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.63ae1f228d82eacd8de7.js 3.09 MiB index.a34167f726eff736d477.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 313 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.738776277aa1d547403f.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.2532aba3b43aace1954f.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.2532aba3b43aace1954f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.738776277aa1d547403f.js 3.09 MiB index.2532aba3b43aace1954f.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 1120 ms
-assets by info 3.09 MiB [immutable]
-  asset index.0dcaa7334ba852964334.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.6538f03289a5571dd49e.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6538f03289a5571dd49e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.0dcaa7334ba852964334.js 3.09 MiB index.6538f03289a5571dd49e.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 270 ms
-assets by info 3.09 MiB [immutable]
-  asset index.f1d27fb5cddd51f23938.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.f437e1339a070fc66e3e.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.f437e1339a070fc66e3e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.f1d27fb5cddd51f23938.js 3.09 MiB index.f437e1339a070fc66e3e.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 300 ms
-assets by info 3.09 MiB [immutable]
-  asset index.3c46f53aebb2294ce293.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.ab4187b92eaf54b9d198.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.ab4187b92eaf54b9d198.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.3c46f53aebb2294ce293.js 3.09 MiB index.ab4187b92eaf54b9d198.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 305 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.24378b346321ffa2e958.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.43b07e91bda9f2bb2ba4.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.43b07e91bda9f2bb2ba4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.24378b346321ffa2e958.js 3.09 MiB index.43b07e91bda9f2bb2ba4.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 854 ms
-assets by info 3.09 MiB [immutable]
-  asset index.9fba6493b78d14ce8331.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.88990befca77702acb7a.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.88990befca77702acb7a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.9fba6493b78d14ce8331.js 3.09 MiB index.88990befca77702acb7a.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 373 ms
-assets by info 3.09 MiB [immutable]
-  asset index.39d93aff3af7fa43a5d0.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.067884d12770d0dbd1c2.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.067884d12770d0dbd1c2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.39d93aff3af7fa43a5d0.js 3.09 MiB index.067884d12770d0dbd1c2.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 446 ms
-assets by info 3.09 MiB [immutable]
-  asset index.c3a81d6d4cbb9db161de.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.7fbf957f7c231172d3d8.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7fbf957f7c231172d3d8.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.c3a81d6d4cbb9db161de.js 3.09 MiB index.7fbf957f7c231172d3d8.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 349 ms
-assets by info 3.09 MiB [immutable]
-  asset index.94a80f199cfd088ec00f.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.e20a3731d7e8be05536a.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.e20a3731d7e8be05536a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.94a80f199cfd088ec00f.js 3.09 MiB index.e20a3731d7e8be05536a.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 227 ms
-assets by info 3.09 MiB [immutable]
-  asset index.937fed3e3d3601617529.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.a54f3e1c0102bc6f2c22.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a54f3e1c0102bc6f2c22.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.937fed3e3d3601617529.js 3.09 MiB index.a54f3e1c0102bc6f2c22.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 373 ms
-assets by info 3.09 MiB [immutable]
-  asset index.fb296e166467ed328646.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.19483a2f3648fdaa3192.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.19483a2f3648fdaa3192.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.fb296e166467ed328646.js 3.09 MiB index.19483a2f3648fdaa3192.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 228 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.5b1020458cae8e7f51fd.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.9ae88f7eb92ccc6c9601.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.9ae88f7eb92ccc6c9601.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.5b1020458cae8e7f51fd.js 3.09 MiB index.9ae88f7eb92ccc6c9601.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 978 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.b047da0bb8f9a9aaa5bd.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.1580a795a3d12c2791b1.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.1580a795a3d12c2791b1.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.b047da0bb8f9a9aaa5bd.js 3.09 MiB index.1580a795a3d12c2791b1.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 819 ms
-assets by info 3.09 MiB [immutable]
-  asset index.19446c96ef85e3a76191.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.7f0ec3541bd5f99805d3.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7f0ec3541bd5f99805d3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.19446c96ef85e3a76191.js 3.09 MiB index.7f0ec3541bd5f99805d3.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 498 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.5c2dd923b86c3b116964.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.5c40d46a15187fe59e57.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5c40d46a15187fe59e57.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.5c2dd923b86c3b116964.js 3.09 MiB index.5c40d46a15187fe59e57.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 821 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.771d4dfedb80a6065b28.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.0dbcac83fd44653898d3.hot-update.js 21.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0dbcac83fd44653898d3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.771d4dfedb80a6065b28.js 3.09 MiB index.0dbcac83fd44653898d3.hot-update.js 21.1 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
+webpack 5.76.3 compiled with 3 errors in 1074 ms
+modules
 ./src/index.ts 7.32 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts

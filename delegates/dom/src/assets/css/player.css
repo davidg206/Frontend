@@ -504,6 +504,13 @@ img#playButton {
 	opacity: 0;
 }
 
+#otherInput {
+	position:absolute;
+	z-index:50;
+	top:10%;
+	display: none;
+}
+
 #editTextButton {
 	position: relative;
 	height: 28px;

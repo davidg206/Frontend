@@ -10,6 +10,8 @@ export class Config {
 	// start the video muted
 	startVideoMuted = false;
 
+	isIOS = false;
+
 	// mobile user
 	isMobile = false
 

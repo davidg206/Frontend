@@ -80,12 +80,11 @@ function CreateConfig(signalingAddress: string, playerElement: HTMLDivElement) {
 
 // On a touch device we will need special ways to show the on-screen keyboard.
 if ('ontouchstart' in document.documentElement) {
+    config.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !('MSStream' in window);
     createOnScreenKeyboardHelpers(playerElement);
 }
 
 function createOnScreenKeyboardHelpers(htmlElement: HTMLDivElement) {
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
     let hiddenInput: HTMLInputElement = null;
     let editTextButton: HTMLButtonElement = null;
     if (document.getElementById('hiddenInput') === null) {
@@ -94,14 +93,18 @@ function createOnScreenKeyboardHelpers(htmlElement: HTMLDivElement) {
         //hiddenInput.maxLength = 0;
 	hiddenInput.type = 'text';
 	hiddenInput.autocomplete = "off";
-	if (!isIOS)
+	hiddenInput.autocapitalize = "off";
+	if (!config.isIOS)
 	    hiddenInput.style.width = "0px";
         htmlElement.appendChild(hiddenInput);
     }
 
     hiddenInput.addEventListener('input', (event: InputEvent) => {
-	const lastChar: string = hiddenInput.value.trim().slice(-1);
-	if (!isIOS && event.inputType != 'deleteContentBackward')
+	(document.getElementById('otherInput') as HTMLInputElement).value = hiddenInput.value;
+	console.log(hiddenInput.value);
+	const lastChar = hiddenInput.value[hiddenInput.value.length - 1];
+	hiddenInput.value = '';
+	if (!config.isIOS && event.inputType != 'deleteContentBackward')
 	    document.onkeypress(new KeyboardEvent("keypress", { charCode: lastChar.charCodeAt(0) }));
     });
 	

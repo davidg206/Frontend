@@ -84,7 +84,7 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		this.uiController = new UiController(this.videoPlayer);
 		this.uiController.setUpMouseAndFreezeFrame = (element: HTMLDivElement) => this.setUpMouseAndFreezeFrame(element);
 
-		this.dataChannelController = new DataChannelController(this.videoPlayer);
+		this.dataChannelController = new DataChannelController(this.videoPlayer, this.config);
 		this.dataChannelController.handleOnOpen = () => this.handleDataChannelConnected();
 		this.dataChannelController.onLatencyTestResult = (latencyTestResults: LatencyTestResults) => this.handleLatencyTestResult(latencyTestResults);
 		this.dataChannelController.onVideoEncoderAvgQP = (AvgQP: number) => this.handleVideoEncoderAvgQP(AvgQP);
