@@ -303,7 +303,7 @@ export class DataChannelController {
     showOnScreenKeyboard(command: any) {
 	let hiddenInput = DataChannelController.hiddenInput;
         if (command.showOnScreenKeyboard) {
-            if (true) { // this.config.isIOS
+            if (this.isIOS) { // this.isIOS
                 // Show the 'edit text' button.
                 DataChannelController.editTextButton.classList.remove('hiddenState');
                 // Place the 'edit text' button near the UE input widget.
@@ -316,13 +316,11 @@ export class DataChannelController {
 	        //this.focusAndOpenKeyboard(DataChannelController.hiddenInput);
 	        DataChannelController.hiddenInput.focus();
 	    }
-	    //hiddenInput.setSelectionRange(hiddenInput.value.length, hiddenInput.value.length);
         } else {
             // Hide the 'edit text' button.
             DataChannelController.editTextButton.classList.add('hiddenState');
             // Hide the on-screen keyboard.
             DataChannelController.hiddenInput.blur();
-	    DataChannelController.hiddenInput.value = '';
         }
     }
 

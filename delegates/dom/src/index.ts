@@ -100,10 +100,10 @@ function createOnScreenKeyboardHelpers(htmlElement: HTMLDivElement) {
     }
 
     hiddenInput.addEventListener('input', (event: InputEvent) => {
-	(document.getElementById('otherInput') as HTMLInputElement).value = hiddenInput.value;
-	console.log(hiddenInput.value);
-	const lastChar = hiddenInput.value[hiddenInput.value.length - 1];
-	hiddenInput.value = '';
+	if (hiddenInput.value.length > 1) {
+	    hiddenInput.value = hiddenInput.value.slice(1);
+	}
+	const lastChar = hiddenInput.value[0];
 	if (!config.isIOS && event.inputType != 'deleteContentBackward')
 	    document.onkeypress(new KeyboardEvent("keypress", { charCode: lastChar.charCodeAt(0) }));
     });

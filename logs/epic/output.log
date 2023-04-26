@@ -2,10 +2,10 @@
 > sps-delegate-dom@0.1.0 serve
 > webpack serve "--env" "WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/epic/ws" "--port" "6223"
 
-asset index.5dcfab787a6506bc5c26.js 3.09 MiB [emitted] [immutable] (name: index)
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.5dcfab787a6506bc5c26.js 3.09 MiB
+asset index.ee13bab2a83993958322.js 3.1 MiB [emitted] [immutable] (name: index)
+asset index.css 1.24 MiB [emitted] (name: index)
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.24 MiB index.ee13bab2a83993958322.js 3.1 MiB
 runtime modules 30.2 KiB 14 modules
 javascript modules 1.14 MiB 93 modules
 css modules 280 KiB
@@ -13,287 +13,230 @@ css modules 280 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-grid.min.css 50.1 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 4.54 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 52.2 KiB [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 14330 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 4.78 MiB [immutable]
-  asset index.fe1b9e40d22d840fe074.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.00ed2f1627d5ee42db0a.hot-update.js 1.69 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.00ed2f1627d5ee42db0a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.01 MiB = index.css 1.23 MiB index.fe1b9e40d22d840fe074.js 3.08 MiB index.00ed2f1627d5ee42db0a.hot-update.js 1.69 MiB
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 29020 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 3.12 MiB [immutable]
+  asset index.ab434e9c0aa5954c81aa.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.c91076669acd8b912f75.hot-update.js 21.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c91076669acd8b912f75.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.35 MiB = index.css 1.24 MiB index.ab434e9c0aa5954c81aa.js 3.1 MiB index.c91076669acd8b912f75.hot-update.js 21.3 KiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
+runtime modules 30.2 KiB 14 modules
+./src/index.ts 7.41 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 2923 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 1.55 MiB [immutable]
+  asset index.6b84e4a65e82791c6d09.js 1.39 MiB [emitted] [immutable] (name: index)
+  asset index.734abc202895017e13e9.hot-update.js 157 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.734abc202895017e13e9.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 2.78 MiB = index.css 1.24 MiB index.6b84e4a65e82791c6d09.js 1.39 MiB index.734abc202895017e13e9.hot-update.js 157 KiB
 cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
 runtime modules 30.2 KiB 14 modules
-javascript modules 778 KiB
-  ./src/index.ts 7.24 KiB [built] [code generated] [1 error]
+javascript modules 59.6 KiB
+  ./src/index.ts 7.41 KiB [built] [code generated]
   ./src/NativeDOMDelegate.ts 52.2 KiB [built] [code generated]
-  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 718 KiB [built] [code generated]
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
 
-webpack 5.76.3 compiled with 1 error in 3365 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.08 MiB [immutable]
-  asset index.f26dec4fa3dafaa3df9e.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.2375e86c0b21fd405330.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.2375e86c0b21fd405330.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.f26dec4fa3dafaa3df9e.js 3.08 MiB index.2375e86c0b21fd405330.hot-update.js 690 bytes
-cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) [cached] 98 modules
-runtime modules 30.2 KiB 14 modules
+ERROR in ./src/NativeDOMDelegate.ts 54:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 6:0-56 43:19-36
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
+ERROR in ./src/index.ts 7:0-57
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
 
-webpack 5.76.3 compiled with 1 error in 123 ms
-assets by info 3.09 MiB [immutable]
-  asset index.70cf917a17c50a6b717f.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.b8e549e27a2e9f4c9d17.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b8e549e27a2e9f4c9d17.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.70cf917a17c50a6b717f.js 3.08 MiB index.b8e549e27a2e9f4c9d17.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 386 ms
-assets by info 3.09 MiB [immutable]
-  asset index.67f01af805040f625b76.js 3.08 MiB [emitted] [immutable] (name: index)
-  asset index.3c42bcf6635bb544e960.hot-update.js 2.05 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.3c42bcf6635bb544e960.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.67f01af805040f625b76.js 3.08 MiB index.3c42bcf6635bb544e960.hot-update.js 2.05 KiB
-cached modules 1.14 MiB (javascript) 266 KiB (css/mini-extract) [cached] 96 modules
-runtime modules 30.2 KiB 14 modules
-modules by layer 355 bytes (javascript) 13.7 KiB (css/mini-extract)
-  ./src/assets/css/player.css 355 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 415 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 4.8 MiB [immutable]
-  asset index.7eeb80325ef78ed639ec.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.5447f97f66efe6fded36.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5447f97f66efe6fded36.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.03 MiB = index.css 1.23 MiB index.7eeb80325ef78ed639ec.js 3.09 MiB index.5447f97f66efe6fded36.hot-update.js 1.71 MiB
+webpack 5.76.3 compiled with 2 errors in 1167 ms
+assets by status 1.24 MiB [cached] 1 asset
+assets by info 4.95 MiB [immutable]
+  asset index.da905e7f61ba40dc991f.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.434999a460a6099e7833.hot-update.js 1.86 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.434999a460a6099e7833.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 6.19 MiB = index.css 1.24 MiB index.da905e7f61ba40dc991f.js 3.1 MiB index.434999a460a6099e7833.hot-update.js 1.86 MiB
 cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
 runtime modules 30.2 KiB 14 modules
-javascript modules 778 KiB
-  ./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
-  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 719 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 2476 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.0532e7baafc304699174.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.94412f3f8ddb7c9d2d15.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.94412f3f8ddb7c9d2d15.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.0532e7baafc304699174.js 3.09 MiB index.94412f3f8ddb7c9d2d15.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 831 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.d260785fc526bce91edb.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.64f19f9fe524dd596f71.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.64f19f9fe524dd596f71.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.d260785fc526bce91edb.js 3.09 MiB index.64f19f9fe524dd596f71.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 845 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.4926a4c3ecd659d56fac.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.710207e9b486276d9f0a.hot-update.js 21 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.710207e9b486276d9f0a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.4926a4c3ecd659d56fac.js 3.09 MiB index.710207e9b486276d9f0a.hot-update.js 21 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.28 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 965 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.88db968e4f3ad2ac8193.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.3ca609b7bf67b07c5558.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.3ca609b7bf67b07c5558.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.88db968e4f3ad2ac8193.js 3.09 MiB index.3ca609b7bf67b07c5558.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 587 ms
-assets by status 4.32 MiB [cached] 2 assets
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.32 MiB = index.css 1.23 MiB index.88db968e4f3ad2ac8193.js 3.09 MiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 111 modules
-./src/index.ts 7.24 KiB [built] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 148 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 3.11 MiB [immutable]
-  asset index.e0f498a0b2eaa5b4ea45.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.b54c7f1fc15f9d962e09.hot-update.js 20.9 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b54c7f1fc15f9d962e09.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 4.34 MiB = index.css 1.23 MiB index.e0f498a0b2eaa5b4ea45.js 3.09 MiB index.b54c7f1fc15f9d962e09.hot-update.js 20.9 KiB
-cached modules 1.13 MiB (javascript) 280 KiB (css/mini-extract) [cached] 97 modules
-runtime modules 30.2 KiB 14 modules
-./src/index.ts 7.24 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 87:74-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(87,75)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-ts-loader-default_e3b0c44298fc1c14
-
-webpack 5.76.3 compiled with 1 error in 582 ms
-assets by status 1.23 MiB [cached] 1 asset
-assets by info 4.82 MiB [immutable]
-  asset index.aa04ebf56e564c474bc3.js 3.09 MiB [emitted] [immutable] (name: index)
-  asset index.d66e026ebb98d7547d71.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.d66e026ebb98d7547d71.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.05 MiB = index.css 1.23 MiB index.aa04ebf56e564c474bc3.js 3.09 MiB index.d66e026ebb98d7547d71.hot-update.js 1.72 MiB
-cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
-runtime modules 30.2 KiB 14 modules
-javascript modules 782 KiB
-  ./src/index.ts 7.26 KiB [built] [code generated] [4 errors]
-  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+javascript modules 783 KiB
+  ./src/index.ts 7.41 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built] [code generated]
   ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 723 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 83:11-16
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
-      TS2339: Property 'isIOS' does not exist on type 'Config'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 83:75-83
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 96:13-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
-      TS2339: Property 'isIOS' does not exist on type 'Config'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 103:13-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(103,14)
-      TS2339: Property 'isIOS' does not exist on type 'Config'.
-
-4 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.76.3 compiled with 4 errors in 2006 ms
+webpack 5.76.3 compiled successfully in 1320 ms
+assets by status 1.24 MiB [cached] 1 asset
 assets by info 4.8 MiB [immutable]
-  asset index.f3e0f92cc38e9d469e0a.js 3.1 MiB [emitted] [immutable] (name: index)
-  asset index.5564f04cc09b511b950b.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5564f04cc09b511b950b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.23 MiB [emitted] (name: index)
-asset index.html 24.2 KiB [emitted]
-Entrypoint index 6.04 MiB = index.css 1.23 MiB index.f3e0f92cc38e9d469e0a.js 3.1 MiB index.5564f04cc09b511b950b.hot-update.js 1.71 MiB
-cached modules 389 KiB (javascript) 266 KiB (css/mini-extract) [cached] 93 modules
+  asset index.835c623b8bbc2995fb26.js 3.1 MiB [emitted] [immutable] (name: index)
+  asset index.5434ca26069bc3207a79.hot-update.js 1.71 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5434ca26069bc3207a79.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 6.04 MiB = index.css 1.24 MiB index.835c623b8bbc2995fb26.js 3.1 MiB index.5434ca26069bc3207a79.hot-update.js 1.71 MiB
+cached modules 389 KiB (javascript) 280 KiB (css/mini-extract) [cached] 95 modules
 runtime modules 30.2 KiB 14 modules
-modules by layer 783 KiB (javascript) 13.7 KiB (css/mini-extract)
-  code generated modules 724 KiB (javascript) 13.7 KiB (css/mini-extract) [code generated]
-    ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 723 KiB [built] [code generated]
-    ./src/assets/css/player.css 355 bytes [built] [code generated]
-    css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.7 KiB [built] [code generated]
-  modules by path ./src/*.ts 59.5 KiB
-    ./src/index.ts 7.26 KiB [built] [4 errors]
-    ./src/NativeDOMDelegate.ts 52.2 KiB [built]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 83:11-16
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,12)
-      TS2339: Property 'isIOS' does not exist on type 'Config'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 83:75-83
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(83,76)
-      TS2339: Property 'MSStream' does not exist on type 'Window & typeof globalThis'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 96:13-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(96,14)
-      TS2339: Property 'isIOS' does not exist on type 'Config'.
+javascript modules 783 KiB
+  ./src/index.ts 7.41 KiB [built]
+  ./src/NativeDOMDelegate.ts 52.2 KiB [built]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 724 KiB [built] [code generated]
+webpack 5.76.3 compiled successfully in 1745 ms
+assets by status 4.33 MiB [cached] 2 assets
+asset index.html 24.3 KiB [emitted]
+Entrypoint index 4.33 MiB = index.css 1.24 MiB index.835c623b8bbc2995fb26.js 3.1 MiB
+cached modules 1.14 MiB (javascript) 280 KiB (css/mini-extract) 30.2 KiB (runtime) [cached] 112 modules
+webpack 5.76.3 compiled successfully in 99 ms
+ does not exist on type 'Config'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
 ./src/index.ts 103:13-18
