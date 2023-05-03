@@ -303,7 +303,7 @@ export class DataChannelController {
     showOnScreenKeyboard(command: any) {
 	let hiddenInput = DataChannelController.hiddenInput;
         if (command.showOnScreenKeyboard) {
-            if (this.isIOS) { // this.isIOS
+            if (true) { // this.isIOS
                 // Show the 'edit text' button.
                 DataChannelController.editTextButton.classList.remove('hiddenState');
                 // Place the 'edit text' button near the UE input widget.

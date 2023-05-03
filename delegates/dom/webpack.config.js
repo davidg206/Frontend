@@ -69,6 +69,7 @@ module.exports = (env) => {
     },
     resolve: {
       extensions: ['.tsx', '.ts', '.d.ts', '.js', '.svg'],
+      fallback: { "https": require.resolve("https-browserify"), "http": require.resolve("stream-http") }
     },
     output: {
       filename: '[name].[contenthash].js',

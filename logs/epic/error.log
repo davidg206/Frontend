@@ -2,3 +2,24 @@
 <i> [webpack-dev-server] Loopback: http://localhost:6223/
 <i> [webpack-dev-server] Content not from webpack is served from '/home/david/Frontend/delegates/dom/public' directory
 <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Promise (/home/david/Frontend/delegates/dom/node_modules/webpack-dev-server/lib/Server.js:3328:23)
+    at new Promise (<anonymous>)
+    at Server.start (/home/david/Frontend/delegates/dom/node_modules/webpack-dev-server/lib/Server.js:3326:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:834:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! sps-delegate-dom@0.1.0 serve: `webpack serve "--env" "WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/epic/ws" "--port" "1212"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the sps-delegate-dom@0.1.0 serve script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2023-04-27T00_31_08_064Z-debug.log
+ is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2023-04-27T00_31_02_057Z-debug.log

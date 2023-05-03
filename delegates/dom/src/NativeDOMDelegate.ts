@@ -2,6 +2,9 @@ import './assets/css/player.css';
 import playButton from './assets/images/Play.png';
 import { EventEmitter } from "events";
 import * as libspsfrontend from 'backend-dom-components'
+import * as fs from 'fs';
+import https from 'https';
+import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
 /**
  * Class for the base overlay structure 
@@ -402,6 +405,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	statsContainer = document.getElementById("statisticsContainer") as HTMLDivElement;
 	latencyContainer = document.getElementById("latencyTestContainer") as HTMLDivElement;
 
+	appName: string;
+
 	constructor(config: libspsfrontend.Config) {
 		super(config);
 		this.showStats = true;
@@ -426,14 +431,45 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		setTimeout(function() {
 			let noteText: HTMLDivElement = document.querySelector('.loadingNote');
 			noteText.style.opacity = '1';
-			if (document.getElementById('bubble').innerHTML == "Loading...")
+			if (document.getElementById('bubble').innerHTML == "Loading")
 				noteText.innerHTML = 'Please refresh if the experience does not load after 30 seconds.';
 		}, 17000);
 	}
 
-	updateVideoStreamSize() {
-		(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).ueDescriptorUi.sendUpdateVideoStreamSize(500, 500);
+	updateVideoStreamSize(x: number, y: number) {
+		(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).ueDescriptorUi.sendUpdateVideoStreamSize(x, y);
 	}
+
+        writeToVolume(orientationString: string) {
+          const options = {
+              method: 'POST',
+              hostname: 'prophet.palatialxr.com',
+              port: 3000,
+              path: '/save',
+              headers: {
+                  'Content-Type': 'application/json'
+              }
+          };
+          const data = {
+              filename: '/mnt/pvc/from_file_server.txt',
+              data: 'This is some example data to save.'
+          };
+          const req = https.request(options, (
+              res) => {
+                  console.log(
+                      `statusCode: ${res.statusCode}`
+                      );
+                  res.on('data', (d) => {
+                      process.stdout
+                          .write(d);
+                  });
+              });
+          req.on('error', (error) => {
+              console.error(error);
+          });
+          req.write(JSON.stringify(data));
+          req.end();
+        }
 
 	/**
 	 * Builds the disconnect overlay 
@@ -624,7 +660,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		// build the spinner span
 		var spinnerSpan: HTMLSpanElement = document.createElement('span');
 		spinnerSpan.className = "visually-hidden"
-		spinnerSpan.innerHTML = "Loading..."
+		spinnerSpan.innerHTML = "Loading"
 
 		// build the spinner div
 		var spinnerDiv: HTMLDivElement = document.createElement('div');
@@ -751,7 +787,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				container.addEventListener('transitionend', () => {
 					container.style.display = 'none';
 					container.style.opacity = '0';
-					bubbleText.innerHTML = "Loading...";
+					bubbleText.innerHTML = "Loading";
 					noteText.style.opacity = '0';
 
 					let video: HTMLElement = document.getElementById('streamingVideo');
@@ -760,6 +796,21 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 					video.style.pointerEvents = 'auto';
 					document.getElementById('playerUI').style.pointerEvents = "auto";
 				});
+
+                                if (this.appName == "dev" && this.config.isMobile) {
+                                  let currentOrientation = window.orientation;
+				  this.writeToVolume(currentOrientation === 90 ? "landscape" : "portrait");
+                                  window.addEventListener("orientationchange", () => {
+                                    let newOrientation = window.orientation;
+                                    if (newOrientation !== currentOrientation) {
+                                      console.log("Orientation has changed");
+                                      currentOrientation = newOrientation;
+                                      let orientationString = newOrientation === 90 ? "landscape" : "portrait";
+                                      this.writeToVolume(orientationString);
+                                      console.log(`Orientation saved to file: ${orientationString}`);
+                                    }
+                                  });
+                                }
 
 				container.style.opacity = '0';				
 				document.body.removeEventListener('click', fadeOutLoader);
@@ -1050,7 +1101,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		video.style.opacity = '0';
 		bubble.style.display = 'none';
 		bubble.style.pointerEvents = 'none';
-		document.querySelector('.loadingText').innerHTML = "Loading...";
+		document.querySelector('.loadingText').innerHTML = "Loading";
 		document.body.onclick = null;
 	}
 

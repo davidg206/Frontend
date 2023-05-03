@@ -3,13 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import 'bootstrap/dist/css/bootstrap-reboot.min.css'
 import 'bootstrap/dist/css/bootstrap-utilities.min.css'
-import { InstanceCustomisationPluginClientImpl, UpdateRuntimeOptionsResponse, UpdateRuntimeOptionsRequest, RuntimeOptions } from "./proto/customisation";
 import { NativeDOMDelegate } from "./NativeDOMDelegate";
 import * as libspsfrontend from 'backend-dom-components';
 import * as fs from 'fs';
-import * as protobuf from 'protobufjs';
-import { spawn } from 'child_process';
-import { grpc } from "@improbable-eng/grpc-web";
 
 // set the logger level
 //libspsfrontend.Logger.SetLoggerVerbosity(10);
@@ -57,6 +53,7 @@ config.afkTimeout = 600;
 config.fakeMouseWithTouches = false;
 // Create a Native DOM delegate instance that implements the Delegate interface class
 let delegate = new NativeDOMDelegate(config);
+delegate.appName = app;
 
 // Create and return a new webRtcPlayerController instance 
 let RTCPlayer = create(config, delegate);
