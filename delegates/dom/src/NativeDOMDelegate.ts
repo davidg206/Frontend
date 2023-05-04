@@ -441,34 +441,30 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	}
 
         writeToVolume(orientationString: string) {
-          const options = {
-              method: 'POST',
-              hostname: 'prophet.palatialxr.com',
-              port: 3000,
-              path: '/save',
-              headers: {
-                  'Content-Type': 'application/json'
-              }
-          };
-          const data = {
-              filename: '/mnt/pvc/from_file_server.txt',
-              data: 'This is some example data to save.'
-          };
-          const req = https.request(options, (
-              res) => {
-                  console.log(
-                      `statusCode: ${res.statusCode}`
-                      );
-                  res.on('data', (d) => {
-                      process.stdout
-                          .write(d);
-                  });
-              });
-          req.on('error', (error) => {
-              console.error(error);
-          });
-          req.write(JSON.stringify(data));
-          req.end();
+            const data = {
+                filename: '/mnt/pvc/from_file_server.txt',
+                data: 'This is some example data to save.'
+            };
+
+            fetch('https://prophet.palatialxr.com:3000/save', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => {
+                    console.log(
+                        `statusCode: ${response.status}`
+                        );
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
         }
 
 	/**
@@ -797,7 +793,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 					document.getElementById('playerUI').style.pointerEvents = "auto";
 				});
 
-                                if (this.appName == "dev" && this.config.isMobile) {
+                                if (this.appName == "prophet" && this.config.isMobile) {
                                   let currentOrientation = window.orientation;
 				  this.writeToVolume(currentOrientation === 90 ? "landscape" : "portrait");
                                   window.addEventListener("orientationchange", () => {
