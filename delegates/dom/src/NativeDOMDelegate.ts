@@ -440,10 +440,10 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).ueDescriptorUi.sendUpdateVideoStreamSize(x, y);
 	}
 
-        writeToVolume(orientationString: string) {
+        writeToVolume(file: string, message: string) {
             const data = {
-                filename: '/mnt/pvc/from_file_server.txt',
-                data: 'This is some example data to save.'
+                filename: file,
+                data: message
             };
 
             fetch('https://prophet.palatialxr.com:3000/save', {
@@ -794,15 +794,17 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				});
 
                                 if (this.appName == "prophet" && this.config.isMobile) {
+				  let filename = '/mnt/pvc/orientation.txt';
                                   let currentOrientation = window.orientation;
-				  this.writeToVolume(currentOrientation === 90 ? "landscape" : "portrait");
+				  console.log(currentOrientation);
+				  this.writeToVolume(filename, (currentOrientation === 90 || currentOrientation === -90) ? "landscape" : "portrait");
                                   window.addEventListener("orientationchange", () => {
-                                    let newOrientation = window.orientation;
+                                    let newOrientation = window.orientation; console.log(newOrientation);
                                     if (newOrientation !== currentOrientation) {
-                                      console.log("Orientation has changed");
+                                      console.log("Orientation has changed: " + newOrientation);
                                       currentOrientation = newOrientation;
-                                      let orientationString = newOrientation === 90 ? "landscape" : "portrait";
-                                      this.writeToVolume(orientationString);
+                                      let orientationString = (newOrientation === 90 || newOrientation === -90) ? "landscape" : "portrait";
+                                      this.writeToVolume(filename, orientationString);
                                       console.log(`Orientation saved to file: ${orientationString}`);
                                     }
                                   });
