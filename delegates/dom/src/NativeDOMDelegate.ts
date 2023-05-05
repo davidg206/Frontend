@@ -440,7 +440,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).ueDescriptorUi.sendUpdateVideoStreamSize(x, y);
 	}
 
-        writeToVolume(file: string, message: string) {
+        write(file: string, message: string) {
             const data = {
                 filename: file,
                 data: message
@@ -797,14 +797,14 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 				  let filename = '/mnt/pvc/orientation.txt';
                                   let currentOrientation = window.orientation;
 				  console.log(currentOrientation);
-				  this.writeToVolume(filename, (currentOrientation === 90 || currentOrientation === -90) ? "landscape" : "portrait");
+				  this.write(filename, (currentOrientation === 90 || currentOrientation === -90) ? "landscape" : "portrait");
                                   window.addEventListener("orientationchange", () => {
                                     let newOrientation = window.orientation; console.log(newOrientation);
                                     if (newOrientation !== currentOrientation) {
                                       console.log("Orientation has changed: " + newOrientation);
                                       currentOrientation = newOrientation;
                                       let orientationString = (newOrientation === 90 || newOrientation === -90) ? "landscape" : "portrait";
-                                      this.writeToVolume(filename, orientationString);
+                                      this.write(filename, orientationString);
                                       console.log(`Orientation saved to file: ${orientationString}`);
                                     }
                                   });
