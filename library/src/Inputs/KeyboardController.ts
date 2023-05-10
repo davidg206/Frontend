@@ -1,6 +1,7 @@
 import { SpecialKeyCodes } from "./SpecialKeyCodes";
 import { DataChannelController } from "../DataChannel/DataChannelController";
 import { UeInputKeyboardMessage } from "../UeInstanceMessage/UeInputKeyboardMessage";
+import { UeDescriptorUi } from "../UeInstanceMessage/UeDescriptorUi";
 import { Logger } from "../Logger/Logger";
 
 /**
@@ -8,6 +9,7 @@ import { Logger } from "../Logger/Logger";
  */
 export class KeyboardController {
     ueInputKeyBoardMessage: UeInputKeyboardMessage;
+    ueDescriptorUi: UeDescriptorUi;
     suppressBrowserKeys: boolean;
 
     /**
@@ -15,8 +17,9 @@ export class KeyboardController {
      * @param dataChannelController - Data Channel Controller
      * @param suppressBrowserKeys - Suppress Browser Keys
      */
-    constructor(dataChannelController: DataChannelController, suppressBrowserKeys: boolean) {
+    constructor(dataChannelController: DataChannelController, ueDescriptorUi: UeDescriptorUi, suppressBrowserKeys: boolean) {
         this.ueInputKeyBoardMessage = new UeInputKeyboardMessage(dataChannelController);
+	this.ueDescriptorUi = ueDescriptorUi;
         this.suppressBrowserKeys = suppressBrowserKeys;
     }
 
@@ -36,18 +39,24 @@ export class KeyboardController {
      * @param keyboardEvent - Keyboard event 
      */
     handleOnKeyDown(keyboardEvent: KeyboardEvent) {
-	if (keyboardEvent.ctrlKey && keyboardEvent.key == 'v') {
-		const self = this;
-		navigator.clipboard.readText().then(text => {
-			for (let i = 0; i < text.length; i++) {
-				const char = text.charAt(i);
-				const key = char.charCodeAt(0);
-				self.ueInputKeyBoardMessage.sendKeyDown(key, keyboardEvent.repeat);
-				document.onkeypress(new KeyboardEvent("keypress", { charCode: key }));
-			}
-		}).catch(err => {
-			console.error('Failed to read clipboard contents: ', err);
-		});
+	if (keyboardEvent.ctrlKey) {
+		if (keyboardEvent.key == 'v') {
+			const self = this;
+			navigator.clipboard.readText().then(text => {
+				for (let i = 0; i < text.length; i++) {
+					const char = text.charAt(i);
+					const key = char.charCodeAt(0);
+					self.ueInputKeyBoardMessage.sendKeyDown(key, keyboardEvent.repeat);
+					document.onkeypress(new KeyboardEvent("keypress", { charCode: key }));
+				}
+			}).catch(err => {
+				console.error('Failed to read clipboard contents: ', err);
+			});
+		}
+		if (keyboardEvent.key == 'c') {
+			console.log('copy');
+			this.ueDescriptorUi.sendUiInteraction("requestInputSelection");
+		}
 	} else {
 		const key = keyboardEvent.key;
 		if (key == 'Unidentified') {
@@ -55,7 +64,6 @@ export class KeyboardController {
 		}
 		this.ueInputKeyBoardMessage.sendKeyDown(this.getKeycode(keyboardEvent), keyboardEvent.repeat);
 
-		/* this needs to be tested but it is believed that this is not needed*/
 		// backSpace is not considered a keypress in JavaScript but we need it
 		// to be so characters may be deleted in a UE4 text entry field.
 		if (keyboardEvent.keyCode === SpecialKeyCodes.backSpace) {

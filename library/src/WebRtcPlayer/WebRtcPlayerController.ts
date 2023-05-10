@@ -425,10 +425,11 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		// show the connected overlay 
 		this.delegate.onWebRtcConnected();
 
-		this.inputController = new InputController(this.dataChannelController, this.videoPlayer);
+		this.inputController = new InputController(this.dataChannelController, null, this.videoPlayer);
 
 		this.ueControlMessage = new UeControlMessage(this.dataChannelController);
 		this.ueDescriptorUi = new UeDescriptorUi(this.dataChannelController, this.config);
+		this.inputController.ueDescriptorUi = this.ueDescriptorUi;
 
 		this.activateRegisterMouse()
 		this.inputController.registerKeyBoard(this.config.suppressBrowserKeys);

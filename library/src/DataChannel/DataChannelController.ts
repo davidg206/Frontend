@@ -278,10 +278,18 @@ export class DataChannelController {
      */
     onResponse(message: Uint8Array) {
         Logger.Log(Logger.GetStackTrace(), "DataChannelReceiveMessageType.Response", 6);
-        let responses = new TextDecoder("utf-16").decode(message.slice(1));
-        Logger.Log(Logger.GetStackTrace(), responses, 6);
-        //add to response handlers 
-	console.log("onResponse: " + JSON.parse(responses));
+        let response = new TextDecoder("utf-16").decode(message.slice(1));
+        Logger.Log(Logger.GetStackTrace(), response, 6);
+        // add to response handlers 
+	/*for (let listener of responseEventListeners.values()) {
+		listener(response);
+	}*/
+
+	const t = JSON.parse(response);
+	if (t.name == 'selectedText') {
+		navigator.clipboard.writeText(t.data);
+	}
+	//console.log("onResponse: " + JSON.parse(response));
     }
 
     /**

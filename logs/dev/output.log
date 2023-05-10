@@ -2,21 +2,21 @@
 > sps-delegate-dom@0.1.0 serve
 > webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/dev/ws --port 3030
 
-asset index.0414825475ae8f1d3104.js 3.13 MiB [emitted] [immutable] (name: index)
+asset index.1e225249b8857cc790af.js 3.13 MiB [emitted] [immutable] (name: index)
 asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 24.3 KiB [emitted]
-Entrypoint index 4.54 MiB = index.css 1.42 MiB index.0414825475ae8f1d3104.js 3.13 MiB
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.55 MiB = index.css 1.42 MiB index.1e225249b8857cc790af.js 3.13 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
-javascript modules 1.15 MiB 97 modules
+javascript modules 1.16 MiB 97 modules
 css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap.min.css 191 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-grid.min.css 52 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+webpack 5.81.0 compiled successfully in 5571 ms
+rc/NativeDOMDelegate.ts
 ./src/NativeDOMDelegate.ts 457:22-27
 [tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(457,23)
       TS2304: Cannot find name 'https'.
