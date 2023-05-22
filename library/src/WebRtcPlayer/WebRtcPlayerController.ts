@@ -430,7 +430,7 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		this.ueControlMessage = new UeControlMessage(this.dataChannelController);
 		this.ueDescriptorUi = new UeDescriptorUi(this.dataChannelController, this.config);
 		this.inputController.ueDescriptorUi = this.ueDescriptorUi;
-
+		console.log("connected");
 		this.activateRegisterMouse()
 		this.inputController.registerKeyBoard(this.config.suppressBrowserKeys);
 		this.inputController.registerGamePad();

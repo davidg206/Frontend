@@ -184,5 +184,9 @@ export class UeDescriptorUi extends UeDescriptor {
         }
         this.sendUiInteraction(JSON.stringify(payload));
     }
+
+    sendCommand(payload: Record<string, any>) {
+	this.sendUiInteraction(JSON.stringify(payload));
+    }
 }
 

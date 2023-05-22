@@ -286,6 +286,7 @@ export class DataChannelController {
 	}*/
 
 	const t = JSON.parse(response);
+	console.log(response);
 	if (t.name == 'selectedText') {
 		navigator.clipboard.writeText(t.data);
 	}

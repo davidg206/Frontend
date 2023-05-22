@@ -55,7 +55,10 @@ export class KeyboardController {
 		}
 		if (keyboardEvent.key == 'c') {
 			console.log('copy');
-			this.ueDescriptorUi.sendUiInteraction("requestInputSelection");
+			this.ueDescriptorUi.sendUiConsoleInteraction("requestInputSelection");
+		}
+		if (this.getKeycode(keyboardEvent) == SpecialKeyCodes.backSpace) {
+			// clear input box
 		}
 	} else {
 		const key = keyboardEvent.key;

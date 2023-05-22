@@ -151,3 +151,23 @@ function zoomIn() {
   // Set the new scale value using the transform property.
   document.body.style.transform = `scale(${newScale})`;
 }
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'F2') {
+        let element = document.getElementById('stats-panel');
+        let transformValue = element.style.transform;
+
+        if (transformValue === '' || transformValue === 'none') {
+          element.style.transform = 'translateX(0%)';
+        } else {
+          element.style.transform = '';
+        }
+        let connection : HTMLElement = document.getElementById('connection');
+        console.log(connection.style.display);
+        if (connection.style.display === '' || connection.style.display === 'none') {
+          connection.style.display = 'flex';
+        } else {
+          connection.style.display = 'none';
+        }
+      }
+    });

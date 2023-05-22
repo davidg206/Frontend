@@ -251,7 +251,7 @@ canvas {
 	left: 2%;
 	font-family: 'Michroma', sans-serif;
 	pointer-events: all;
-	display: flex;
+	display: none;
 }
 
 #controls>* {
@@ -272,7 +272,7 @@ canvas {
 #fullscreen-btn {
 	padding: 0.6rem !important;
 	background-color: var(--colour4);
-	display: none;
+	/*display: none;*/
 }
 
 object {
@@ -280,13 +280,13 @@ object {
 }
 
 #minimizeIcon {
-	display: none;
+	/*display: none;*/
 }
 
 #settingsBtn,
 #statsBtn {
 	cursor: pointer;
-	display: none;
+	display: flex;
 }
 
 #uiFeatures button {
@@ -299,7 +299,7 @@ object {
 	padding: 0.5rem;
 	text-align: center;
 	top: 20px;
-	right: 20px;
+	/*right: 20px;*/
 }
 
 #uiFeatures button:hover {
@@ -345,7 +345,7 @@ object {
 }
 
 .panel {
-	color: black; /* #eee */
+	color: #eee;
 	overflow-y: auto;
 	padding: 1em;
 }
@@ -791,7 +791,7 @@ section> :first-child {
 #streamToolsSettings,
 #streamToolsStats {
 	font-size: 1em;
-	display: none;
+	/*display: none;*/
 }
 
 /* STREAM TOOLS */
