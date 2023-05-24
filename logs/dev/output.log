@@ -2,10 +2,10 @@
 > sps-delegate-dom@0.1.0 serve
 > webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/dev/ws --port 3030
 
-asset index.535b8bc408775123ba35.js 3.14 MiB [emitted] [immutable] (name: index)
+asset index.e22e44f9ebf13ec404cc.js 3.14 MiB [emitted] [immutable] (name: index)
 asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.55 MiB = index.css 1.42 MiB index.535b8bc408775123ba35.js 3.14 MiB
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.e22e44f9ebf13ec404cc.js 3.14 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
 javascript modules 1.16 MiB 97 modules
@@ -14,520 +14,442 @@ css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-grid.min.css 52 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 3481 ms
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 6666 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 4.86 MiB [immutable]
-  asset index.b799d5bdf9b66a603b0d.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.9cd44683a55765cda68b.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.9cd44683a55765cda68b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 6.27 MiB = index.css 1.42 MiB index.b799d5bdf9b66a603b0d.js 3.14 MiB index.9cd44683a55765cda68b.hot-update.js 1.72 MiB
-cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+assets by info 3.26 MiB [immutable]
+  asset index.c66454dd605ccee74b17.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.7f5566076c897073caf6.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7f5566076c897073caf6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.c66454dd605ccee74b17.js 3.14 MiB index.7f5566076c897073caf6.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 785 KiB
-  ./src/index.ts 8.54 KiB [built] [code generated] [1 error]
-  ./src/NativeDOMDelegate.ts 49.5 KiB [built] [code generated] [17 errors]
-  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 727 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 4:32-56
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(4,33)
-      TS2306: File '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/types/index.d.ts' is not a module.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 480:57-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(480,58)
-      TS2339: Property 'onDisconnectionAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 536:7-24
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(536,8)
-      TS2551: Property 'disconnectOverlay' does not exist on type 'NativeDOMDelegate'. Did you mean 'buildDisconnectOverlay'?
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 549:54-69
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(549,55)
-      TS2339: Property 'onConnectAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 562:7-21
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(562,8)
-      TS2339: Property 'connectOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 575:65-77
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(575,66)
-      TS2339: Property 'onPlayAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 591:7-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(591,8)
-      TS2339: Property 'playOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 602:50-61
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(602,51)
-      TS2339: Property 'onAfkAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 614:7-17
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(614,8)
-      TS2339: Property 'afkOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 631:7-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(631,8)
-      TS2339: Property 'infoOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 649:7-19
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(649,8)
-      TS2339: Property 'errorOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 669:7-22
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(669,8)
-      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 719:8-24
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(719,9)
-      TS2339: Property 'showErrorOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 756:8-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(756,9)
-      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 767:52-64
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(767,53)
-      TS2339: Property 'onPlayAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 863:8-24
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(863,9)
-      TS2339: Property 'showErrorOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 865:8-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(865,9)
-      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 7:32-56
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(7,33)
-      TS2306: File '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/types/index.d.ts' is not a module.
-
-18 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 18 errors in 922 ms
+javascript modules 58.9 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 1000 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.6a70f7ed0ce96d1a6906.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b259c80d9ca3b88ce377.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.b259c80d9ca3b88ce377.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.55 MiB = index.css 1.42 MiB index.6a70f7ed0ce96d1a6906.js 3.14 MiB index.b259c80d9ca3b88ce377.hot-update.js 690 bytes
-cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+assets by info 3.26 MiB [immutable]
+  asset index.4158c3da1d7bca4fcad2.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.7866384d10851e77f76f.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7866384d10851e77f76f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.4158c3da1d7bca4fcad2.js 3.14 MiB index.7866384d10851e77f76f.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
 runtime modules 30.4 KiB 14 modules
-webpack 5.81.0 compiled successfully in 493 ms
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 977 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.1487505b8ab731457a7c.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.9350da2ecd6b53074aa4.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.9350da2ecd6b53074aa4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.55 MiB = index.css 1.42 MiB index.1487505b8ab731457a7c.js 3.14 MiB index.9350da2ecd6b53074aa4.hot-update.js 690 bytes
-cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+assets by info 3.26 MiB [immutable]
+  asset index.30089b7414950d38021f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.70f8597233e8f2c08f4b.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.70f8597233e8f2c08f4b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.30089b7414950d38021f.js 3.14 MiB index.70f8597233e8f2c08f4b.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
 runtime modules 30.4 KiB 14 modules
-webpack 5.81.0 compiled successfully in 194 ms
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 714 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.789aedf2081b85fdf1a7.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.5e466ecaea7754215ae3.hot-update.js 24.2 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5e466ecaea7754215ae3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.789aedf2081b85fdf1a7.js 3.14 MiB index.5e466ecaea7754215ae3.hot-update.js 24.2 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+assets by info 3.26 MiB [immutable]
+  asset index.b1bd32a7dd37ce671fab.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.7934318f966b4ee4c67d.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7934318f966b4ee4c67d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.b1bd32a7dd37ce671fab.js 3.14 MiB index.7934318f966b4ee4c67d.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 8.95 KiB [built] [code generated] [3 errors]
+javascript modules 59.1 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 788 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.8467522d65248163ea2c.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6563079a27732ad9d1db.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6563079a27732ad9d1db.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.8467522d65248163ea2c.js 3.14 MiB index.6563079a27732ad9d1db.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.1 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 677 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.f80e1d43fb0c5946b3c0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.71c758d8a44206ff86d4.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.71c758d8a44206ff86d4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.f80e1d43fb0c5946b3c0.js 3.14 MiB index.71c758d8a44206ff86d4.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.1 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 570 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.728f9dcaa1e911cb9972.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.1f16066ac950dd5ab6a5.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.1f16066ac950dd5ab6a5.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.728f9dcaa1e911cb9972.js 3.14 MiB index.1f16066ac950dd5ab6a5.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated] [1 error]
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 446:27-34
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(446,28)
+      TS2339: Property 'connect' does not exist on type 'IWebRtcPlayerController'.
+ts-loader-default_e3b0c44298fc1c14
+ @ ./src/index.ts 31:28-58
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 475 ms
+webpack 5.81.0 compiled with 1 error in 718 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.4ce121ddda111c1b2f0f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.9bb176a226d32760f252.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.9bb176a226d32760f252.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.4ce121ddda111c1b2f0f.js 3.14 MiB index.9bb176a226d32760f252.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 652 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.3c8c6ff2a4463f4e8592.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.8d02e9d2a31b9346d01f.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.8d02e9d2a31b9346d01f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.3c8c6ff2a4463f4e8592.js 3.14 MiB index.8d02e9d2a31b9346d01f.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 785 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.f22ec6a7f7fa397b1cf9.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0b5237f50cc1ab56e479.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0b5237f50cc1ab56e479.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.f22ec6a7f7fa397b1cf9.js 3.14 MiB index.0b5237f50cc1ab56e479.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 637 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.e7210ed87c50b2ebf6ef.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.f900bfc2233da9e01a0c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f900bfc2233da9e01a0c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.e7210ed87c50b2ebf6ef.js 3.14 MiB index.f900bfc2233da9e01a0c.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 793 ms
 assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.16 MiB [immutable]
-  asset index.3bd8851c5c10d8bd615e.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.41bb73960ec7951014b2.hot-update.js 24.2 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.41bb73960ec7951014b2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.3bd8851c5c10d8bd615e.js 3.14 MiB index.41bb73960ec7951014b2.hot-update.js 24.2 KiB
+  asset index.f314ce34a4a2e2825417.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0ec6ffb90c0f1050c12b.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0ec6ffb90c0f1050c12b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.f314ce34a4a2e2825417.js 3.14 MiB index.0ec6ffb90c0f1050c12b.hot-update.js 25.1 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 8.95 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 296 ms
-assets by info 3.14 MiB [immutable]
-  asset index.2ae21b64acb117c257d7.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b09ea4522ac57df740c2.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b09ea4522ac57df740c2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.2ae21b64acb117c257d7.js 3.14 MiB index.b09ea4522ac57df740c2.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 198 ms
-assets by info 3.14 MiB [immutable]
-  asset index.a4e1ec86d12b7efd1f6b.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.baea8ff944c845728a7a.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.baea8ff944c845728a7a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.a4e1ec86d12b7efd1f6b.js 3.14 MiB index.baea8ff944c845728a7a.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 192 ms
-assets by info 3.14 MiB [immutable]
-  asset index.ceb178e6619d5f305994.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.51a9b5d7e254daf5dfa3.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.51a9b5d7e254daf5dfa3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ceb178e6619d5f305994.js 3.14 MiB index.51a9b5d7e254daf5dfa3.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 228 ms
-assets by info 3.14 MiB [immutable]
-  asset index.7e131bdec1bf3cdddfdb.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.699b43d39e01734a9912.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.699b43d39e01734a9912.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.7e131bdec1bf3cdddfdb.js 3.14 MiB index.699b43d39e01734a9912.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 207 ms
-assets by info 3.14 MiB [immutable]
-  asset index.8c852ccf26ed9541b96f.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.0562838e37190cc4eaa8.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0562838e37190cc4eaa8.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.8c852ccf26ed9541b96f.js 3.14 MiB index.0562838e37190cc4eaa8.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 186 ms
-assets by info 3.14 MiB [immutable]
-  asset index.8601c40f36a5be1aee11.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.af8c12025187a66ba554.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.af8c12025187a66ba554.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.8601c40f36a5be1aee11.js 3.14 MiB index.af8c12025187a66ba554.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 221 ms
-assets by info 3.14 MiB [immutable]
-  asset index.dbdf55ebb8759371ab94.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b9c3b6858cbdb363fe32.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b9c3b6858cbdb363fe32.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.dbdf55ebb8759371ab94.js 3.14 MiB index.b9c3b6858cbdb363fe32.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 271 ms
-assets by info 3.14 MiB [immutable]
-  asset index.ff00b2a7d2c534bda563.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.5f58f553e0132c001d0f.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5f58f553e0132c001d0f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ff00b2a7d2c534bda563.js 3.14 MiB index.5f58f553e0132c001d0f.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.4 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 195 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.25ac98039fdabff2cb52.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.423b77381182e4d71adb.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.423b77381182e4d71adb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.25ac98039fdabff2cb52.js 3.14 MiB index.423b77381182e4d71adb.hot-update.js 690 bytes
-cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
-runtime modules 30.4 KiB 14 modules
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 225 ms
+./src/index.ts 9.29 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 350 ms
 assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.16 MiB [immutable]
-  asset index.cbef38391f495ee382d9.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.2c3c362b60cf2c74b271.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.2c3c362b60cf2c74b271.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.cbef38391f495ee382d9.js 3.14 MiB index.2c3c362b60cf2c74b271.hot-update.js 25.1 KiB
+  asset index.74a6336b7ec0fffef90b.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.a190fb1a7d623edc836d.hot-update.js 25 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.a190fb1a7d623edc836d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.74a6336b7ec0fffef90b.js 3.14 MiB index.a190fb1a7d623edc836d.hot-update.js 25 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.31 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
+./src/index.ts 9.26 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 348 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.4179301cdddb402750b5.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d1beaf65aca19fed44c0.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.d1beaf65aca19fed44c0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.4179301cdddb402750b5.js 3.14 MiB index.d1beaf65aca19fed44c0.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 653 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.3bda1c89b0596e805f30.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6110abd1bdfa3d83c67c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6110abd1bdfa3d83c67c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.3bda1c89b0596e805f30.js 3.14 MiB index.6110abd1bdfa3d83c67c.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 549 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.e41ec6cab4ac3ad2a0e6.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.80f96068126195ae6354.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.80f96068126195ae6354.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.e41ec6cab4ac3ad2a0e6.js 3.14 MiB index.80f96068126195ae6354.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.2 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 731 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.c6fe69b7ba9e51de78be.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.c9e7414b50573a3f25cd.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c9e7414b50573a3f25cd.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.c6fe69b7ba9e51de78be.js 3.14 MiB index.c9e7414b50573a3f25cd.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 571 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.99f8cf7fbc64cd899e18.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.9a0e980483040a0afd0d.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.9a0e980483040a0afd0d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.99f8cf7fbc64cd899e18.js 3.14 MiB index.9a0e980483040a0afd0d.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 784 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.a4466ae0209aec6624b0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.c54e96639c3086e23cbb.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.c54e96639c3086e23cbb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.a4466ae0209aec6624b0.js 3.14 MiB index.c54e96639c3086e23cbb.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 572 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.96ce9186fb59cd6d2afd.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0d5ed401ea372428a33e.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0d5ed401ea372428a33e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.96ce9186fb59cd6d2afd.js 3.14 MiB index.0d5ed401ea372428a33e.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 596 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.cdc378d774b4cec6400c.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.03c638112ac47a1c2977.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.03c638112ac47a1c2977.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.cdc378d774b4cec6400c.js 3.14 MiB index.03c638112ac47a1c2977.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 688 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.23d6a627cd7e8be71895.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.14eab2a4e5c05d08bc31.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.14eab2a4e5c05d08bc31.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.23d6a627cd7e8be71895.js 3.14 MiB index.14eab2a4e5c05d08bc31.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 549 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.7698b85aa1331381f5f8.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6d46c1c7b7fed265160a.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6d46c1c7b7fed265160a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.7698b85aa1331381f5f8.js 3.14 MiB index.6d46c1c7b7fed265160a.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 545 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.03a927df31ca850ebbaf.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.911a842e7eeb80b00c3d.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.911a842e7eeb80b00c3d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.03a927df31ca850ebbaf.js 3.14 MiB index.911a842e7eeb80b00c3d.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 576 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.72fa47af01cddfb1d727.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.11dbe01231ff0185c68c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.11dbe01231ff0185c68c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.72fa47af01cddfb1d727.js 3.14 MiB index.11dbe01231ff0185c68c.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 562 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.83f055ad125a247ebf87.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.5fc5c1255414ce6fb9ad.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5fc5c1255414ce6fb9ad.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.83f055ad125a247ebf87.js 3.14 MiB index.5fc5c1255414ce6fb9ad.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 660 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.1384c16f0bf6020f8bff.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.bec32ccbe2806bc54e1c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.bec32ccbe2806bc54e1c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.1384c16f0bf6020f8bff.js 3.14 MiB index.bec32ccbe2806bc54e1c.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 506 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.c911a311051ce7f242f5.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.ae9d0924c58fa4b8a691.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ae9d0924c58fa4b8a691.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.c911a311051ce7f242f5.js 3.14 MiB index.ae9d0924c58fa4b8a691.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 619 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.d91de367e91dba95dd10.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.4115a929fcc964e45a83.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.4115a929fcc964e45a83.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.d91de367e91dba95dd10.js 3.14 MiB index.4115a929fcc964e45a83.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 536 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.deb65f4328c2b77db86d.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.30d4a9280056bb3020b0.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.30d4a9280056bb3020b0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.deb65f4328c2b77db86d.js 3.14 MiB index.30d4a9280056bb3020b0.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.4 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 570 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.3dff61aecc32d07a33e3.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.67d650f0eaed6e800893.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.67d650f0eaed6e800893.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.3dff61aecc32d07a33e3.js 3.14 MiB index.67d650f0eaed6e800893.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 561 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.ddcc1dd6eaaf21f3199f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.2db589686bd4a0491298.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.2db589686bd4a0491298.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ddcc1dd6eaaf21f3199f.js 3.14 MiB index.2db589686bd4a0491298.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 644 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.27 MiB [immutable]
+  asset index.0cea4eb6ec2562264fab.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.62ab4003431d5496f370.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.62ab4003431d5496f370.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.0cea4eb6ec2562264fab.js 3.14 MiB index.62ab4003431d5496f370.hot-update.js 128 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 535 ms
+tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
       TS2339: Property 'style' does not exist on type 'Element'.
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
@@ -1148,1084 +1070,752 @@ javascript modules 785 KiB
   ./src/NativeDOMDelegate.ts 49.5 KiB [code generated]
   ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 727 KiB [built] [code generated]
 webpack 5.81.0 compiled successfully in 226 ms
-OMDelegate.ts
-./src/NativeDOMDelegate.ts 967:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(967,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 974:1-29
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(974,2)
-      TS2304: Cannot find name 'setUpControlSchemeTypeToggle'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 974:30-43
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(974,31)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 975:6-19
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(975,7)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 978:7-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(978,8)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 979:4-8
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(979,5)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 980:4-8
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(980,5)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 982:4-8
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(982,5)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 983:4-8
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(983,5)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 987:3-16
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(987,4)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 988:8-21
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(988,9)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 989:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(989,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 990:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(990,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 991:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(991,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 993:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(993,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 994:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(994,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 995:5-9
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(995,6)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1006:1-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1006,2)
-      TS2304: Cannot find name 'setUpToggleWithUrlParams'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1006:26-39
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1006,27)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1006:59-74
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1006,60)
-      TS2304: Cannot find name 'urlParameterKey'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1006:76-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1006,77)
-      TS2693: 'string' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1007:6-19
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1007,7)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1009:3-16
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1009,4)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1009:75-90
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1009,76)
-      TS2304: Cannot find name 'urlParameterKey'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1011:3-16
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1011,4)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1013:8-21
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1013,9)
-      TS2304: Cannot find name 'toggleElement'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1014:19-34
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1014,20)
-      TS2304: Cannot find name 'urlParameterKey'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1016:22-37
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1016,23)
-      TS2304: Cannot find name 'urlParameterKey'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1027:1-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1027,2)
-      TS2304: Cannot find name 'async'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1027:7-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1027,8)
-      TS2304: Cannot find name 'IsLinkSharingEnabled'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1034:1-19
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1034,2)
-      TS2304: Cannot find name 'onVideoInitialised'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1037:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1037,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1041:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1041,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1042:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1042,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1042:61-65
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1042,62)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1042:117-121
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1042,118)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1045:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1045,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1046:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1046,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1046:57-61
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1046,58)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1046:109-113
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1046,110)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1049:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1049,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1050:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1050,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1050:66-70
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1050,67)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1050:127-131
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1050,128)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1052:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1052,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1053:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1053,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1053:54-58
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1053,55)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1053:103-107
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1053,104)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1055:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1055,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1056:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1056,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1056:56-60
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1056,57)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1056:107-111
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1056,108)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1060:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1060,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1061:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1061,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1062:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1062,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1063:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1063,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1065:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1065,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1072:1-13
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1072,2)
-      TS2304: Cannot find name 'onDisconnect'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1072:14-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1072,15)
-      TS2304: Cannot find name 'eventText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1072:25-31
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1072,26)
-      TS2693: 'string' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1074:2-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1074,3)
-      TS2660: 'super' can only be referenced in members of derived classes or object literal expressions.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1074:24-33
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1074,25)
-      TS2304: Cannot find name 'eventText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1077:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1077,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1083:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1083,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1084:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1084,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1085:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1085,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1086:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1086,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1087:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1087,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1090:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1090,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1091:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1091,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1092:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1092,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1093:2-6
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1093,3)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1109:1-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1109,2)
-      TS2304: Cannot find name 'onInitialSettings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1109:19-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1109,20)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1110:6-14
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1110,7)
-      TS7006: Parameter 'settings' implicitly has an 'any' type.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1111:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1111,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1111:33-41
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1111,34)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1112:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1112,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1112:33-41
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1112,34)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1114:6-14
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1114,7)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1115:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1115,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1115:37-45
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1115,38)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1116:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1116,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1116:37-45
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1116,38)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1117:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1117,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1117:30-38
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1117,31)
-      TS2304: Cannot find name 'settings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1125:1-13
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1125,2)
-      TS2304: Cannot find name 'onVideoStats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1125:14-19
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1125,15)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1125:59-1138:14
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1125,60)
-      TS2349: This expression is not callable.
-  Type '{ let: any; runTime: string; statsText: any; inboundData: any; numberFormat: NumberFormat; netRTT: any; }' has no call signatures.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1126:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1126,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1126:38-42
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1126,39)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1127:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1127,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1128:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1128,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1128:20-24
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1128,21)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1128:37-42
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1128,38)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1131:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1131,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:15-20
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,16)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:77-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,78)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:92-97
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,93)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:136-148
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,137)
-      TS2304: Cannot find name 'numberFormat'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1136:156-161
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1136,157)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1138:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1138,3)
-      TS18004: No value exists in scope for the shorthand property 'statsText'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1138:33-40
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1138,34)
-      TS2304: Cannot find name 'runTime'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1139:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1139,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1139:33-44
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1139,34)
-      TS2304: Cannot find name 'inboundData'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1140:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1140,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1140:37-42
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1140,38)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1141:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1141,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1141:39-44
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1141,40)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1142:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1142,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1143:12-17
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1143,13)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1143:68-73
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1143,69)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1143:106-111
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1143,107)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1143:163-168
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1143,164)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1144:16-21
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1144,17)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1144:59-64
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1144,60)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1146:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1146,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1146:39-44
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1146,40)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1146:97-109
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1146,98)
-      TS2304: Cannot find name 'numberFormat'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1146:117-122
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1146,118)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1147:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1147,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1147:37-42
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1147,38)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1147:93-105
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1147,94)
-      TS2304: Cannot find name 'numberFormat'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1147:113-118
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1147,114)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1148:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1148,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1148:34-39
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1148,35)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1149:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1149,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1149:39-44
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1149,40)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1150:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1150,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1150:37-43
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1150,38)
-      TS2304: Cannot find name 'netRTT'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1152:2-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1152,3)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1152:53-57
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1152,54)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1155:23-32
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1155,24)
-      TS2304: Cannot find name 'statsText'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1157:98-103
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1157,99)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1159:6-10
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1159,7)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1160:3-7
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1160,4)
-      TS2532: Object is possibly 'undefined'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1160:54-59
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1160,55)
-      TS2304: Cannot find name 'stats'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:1-12
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,2)
-      TS2304: Cannot find name 'formatBytes'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:13-18
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,14)
-      TS2304: Cannot find name 'bytes'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:20-26
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,21)
-      TS2693: 'number' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:28-36
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,29)
-      TS2304: Cannot find name 'decimals'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:38-44
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,39)
-      TS2693: 'number' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1169:47-53
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1169,48)
-      TS2693: 'string' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1170:6-11
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1170,7)
-      TS2304: Cannot find name 'bytes'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1175:13-21
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1175,14)
-      TS2304: Cannot find name 'decimals'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1175:32-40
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1175,33)
-      TS2304: Cannot find name 'decimals'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1178:32-37
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1178,33)
-      TS2304: Cannot find name 'bytes'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1187:1-20
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1187,2)
-      TS2304: Cannot find name 'onLatencyTestResult'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1187:21-35
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1187,22)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1188:67-81
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1188,68)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1189:2-5
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1189,3)
-      TS18004: No value exists in scope for the shorthand property 'let'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1190:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1190,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1190:59-73
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1190,60)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1191:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1191,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1191:53-67
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1191,54)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1192:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1192,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1192:54-68
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1192,55)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1193:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1193,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1193:64-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1193,65)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1194:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1194,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1194:27-41
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1194,28)
-      TS18004: No value exists in scope for the shorthand property 'latencyTimings'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1194:69-83
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1194,70)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1194:147-161
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1194,148)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1195:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1195,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1195:77-91
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1195,78)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1196:2-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1196,3)
-      TS18004: No value exists in scope for the shorthand property 'latencyStatsInnerHTML'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1196:27-41
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1196,28)
-      TS18004: No value exists in scope for the shorthand property 'latencyTimings'. Either declare one or provide an initializer.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1196:90-104
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1196,91)
-      TS2304: Cannot find name 'latencyTimings'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1200:61-82
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1200,62)
-      TS2304: Cannot find name 'latencyStatsInnerHTML'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1207:1-26
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1207,2)
-      TS2304: Cannot find name 'onQualityControlOwnership'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1207:27-46
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1207,28)
-      TS2304: Cannot find name 'hasQualityOwnership'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1207:48-55
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1207,49)
-      TS2693: 'boolean' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1208:49-68
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1208,50)
-      TS2304: Cannot find name 'hasQualityOwnership'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1215:1-20
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1215,2)
-      TS2304: Cannot find name 'onVideoEncoderAvgQP'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1215:21-23
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1215,22)
-      TS2304: Cannot find name 'QP'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1215:25-31
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1215,26)
-      TS2693: 'number' only refers to a type, but is being used as a value here.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 1216:40-42
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1216,41)
-      TS2304: Cannot find name 'QP'.
- @ ./src/index.ts 31:28-58
-
-374 errors have detailed information that is not shown.
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.afdc072bc7a5c97f8237.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.ac6fb27be1b7da9b13f1.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.ac6fb27be1b7da9b13f1.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.55 MiB = index.css 1.42 MiB index.afdc072bc7a5c97f8237.js 3.14 MiB index.ac6fb27be1b7da9b13f1.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 173 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.8444445f019330befad6.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.e818753647d8696669cb.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.e818753647d8696669cb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.55 MiB = index.css 1.42 MiB index.8444445f019330befad6.js 3.14 MiB index.e818753647d8696669cb.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 149 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.bd7668cfd81f9e5d14fd.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.646c4d34d4436ca9b2fa.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.646c4d34d4436ca9b2fa.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.55 MiB = index.css 1.42 MiB index.bd7668cfd81f9e5d14fd.js 3.14 MiB index.646c4d34d4436ca9b2fa.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 166 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.056795a1768adb7ba933.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.f5ba396774d1a43777e0.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.f5ba396774d1a43777e0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.55 MiB = index.css 1.42 MiB index.056795a1768adb7ba933.js 3.14 MiB index.f5ba396774d1a43777e0.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 127 ms
+assets by info 3.14 MiB [immutable]
+  asset index.691ee8f569828adad10f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.00060e719fb51da47604.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.00060e719fb51da47604.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.691ee8f569828adad10f.js 3.14 MiB index.00060e719fb51da47604.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.2 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.1 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 374 ms
+assets by info 3.14 MiB [immutable]
+  asset index.306ea7688e9395205504.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.f2b3126181aecc47f000.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.f2b3126181aecc47f000.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.306ea7688e9395205504.js 3.14 MiB index.f2b3126181aecc47f000.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.2 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.1 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 165 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.8748708830a4d4079a26.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.e18c533548a494978630.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.e18c533548a494978630.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.8748708830a4d4079a26.js 3.14 MiB index.e18c533548a494978630.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 264 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.da27541d0ae1375920d8.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.ce7e7c3300b7c7730a07.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.ce7e7c3300b7c7730a07.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.da27541d0ae1375920d8.js 3.14 MiB index.ce7e7c3300b7c7730a07.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 152 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.fc1861dd8e6321b3d182.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.827579427293fdfa1e82.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.827579427293fdfa1e82.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.fc1861dd8e6321b3d182.js 3.14 MiB index.827579427293fdfa1e82.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 115 ms
+assets by info 3.14 MiB [immutable]
+  asset index.71ec6f6139af7a348924.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6bbbaaa6d299c39441e1.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6bbbaaa6d299c39441e1.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.71ec6f6139af7a348924.js 3.14 MiB index.6bbbaaa6d299c39441e1.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.2 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.1 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 204 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.e9726c13f51af90d7ce8.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6c2d4c43da710fb098d5.hot-update.js 2.02 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6c2d4c43da710fb098d5.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.e9726c13f51af90d7ce8.js 3.14 MiB index.6c2d4c43da710fb098d5.hot-update.js 2.02 KiB
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 111 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.2 KiB [orphan] 1 module
+./src/assets/css/player.css 329 bytes [built] [code generated]
+webpack 5.81.0 compiled successfully in 118 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.ce939c943956c9ed155f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.1caaaf795188c1c88cfe.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.1caaaf795188c1c88cfe.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ce939c943956c9ed155f.js 3.14 MiB index.1caaaf795188c1c88cfe.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 96 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.b2f6bf9a7de2c94b776a.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.35174b3103b5e063999b.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.35174b3103b5e063999b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.b2f6bf9a7de2c94b776a.js 3.14 MiB index.35174b3103b5e063999b.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 106 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.18800d367b3598acfb6f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.5a848724da83eb08046c.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.5a848724da83eb08046c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.2 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.18800d367b3598acfb6f.js 3.14 MiB index.5a848724da83eb08046c.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 133 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.e4584105ba111c357334.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.da1f520d9f49faa00cd5.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.da1f520d9f49faa00cd5.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.2 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.e4584105ba111c357334.js 3.14 MiB index.da1f520d9f49faa00cd5.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 134 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.bb4d0d44dc80c2ebcb73.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.b3565e71f78331c4837b.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.b3565e71f78331c4837b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.bb4d0d44dc80c2ebcb73.js 3.14 MiB index.b3565e71f78331c4837b.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 152 ms
+assets by info 3.14 MiB [immutable]
+  asset index.ff07e32d16914f3669ae.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.fff97e777d090e600a95.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.fff97e777d090e600a95.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ff07e32d16914f3669ae.js 3.14 MiB index.fff97e777d090e600a95.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.3 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.1 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.1 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 210 ms
+assets by info 3.14 MiB [immutable]
+  asset index.266c2acfcd6d5da1e928.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.1fea32a82b1b1d50d940.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.1fea32a82b1b1d50d940.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.266c2acfcd6d5da1e928.js 3.14 MiB index.1fea32a82b1b1d50d940.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.4 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.2 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 204 ms
+assets by info 3.14 MiB [immutable]
+  asset index.11ef5794e199690923f1.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d99fd6ccb2ef6befacda.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.d99fd6ccb2ef6befacda.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.11ef5794e199690923f1.js 3.14 MiB index.d99fd6ccb2ef6befacda.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.4 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.2 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 190 ms
+assets by info 3.14 MiB [immutable]
+  asset index.3ce7d189d5fc310167d7.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.137a9f7b9dafa14c7a85.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.137a9f7b9dafa14c7a85.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.3ce7d189d5fc310167d7.js 3.14 MiB index.137a9f7b9dafa14c7a85.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.4 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.2 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 161 ms
+assets by info 3.14 MiB [immutable]
+  asset index.63dd99176245999f472f.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.e032201f89f1281bd551.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.e032201f89f1281bd551.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.css 1.42 MiB [emitted] (name: index)
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.63dd99176245999f472f.js 3.14 MiB index.e032201f89f1281bd551.hot-update.js 2.03 KiB
+cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+runtime modules 30.4 KiB 14 modules
+orphan modules 39.4 KiB [orphan] 1 module
+cacheable modules 329 bytes (javascript) 14.2 KiB (css/mini-extract)
+  ./src/assets/css/player.css 329 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 212 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 1.42 MiB [immutable]
+  asset index.2809444532e1073412b7.js 1.42 MiB [emitted] [immutable] (name: index)
+  asset index.4d79da7d961786bddaef.hot-update.js 1.19 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.4d79da7d961786bddaef.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 2.84 MiB = index.css 1.42 MiB index.2809444532e1073412b7.js 1.42 MiB index.4d79da7d961786bddaef.hot-update.js 1.19 KiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 39 bytes [built] [code generated] [1 error]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 8 hidden lines
+
+ERROR in ./node_modules/backend-dom-components/dist/libspsfrontend.min.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/dist/libspsfrontend.min.js'
+ @ ./src/index.ts 32:36-69
+
+webpack 5.81.0 compiled with 1 error in 84 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 4.86 MiB [immutable]
+  asset index.671dbb8cd8d51fd2a9b9.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.852d6684317907a2a7bc.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.852d6684317907a2a7bc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 6.27 MiB = index.css 1.42 MiB index.671dbb8cd8d51fd2a9b9.js 3.14 MiB index.852d6684317907a2a7bc.hot-update.js 1.72 MiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 727 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 10 hidden lines
+
+webpack 5.81.0 compiled successfully in 286 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.bb6133da792ed4fa7e16.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.925c4e39d40d7f26edd9.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.925c4e39d40d7f26edd9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.bb6133da792ed4fa7e16.js 3.14 MiB index.925c4e39d40d7f26edd9.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.5 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 853 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 1.57 MiB [immutable]
+  asset index.e3e817cae730d365bed9.js 1.42 MiB [emitted] [immutable] (name: index)
+  asset index.a3ed419682937338feca.hot-update.js 151 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.a3ed419682937338feca.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 2.99 MiB = index.css 1.42 MiB index.e3e817cae730d365bed9.js 1.42 MiB index.a3ed419682937338feca.hot-update.js 151 KiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.5 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/NativeDOMDelegate.ts 38:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 31:28-58
+
+ERROR in ./src/index.ts 32:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.81.0 compiled with 2 errors in 361 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 5 MiB [immutable]
+  asset index.746254e2dc8fc6426601.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.519fef6ea98181aee635.hot-update.js 1.86 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.519fef6ea98181aee635.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 6.42 MiB = index.css 1.42 MiB index.746254e2dc8fc6426601.js 3.14 MiB index.519fef6ea98181aee635.hot-update.js 1.86 MiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 786 KiB
+  ./src/index.ts 9.26 KiB [code generated]
+  ./src/NativeDOMDelegate.ts 49.5 KiB [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 727 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 301 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 1.42 MiB [immutable]
+  asset index.311e773b466c0809cb64.js 1.42 MiB [emitted] [immutable] (name: index)
+  asset index.0b68b47ead257e124bed.hot-update.js 1.19 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0b68b47ead257e124bed.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 2.84 MiB = index.css 1.42 MiB index.311e773b466c0809cb64.js 1.42 MiB index.0b68b47ead257e124bed.hot-update.js 1.19 KiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 39 bytes [built] [code generated] [1 error]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 8 hidden lines
+
+ERROR in ./node_modules/backend-dom-components/dist/libspsfrontend.min.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/dist/libspsfrontend.min.js'
+ @ ./src/index.ts 32:36-69
+
+webpack 5.81.0 compiled with 1 error in 114 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 4.86 MiB [immutable]
+  asset index.bddab8c7f9a5e5483c81.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.447ff47e3a6b82c81151.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.447ff47e3a6b82c81151.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 6.27 MiB = index.css 1.42 MiB index.bddab8c7f9a5e5483c81.js 3.14 MiB index.447ff47e3a6b82c81151.hot-update.js 1.72 MiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 727 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 10 hidden lines
+
+webpack 5.81.0 compiled successfully in 261 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.53d7f52c5c841fd76a93.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.9221feeff474b4cd17c7.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.9221feeff474b4cd17c7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.53d7f52c5c841fd76a93.js 3.14 MiB index.9221feeff474b4cd17c7.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.6 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 899 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.c67bedd7dd2043d9b9b1.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.332043325ec4cfd67a71.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.332043325ec4cfd67a71.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.c67bedd7dd2043d9b9b1.js 3.14 MiB index.332043325ec4cfd67a71.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.6 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 785 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.615185083684436a1bbb.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.4636855f5bd19d4edfe6.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.4636855f5bd19d4edfe6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.615185083684436a1bbb.js 3.14 MiB index.4636855f5bd19d4edfe6.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.9 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.6 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 539 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.203be50983c0551c5df0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d5b7b59207ab550231cb.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.d5b7b59207ab550231cb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.203be50983c0551c5df0.js 3.14 MiB index.d5b7b59207ab550231cb.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 416:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(416,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 440:13-24
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(440,14)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 441:4-17
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(441,5)
+      TS2552: Cannot find name 'WEBSOCKET_URL'. Did you mean 'WebSocket'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 1044:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1044,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+4 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 
-webpack 5.81.0 compiled with 375 errors in 669 ms
-assets by status 1.37 MiB [cached] 1 asset
-assets by info 3.01 MiB [immutable]
-  asset index.52ebe10928f35860a451.js 3 MiB [emitted] [immutable] (name: index)
-  asset index.07054c00bbe63a0a85cb.hot-update.js 1.32 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.07054c00bbe63a0a85cb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+webpack 5.81.0 compiled with 4 errors in 565 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.480e9b631408cf6616cd.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.409129811ce5f62bf8f2.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.409129811ce5f62bf8f2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.480e9b631408cf6616cd.js 3.14 MiB index.409129811ce5f62bf8f2.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.6 KiB [built] [code generated] [2 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 416:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(416,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ts-loader-default_e3b0c44298fc1c14
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 1039:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1039,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ts-loader-default_e3b0c44298fc1c14
+ @ ./src/index.ts 31:28-58
+
+webpack 5.81.0 compiled with 2 errors in 705 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.310257b5a1ee78479a5c.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.5d04eaff1d9f49f138b3.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5d04eaff1d9f49f138b3.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.310257b5a1ee78479a5c.js 3.14 MiB index.5d04eaff1d9f49f138b3.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated] [4 errors]
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 416:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(416,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 440:34-45
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(440,35)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 441:32-45
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(441,33)
+      TS2552: Cannot find name 'WEBSOCKET_URL'. Did you mean 'WebSocket'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 1044:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(1044,8)
+      TS2551: Property 'streamReady' does not exist on type 'NativeDOMDelegate'. Did you mean 'streamReader'?
+ @ ./src/index.ts 31:28-58
+
+4 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.81.0 compiled with 4 errors in 676 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.0d845fcfcf795ce20ab7.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.769228d96a22b060e0b5.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.769228d96a22b060e0b5.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.0d845fcfcf795ce20ab7.js 3.14 MiB index.769228d96a22b060e0b5.hot-update.js 690 bytes
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 441:32-45
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(441,33)
+      TS2552: Cannot find name 'WEBSOCKET_URL'. Did you mean 'WebSocket'?
+ts-loader-default_e3b0c44298fc1c14
+ @ ./src/index.ts 31:28-58
+
+webpack 5.81.0 compiled with 1 error in 476 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.7fc663d6e701f294abde.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.597e973b96ca55670c48.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.597e973b96ca55670c48.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.7fc663d6e701f294abde.js 3.14 MiB index.597e973b96ca55670c48.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 58.8 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.6 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 510 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.26 MiB [immutable]
+  asset index.e1ff481cb3cecb606b72.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.1e3786bf41b1d24cf921.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.1e3786bf41b1d24cf921.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.68 MiB = index.css 1.42 MiB index.e1ff481cb3cecb606b72.js 3.14 MiB index.1e3786bf41b1d24cf921.hot-update.js 127 KiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated] [1 error]
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 439:2-9
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(439,3)
+      TS1184: Modifiers cannot appear here.
+ts-loader-default_e3b0c44298fc1c14
+ @ ./src/index.ts 31:28-58
+
+webpack 5.81.0 compiled with 1 error in 584 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.9cc97b57c1163fc0b9a0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.e2f228c28ad3a6184caa.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.e2f228c28ad3a6184caa.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.9cc97b57c1163fc0b9a0.js 3.14 MiB index.e2f228c28ad3a6184caa.hot-update.js 690 bytes
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 763 ms
+assets by status 4.56 MiB [cached] 2 assets
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.9cc97b57c1163fc0b9a0.js 3.14 MiB
+cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) 30.4 KiB (runtime) [cached] 114 modules
+javascript modules 59 KiB
+  ./src/index.ts 9.26 KiB [built]
+  ./src/NativeDOMDelegate.ts 49.7 KiB [built]
+webpack 5.81.0 compiled successfully in 200 ms
+et index.07054c00bbe63a0a85cb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 24.3 KiB [emitted]
 Entrypoint index 4.38 MiB = index.css 1.37 MiB index.52ebe10928f35860a451.js 3 MiB index.07054c00bbe63a0a85cb.hot-update.js 1.32 KiB
 cached modules 1.1 MiB (javascript) 306 KiB (css/mini-extract) [cached] 98 modules

@@ -57,6 +57,7 @@ export class KeyboardController {
 			console.log('name');
 			this.ueDescriptorUi.sendUiInteraction(JSON.stringify({ "Name" : 'RandomName' }));
 		}
+
 		if (keyboardEvent.key == 'c') {
 			console.log('copy');
 			this.ueDescriptorUi.sendUiConsoleInteraction("requestInputSelection");

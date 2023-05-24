@@ -6,6 +6,8 @@ import * as fs from 'fs';
 import https from 'https';
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
+declare var WEBSOCKET_URL: string;
+
 /**
  * Class for the base overlay structure 
  */
@@ -351,6 +353,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	latencyStartTime: number;
 	videoStartTime: number;
 	mobileUser: boolean;
+	streamReady: boolean;
 
 	// instantiate the WebRtcPlayerControllers interface var 
 	iWebRtcController: libspsfrontend.IWebRtcPlayerController;
@@ -412,6 +415,7 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 		this.showStats = true;
 		this.videoQpIndicator = new VideoQpIndicator("connectionStrength", "qualityText", "outer", "middle", "inner", "dot");
 		this.fullScreenLogic = new FullScreenLogic();
+		this.streamReady = false;
 
 		// build all of the overlays 
 		this.buildDisconnectOverlay();
@@ -434,6 +438,15 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			if (document.getElementById('bubble').innerHTML == "Loading")
 				noteText.innerHTML = 'Please refresh if the experience does not load after 30 seconds.';
 		}, 17000);
+                /*setTimeout(() => {
+			console.log('this.streamReady = ' + this.streamReady);
+                        if (!this.streamReady) {
+				console.log('redirecting');
+				(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).webSocketController.close();
+				(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).webSocketController.address = "wss://216.153.60.65/ws";
+				(<libspsfrontend.webRtcPlayerController>this.iWebRtcController).webSocketController.connect();
+			}
+                }, 2000);*/
 	}
 
 	updateVideoStreamSize(x: number, y: number) {
@@ -1033,6 +1046,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 	 * Handle when the Video has been Initialised
 	 */
 	onVideoInitialised() {
+		console.log('ready!');
+		this.streamReady = true;
 		// starting a latency check
 		document.getElementById("btn-start-latency-test").onclick = () => {
 			this.iWebRtcController.sendLatencyTest();

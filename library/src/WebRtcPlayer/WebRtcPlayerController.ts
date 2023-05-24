@@ -190,6 +190,10 @@ export class webRtcPlayerController implements IWebRtcPlayerController {
 		}
 	}
 
+	getWebSocketController() {
+		return this.webSocketController;
+	}
+
 	/**
 	 * Plays the stream audio and video source and sets up other pieces while the stream starts
 	 */
