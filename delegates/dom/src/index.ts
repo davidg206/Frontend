@@ -47,6 +47,7 @@ let playerElement = document.getElementById("player") as HTMLDivElement;
 // Create a config object
 let config = CreateConfig(signallingServerAddress, playerElement);
 config.enableSpsAutoConnect = true;
+config.enableSpsAutoplay = true;
 config.controlScheme = libspsfrontend.ControlSchemeType.HoveringMouse;
 config.suppressBrowserKeys = true;
 config.afkTimeout = 600;

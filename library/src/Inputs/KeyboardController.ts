@@ -59,7 +59,7 @@ export class KeyboardController {
 		}
 		if (keyboardEvent.key == 'c') {
 			console.log('copy');
-			this.ueDescriptorUi.sendUiConsoleInteraction("requestInputSelection");
+			//this.ueDescriptorUi.sendUiConsoleInteraction("requestInputSelection");
 		}
 		if (this.getKeycode(keyboardEvent) == SpecialKeyCodes.backSpace) {
 			// clear input box

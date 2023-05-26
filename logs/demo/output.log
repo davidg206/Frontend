@@ -1,9 +1,11 @@
 
 > sps-delegate-dom@0.1.0 serve
-> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/prophet/ws --port 808asset index.5145afdc4503b315005c.js 3.14 MiB [emitted] [immutable] (name: index)
+> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/demo/ws --port 1212
+
+asset index.c3edf77c6e9a09bf5dae.js 3.14 MiB [emitted] [immutable] (name: index)
 asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.5145afdc4503b315005c.js 3.14 MiB
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.c3edf77c6e9a09bf5dae.js 3.14 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
 javascript modules 1.16 MiB 97 modules
@@ -12,963 +14,838 @@ css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-grid.min.css 52 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 14.2 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 6854 ms
-ms
-ets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.cc27c805dd0ed0e21865.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.6cdea558663eacce49ad.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6cdea558663eacce49ad.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.cc27c805dd0ed0e21865.js 3.14 MiB index.6cdea558663eacce49ad.hot-update.js 127 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 58.9 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.7 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 1034 ms
+  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 3485 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.a6cd8ed3f976defb3628.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.37f2b31281b0553f7209.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.37f2b31281b0553f7209.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.a6cd8ed3f976defb3628.js 3.14 MiB index.37f2b31281b0553f7209.hot-update.js 127 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+assets by info 4.86 MiB [immutable]
+  asset index.e6e0dd3a0c2dd54d3984.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.b6f880c01766c31aeb7f.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.b6f880c01766c31aeb7f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 6.28 MiB = index.css 1.42 MiB index.e6e0dd3a0c2dd54d3984.js 3.14 MiB index.b6f880c01766c31aeb7f.hot-update.js 1.72 MiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 59 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 959 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.b65ee0145574231c867f.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.368d2b10e3f55ad18d9e.hot-update.js 127 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.368d2b10e3f55ad18d9e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.b65ee0145574231c867f.js 3.14 MiB index.368d2b10e3f55ad18d9e.hot-update.js 127 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 754 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.d2692b5fcd532ded89f0.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.71923af74218239a4ac5.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.71923af74218239a4ac5.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.d2692b5fcd532ded89f0.js 3.14 MiB index.71923af74218239a4ac5.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.1 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 816 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.c1a677003c0f8db70871.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.3afcbc9a3f89c21a83a0.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.3afcbc9a3f89c21a83a0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.c1a677003c0f8db70871.js 3.14 MiB index.3afcbc9a3f89c21a83a0.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.1 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 623 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.26 MiB [immutable]
-  asset index.087a2c75d203151bd4c6.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.6d114099d4dfa9aeb4ff.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6d114099d4dfa9aeb4ff.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.087a2c75d203151bd4c6.js 3.14 MiB index.6d114099d4dfa9aeb4ff.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.1 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 701 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.9b865b14ef3a47f45ac9.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.a1a8c4ae3fc5cc8fb05f.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a1a8c4ae3fc5cc8fb05f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.9b865b14ef3a47f45ac9.js 3.14 MiB index.a1a8c4ae3fc5cc8fb05f.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated] [1 error]
+javascript modules 788 KiB
+  ./src/index.ts 9.29 KiB [built] [code generated] [1 error]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated] [17 errors]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 729 KiB [built] [code generated]
 
 ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 446:27-34
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(446,28)
-      TS2339: Property 'connect' does not exist on type 'IWebRtcPlayerController'.
-ts-loader-default_e3b0c44298fc1c14
+./src/NativeDOMDelegate.ts 4:32-56
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(4,33)
+      TS2306: File '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/types/index.d.ts' is not a module.
  @ ./src/index.ts 31:28-58
 
-webpack 5.81.0 compiled with 1 error in 684 ms
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 493:57-78
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(493,58)
+      TS2339: Property 'onDisconnectionAction' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 549:7-24
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(549,8)
+      TS2551: Property 'disconnectOverlay' does not exist on type 'NativeDOMDelegate'. Did you mean 'buildDisconnectOverlay'?
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 562:54-69
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(562,55)
+      TS2339: Property 'onConnectAction' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 575:7-21
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(575,8)
+      TS2339: Property 'connectOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 588:65-77
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(588,66)
+      TS2339: Property 'onPlayAction' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 604:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(604,8)
+      TS2339: Property 'playOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 615:50-61
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(615,51)
+      TS2339: Property 'onAfkAction' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 627:7-17
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(627,8)
+      TS2339: Property 'afkOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 644:7-18
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(644,8)
+      TS2339: Property 'infoOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 662:7-19
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(662,8)
+      TS2339: Property 'errorOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 682:7-22
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(682,8)
+      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 732:8-24
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(732,9)
+      TS2339: Property 'showErrorOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 769:8-23
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(769,9)
+      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 780:52-64
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(780,53)
+      TS2339: Property 'onPlayAction' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 876:8-24
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(876,9)
+      TS2339: Property 'showErrorOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
+./src/NativeDOMDelegate.ts 878:8-23
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(878,9)
+      TS2339: Property 'showTextOverlay' does not exist on type 'NativeDOMDelegate'.
+ @ ./src/index.ts 31:28-58
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 7:32-56
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(7,33)
+      TS2306: File '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/types/index.d.ts' is not a module.
+
+18 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.81.0 compiled with 18 errors in 1047 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.ff417e2f5435016ca7af.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.491e6094fc9212c72f65.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.491e6094fc9212c72f65.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ff417e2f5435016ca7af.js 3.14 MiB index.491e6094fc9212c72f65.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+assets by info 3.14 MiB [immutable]
+  asset index.92e7c65d29ff815e9691.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.58703442d4370ca1eee9.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.58703442d4370ca1eee9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.92e7c65d29ff815e9691.js 3.14 MiB index.58703442d4370ca1eee9.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 732 ms
+webpack 5.81.0 compiled successfully in 518 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.764f963b3201b12beb09.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.5a558c0efea2694a123b.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5a558c0efea2694a123b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.764f963b3201b12beb09.js 3.14 MiB index.5a558c0efea2694a123b.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+assets by info 3.14 MiB [immutable]
+  asset index.c94477c55bb72d01851b.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.a7faadb3a2cce933d272.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.a7faadb3a2cce933d272.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.c94477c55bb72d01851b.js 3.14 MiB index.a7faadb3a2cce933d272.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 692 ms
+webpack 5.81.0 compiled successfully in 228 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.dc6946aecaa15cb392d4.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.0e7caf0db775b2cb4d31.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0e7caf0db775b2cb4d31.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+assets by info 3.14 MiB [immutable]
+  asset index.269ff8ac031c66235ff4.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0ca61d142a316d100f8f.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.0ca61d142a316d100f8f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.dc6946aecaa15cb392d4.js 3.14 MiB index.0e7caf0db775b2cb4d31.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.269ff8ac031c66235ff4.js 3.14 MiB index.0ca61d142a316d100f8f.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 662 ms
+webpack 5.81.0 compiled successfully in 184 ms
+s/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 31:28-58
+
+ERROR in ./src/index.ts 32:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.81.0 compiled with 2 errors in 1182 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.645cca9215578ac57ec4.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.51955da7fdeb154a6729.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.51955da7fdeb154a6729.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.645cca9215578ac57ec4.js 3.14 MiB index.51955da7fdeb154a6729.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
+assets by info 5.01 MiB [immutable]
+  asset index.8adc5644aa50cd907091.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.ab8c5463e73b4918be8f.hot-update.js 1.87 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.ab8c5463e73b4918be8f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 6.43 MiB = index.css 1.42 MiB index.8adc5644aa50cd907091.js 3.14 MiB index.ab8c5463e73b4918be8f.hot-update.js 1.87 MiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
+javascript modules 788 KiB
   ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 702 ms
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 728 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 934 ms
 assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.0634b3528b3c431585e1.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.00600630c0e20ffb3ab0.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.00600630c0e20ffb3ab0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.0634b3528b3c431585e1.js 3.14 MiB index.00600630c0e20ffb3ab0.hot-update.js 25.1 KiB
+assets by info 1.57 MiB [immutable]
+  asset index.ff193d6839a8bee1f081.js 1.42 MiB [emitted] [immutable] (name: index)
+  asset index.865a3f40a2942daa420e.hot-update.js 153 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.865a3f40a2942daa420e.hot-update.json 95 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 2.99 MiB = index.css 1.42 MiB index.ff193d6839a8bee1f081.js 1.42 MiB index.865a3f40a2942daa420e.hot-update.js 153 KiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 59.3 KiB
+  ./src/index.ts 9.26 KiB [built] [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/NativeDOMDelegate.ts 38:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.ts 31:28-58
+
+ERROR in ./src/index.ts 32:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.81.0 compiled with 2 errors in 453 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 5.01 MiB [immutable]
+  asset index.5d19fb03b77fd88f0cc3.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.6477817f5a58644089f2.hot-update.js 1.87 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.6477817f5a58644089f2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 6.43 MiB = index.css 1.42 MiB index.5d19fb03b77fd88f0cc3.js 3.14 MiB index.6477817f5a58644089f2.hot-update.js 1.87 MiB
+cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+runtime modules 30.4 KiB 14 modules
+javascript modules 788 KiB
+  ./src/index.ts 9.26 KiB [code generated]
+  ./src/NativeDOMDelegate.ts 50.1 KiB [code generated]
+  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 728 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 354 ms
+assassets by status 1.42 MiB [cached] 1 asset
+assets by info 1.43 MiB [immutable]
+  asset index.df9d08a7e4af752f4dfa.js 1.42 MiB [emitted] [immutable] (name: index)
+  asset index.617213bcf2e4e904bea8.hot-update.js 1.19 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.617213bcf2e4e904bea8.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 2.84 MiB = index.css 1.42 MiB index.df9d08a7e4af752f4dfa.js 1.42 MiB index.617213bcf2e4e904bea8.hot-update.js 1.19 KiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 39 bytes [built] [code generated] [1 error]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 8 hidden lines
+
+ERROR in ./node_modules/backend-dom-components/dist/libspsfrontend.min.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/dist/libspsfrontend.min.js'
+ @ ./src/index.ts 32:36-69
+
+webpack 5.81.0 compiled with 1 error in 129 assassets by status 1.42 MiB [cached] 1 asset
+assets by info 4.86 MiB [immutable]
+  asset index.0b037437c0d4b62aded0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.5cfd2ccbe91732386309.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
+  asset index.5cfd2ccbe91732386309.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 6.28 MiB = index.css 1.42 MiB index.0b037437c0d4b62aded0.js 3.14 MiB index.5cfd2ccbe91732386309.hot-update.js 1.72 MiB
+cached modules 459 KiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./node_modules/backend-dom-components/dist/libspsfrontend.min.js 728 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 10 hidden lines
+
+webpack 5.81.0 compiled successfully in 486 assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.650c6ba74dfb0a580a66.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.dace19aa72c562af08dc.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.dace19aa72c562af08dc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.650c6ba74dfb0a580a66.js 3.14 MiB index.dace19aa72c562af08dc.hot-update.js 25.1 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
 ./src/index.ts 9.29 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 426 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.9f116e360c08bf1cf4be.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b42ea28189bce1422c36.hot-update.js 25 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b42ea28189bce1422c36.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.9f116e360c08bf1cf4be.js 3.14 MiB index.b42ea28189bce1422c36.hot-update.js 25 KiB
+webpack 5.81.0 compiled successfully in 787 ms
+assassets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.970f6505ba745e62cf88.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.2d2e69826351bb054dd0.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.2d2e69826351bb054dd0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.970f6505ba745e62cf88.js 3.14 MiB index.2d2e69826351bb054dd0.hot-update.js 25.1 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.26 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 337 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.e19ac78b052ea8d4a82f.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.7db51795c061bdbf5384.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7db51795c061bdbf5384.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.e19ac78b052ea8d4a82f.js 3.14 MiB index.7db51795c061bdbf5384.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 693 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.4ba9d3ecdc26b9854dd9.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.895369902883d72b9ed7.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.895369902883d72b9ed7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.4ba9d3ecdc26b9854dd9.js 3.14 MiB index.895369902883d72b9ed7.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 576 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.5953113ea333bac788ef.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.045a6882d3ef5ca8efa6.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.045a6882d3ef5ca8efa6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.5953113ea333bac788ef.js 3.14 MiB index.045a6882d3ef5ca8efa6.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.2 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 49.9 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 734 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.1b2db10d432eb94bce46.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.cdd32a9fba883b551e8c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.cdd32a9fba883b551e8c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.1b2db10d432eb94bce46.js 3.14 MiB index.cdd32a9fba883b551e8c.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 620 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.ae94233aebf906a00ae0.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.74746859c769ab18c01a.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.74746859c769ab18c01a.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ae94233aebf906a00ae0.js 3.14 MiB index.74746859c769ab18c01a.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 633 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.2329322743d078240007.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.675924f9b0cf540fd5b7.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.675924f9b0cf540fd5b7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.2329322743d078240007.js 3.14 MiB index.675924f9b0cf540fd5b7.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 679 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.ed4e3c2dbb6ea9aa97f5.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.741b5830d67cd99c1603.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.741b5830d67cd99c1603.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ed4e3c2dbb6ea9aa97f5.js 3.14 MiB index.741b5830d67cd99c1603.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 572 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.ace7293b6f692feb0f6d.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.6158eba7dbf3d13cc3cd.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6158eba7dbf3d13cc3cd.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ace7293b6f692feb0f6d.js 3.14 MiB index.6158eba7dbf3d13cc3cd.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 552 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.7f5232ff0262996577c4.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.f43022ceb83f03b2df33.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.f43022ceb83f03b2df33.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.7f5232ff0262996577c4.js 3.14 MiB index.f43022ceb83f03b2df33.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 607 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.71082cee2fe5938f18c6.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.8e2798380acda34c53d2.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.8e2798380acda34c53d2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.71082cee2fe5938f18c6.js 3.14 MiB index.8e2798380acda34c53d2.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 639 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.7e98c9fedc4123d81952.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.863f87b041ddbaa65886.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.863f87b041ddbaa65886.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.7e98c9fedc4123d81952.js 3.14 MiB index.863f87b041ddbaa65886.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 559 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.8000b13348ed5c7b4075.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.5470725b5cebb08c0c3e.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.5470725b5cebb08c0c3e.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.8000b13348ed5c7b4075.js 3.14 MiB index.5470725b5cebb08c0c3e.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 542 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.3525c9658fdc9ae79e1c.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.0c6fbfca389548b62b38.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.0c6fbfca389548b62b38.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.3525c9658fdc9ae79e1c.js 3.14 MiB index.0c6fbfca389548b62b38.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 667 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.5d31d15171497f607bd5.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.bff73a56f9ce9fb8e415.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.bff73a56f9ce9fb8e415.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.5d31d15171497f607bd5.js 3.14 MiB index.bff73a56f9ce9fb8e415.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 551 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.112d0f71556278032769.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.7afd20303c9e04199c14.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7afd20303c9e04199c14.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.112d0f71556278032769.js 3.14 MiB index.7afd20303c9e04199c14.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 563 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.9e13802e55612ef7318f.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.eb672a557cd74802cd91.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.eb672a557cd74802cd91.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.9e13802e55612ef7318f.js 3.14 MiB index.eb672a557cd74802cd91.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 647 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.e956863ba6db70eefb07.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.68c288be3a35f4069e66.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.68c288be3a35f4069e66.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.e956863ba6db70eefb07.js 3.14 MiB index.68c288be3a35f4069e66.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.4 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.2 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 611 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.ef88bf1afe7fd2b28894.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.96a8206ea1a1cfcf8b09.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.96a8206ea1a1cfcf8b09.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.ef88bf1afe7fd2b28894.js 3.14 MiB index.96a8206ea1a1cfcf8b09.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 606 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.7e9489121a35fa810ad0.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.2a0588181e4c5ffb7e4f.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.2a0588181e4c5ffb7e4f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.7e9489121a35fa810ad0.js 3.14 MiB index.2a0588181e4c5ffb7e4f.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 647 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.27 MiB [immutable]
-  asset index.2ffcc6366d67b447645e.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.1a88bdd779d66627a84c.hot-update.js 128 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.1a88bdd779d66627a84c.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.68 MiB = index.css 1.42 MiB index.2ffcc6366d67b447645e.js 3.14 MiB index.1a88bdd779d66627a84c.hot-update.js 128 KiB
-cached modules 1.1 MiB (javascript) 320 KiB (css/mini-extract) [cached] 100 modules
-runtime modules 30.4 KiB 14 modules
-javascript modules 59.3 KiB
-  ./src/index.ts 9.26 KiB [built] [code generated]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 528 ms
-t) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
+./src/index.ts 9.29 KiB [built] [code generated]
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
+ERROR in ./src/index.ts 32:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
 
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 226 ms
-asseassets by info 3.14 MiB [immutable]
-  asset index.36aaef10a373e381e16b.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.4d9be7933c7927da2692.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.4d9be7933c7927da2692.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
+webpack 5.81.0 compiled with 1 error in 213 assassets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.0f416c53fcfb4b891090.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0fce3958c59aea6cbe2d.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.0fce3958c59aea6cbe2d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.36aaef10a373e381e16b.js 3.14 MiB index.4d9be7933c7927da2692.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.0f416c53fcfb4b891090.js 3.14 MiB index.0fce3958c59aea6cbe2d.hot-update.js 25.1 KiB
+cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 191asseassets by info 3.14 MiB [immutable]
-  asset index.44de24d878b2330af7c1.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.7151310f8f93d47fa0c7.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.7151310f8f93d47fa0c7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
+./src/index.ts 9.29 KiB [code generated]
+webpack 5.81.0 compiled successfully in 244 assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.68c9f22b5a43b3d55147.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.13f10154e88290451c3b.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.13f10154e88290451c3b.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.44de24d878b2330af7c1.js 3.14 MiB index.7151310f8f93d47fa0c7.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.68c9f22b5a43b3d55147.js 3.14 MiB index.13f10154e88290451c3b.hot-update.js 25.1 KiB
+cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 202assets by info 3.14 MiB [immutable]
-  asset index.bce27e5fbc98975088b2.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.6774f648fd5ec16582d6.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.6774f648fd5ec16582d6.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.bce27e5fbc98975088b2.js 3.14 MiB index.6774f648fd5ec16582d6.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 264 ms
+./src/index.ts 9.29 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 761 ms
+assassets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
-  asset index.332283a13f6082e18bc0.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.8ad73fcbba0539df8fa1.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.8ad73fcbba0539df8fa1.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.332283a13f6082e18bc0.js 3.14 MiB index.8ad73fcbba0539df8fa1.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 235 ms
-assets by info 3.14 MiB [immutable]
-  asset index.887253fe106c89168f8b.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.c7f8f03032f677ec35c9.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.c7f8f03032f677ec35c9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.887253fe106c89168f8b.js 3.14 MiB index.c7f8f03032f677ec35c9.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 343 ms
-asseassets by info 3.14 MiB [immutable]
-  asset index.bf009655f3ff50763635.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.a9d33dcde0512ba1b6bb.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.a9d33dcde0512ba1b6bb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.bf009655f3ff50763635.js 3.14 MiB index.a9d33dcde0512ba1b6bb.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.5 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 203assets by info 3.14 MiB [immutable]
-  asset index.a9fe2065e49661dfb9b8.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.faac93ace0bdca173a06.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.faac93ace0bdca173a06.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.a9fe2065e49661dfb9b8.js 3.14 MiB index.faac93ace0bdca173a06.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
-runtime modules 30.4 KiB 14 modules
-orphan modules 38.4 KiB [orphan] 1 module
-cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
-  ./src/assets/css/player.css 329 bytes [built] [code generated]
-  css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 213 ms
-asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.4400d65bb96aa29a41e3.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.d9dbb8108929531304a0.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.d9dbb8108929531304a0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.55 MiB = index.css 1.42 MiB index.4400d65bb96aa29a41e3.js 3.14 MiB index.d9dbb8108929531304a0.hot-update.js 690 bytes
+  asset index.bf658f9ed519848673e0.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.0c0c23ec6175e888028d.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.0c0c23ec6175e888028d.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.bf658f9ed519848673e0.js 3.14 MiB index.0c0c23ec6175e888028d.hot-update.js 690 bytes
 cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 159:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(159,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 160:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(160,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 162:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(162,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 179asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.662aa6311d0f507dba98.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.02a745418bbc707a3ef0.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.02a745418bbc707a3ef0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.662aa6311d0f507dba98.js 3.14 MiB index.02a745418bbc707a3ef0.hot-update.js 25.1 KiB
+webpack 5.81.0 compiled successfully in 238 assassets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.503c77719d1912c12f7c.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.88480ad843848026cd52.hot-update.js 25.2 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.88480ad843848026cd52.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.503c77719d1912c12f7c.js 3.14 MiB index.88480ad843848026cd52.hot-update.js 25.2 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.31 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 553asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.fe9d4073771eb9868408.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.3fb4d59c79ed0bd53e1f.hot-update.js 25 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.3fb4d59c79ed0bd53e1f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.fe9d4073771eb9868408.js 3.14 MiB index.3fb4d59c79ed0bd53e1f.hot-update.js 25 KiB
+./src/index.ts 9.36 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 514 assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.5b79895bd11feee0ccaa.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d9b90bf73972f8adbf8f.hot-update.js 25.3 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.d9b90bf73972f8adbf8f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.5b79895bd11feee0ccaa.js 3.14 MiB index.d9b90bf73972f8adbf8f.hot-update.js 25.3 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.25 KiB [built] [code generated] [3 errors]
+./src/index.ts 9.4 KiB [built] [code generated] [1 error]
 
 ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 380asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.b64e7fe61588adb05c1e.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.13dac3cea90739145654.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.13dac3cea90739145654.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.b64e7fe61588adb05c1e.js 3.14 MiB index.13dac3cea90739145654.hot-update.js 690 bytes
-cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
-runtime modules 30.4 KiB 14 modules
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 168assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.14 MiB [immutable]
-  asset index.6aa8473906158469811c.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.1512445091bf01e98992.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.1512445091bf01e98992.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.6aa8473906158469811c.js 3.14 MiB index.1512445091bf01e98992.hot-update.js 690 bytes
-cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
-runtime modules 30.4 KiB 14 modules
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 133 ms
-asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.16a6c5836b8a6ba560fb.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.842a0614360318f10ea4.hot-update.js 25 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.842a0614360318f10ea4.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.16a6c5836b8a6ba560fb.js 3.14 MiB index.842a0614360318f10ea4.hot-update.js 25 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
-runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.25 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 381assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.9258a9448856d89c57e1.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.63a49c79bf3dcf709d56.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.63a49c79bf3dcf709d56.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.9258a9448856d89c57e1.js 3.14 MiB index.63a49c79bf3dcf709d56.hot-update.js 25.1 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
-runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.33 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 170:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(170,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 172:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(172,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 384 ms
-assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.7bcbbd81e49ee206c5a1.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.d7d807b8496ddda9607f.hot-update.js 25 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.d7d807b8496ddda9607f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.7bcbbd81e49ee206c5a1.js 3.14 MiB index.d7d807b8496ddda9607f.hot-update.js 25 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
-runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.25 KiB [built] [code generated] [3 errors]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 168:22-27
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(168,23)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 169:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(169,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 171:20-25
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(171,21)
-      TS2339: Property 'style' does not exist on type 'Element'.
-
-3 errors have detailed information that is not shown.
-Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
-
-webpack 5.81.0 compiled with 3 errors in 342 ms
-asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.374eab35f46e70f9848d.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.e77fd6fb2edc4e5ec100.hot-update.js 24.7 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.e77fd6fb2edc4e5ec100.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.374eab35f46e70f9848d.js 3.14 MiB index.e77fd6fb2edc4e5ec100.hot-update.js 24.7 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
-runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.16 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 345assets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.9f8c44b9d34d408cf35d.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b5af04e03a3318611373.hot-update.js 24.8 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b5af04e03a3318611373.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.9f8c44b9d34d408cf35d.js 3.14 MiB index.b5af04e03a3318611373.hot-update.js 24.8 KiB
-cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
-runtime modules 30.4 KiB 14 modules
-./src/index.ts 9.17 KiB [built] [code generated] [1 error]
-
-ERROR in /home/david/Frontend/delegates/dom/src/index.ts
-./src/index.ts 166:18-29
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(166,19)
-      TS2741: Property 'prototype' is missing in type 'HTMLElement' but required in type '{ new (): HTMLElement; prototype: HTMLElement; }'.
+./src/index.ts 60:33-37
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(60,34)
+      TS2339: Property 'play' does not exist on type 'HTMLElement'.
 ts-loader-default_e3b0c44298fc1c14
 
-webpack 5.81.0 compiled with 1 error in 375 ms
-asseassets by status 1.42 MiB [cached] 1 asset
-assets by info 3.16 MiB [immutable]
-  asset index.2c2f921795af9635b8e5.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.8634a135e50c11115b64.hot-update.js 24.8 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.8634a135e50c11115b64.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+webpack 5.81.0 compiled with 1 error in 453 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.fec6a1c1e5ed3451f37d.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.a16e8ac5967be8c2c0b7.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.a16e8ac5967be8c2c0b7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.2 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.fec6a1c1e5ed3451f37d.js 3.14 MiB index.a16e8ac5967be8c2c0b7.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 60:33-37
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(60,34)
+      TS2339: Property 'play' does not exist on type 'HTMLElement'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.81.0 compiled with 1 error in 288 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.ecc463891cffdb362495.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.b84c12454368c83654d1.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.b84c12454368c83654d1.hot-update.json 29 bytes [emitted] [immutable] [hmr]
 asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.58 MiB = index.css 1.42 MiB index.2c2f921795af9635b8e5.js 3.14 MiB index.8634a135e50c11115b64.hot-update.js 24.8 KiB
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ecc463891cffdb362495.js 3.14 MiB index.b84c12454368c83654d1.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+
+ERROR in /home/david/Frontend/delegates/dom/src/index.ts
+./src/index.ts 60:33-37
+[tsl] ERROR in /home/david/Frontend/delegates/dom/src/index.ts(60,34)
+      TS2339: Property 'play' does not exist on type 'HTMLElement'.
+ts-loader-default_e3b0c44298fc1c14
+
+webpack 5.81.0 compiled with 1 error in 188 ms
+assassets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.d1716ef5de927f2096e6.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.7e086949922fa2f263c0.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.7e086949922fa2f263c0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.d1716ef5de927f2096e6.js 3.14 MiB index.7e086949922fa2f263c0.hot-update.js 25.1 KiB
+cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./src/index.ts 9.29 KiB [built] [code generated]
+webpack 5.81.0 compiled successfully in 543 assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.ae57452a6bb118cfe9dd.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.9b91446295ee979f1dbc.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.9b91446295ee979f1dbc.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ae57452a6bb118cfe9dd.js 3.14 MiB index.9b91446295ee979f1dbc.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 124 ms
+ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.5a77bce0e993eb83c02d.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d79755b39bc614c76450.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.d79755b39bc614c76450.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.5a77bce0e993eb83c02d.js 3.14 MiB index.d79755b39bc614c76450.hot-update.js 25.1 KiB
+cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./src/index.ts 9.29 KiB [built] [code generated]
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/david/Frontend/delegates/dom/node_modules/backend-dom-components isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/index.ts 32:36-69
+Module not found: Error: Can't resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+resolve 'backend-dom-components' in '/home/david/Frontend/delegates/dom/src'
+  Parsed request is a module
+  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/david/Frontend/delegates/dom/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/david/Frontend/delegates/dom/node_modules
+        single file module
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+            .tsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+            .ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+            .d.ts
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+            .svg
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+        existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+          using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+            using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components is not a file
+              .tsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.tsx doesn't exist
+              .ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.ts doesn't exist
+              .d.ts
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.d.ts doesn't exist
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.js doesn't exist
+              .svg
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/david/Frontend/delegates/dom/node_modules/backend-dom-components.svg doesn't exist
+              as directory
+                existing directory /home/david/Frontend/delegates/dom/node_modules/backend-dom-components
+                  using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components)
+                    using path: /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index
+                      using description file: /home/david/Frontend/delegates/dom/package.json (relative path: ./node_modules/backend-dom-components/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index doesn't exist
+                        .tsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.tsx doesn't exist
+                        .ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.ts doesn't exist
+                        .d.ts
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.d.ts doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.js doesn't exist
+                        .svg
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/david/Frontend/delegates/dom/node_modules/backend-dom-components/index.svg doesn't exist
+      /home/david/Frontend/delegates/node_modules doesn't exist or is not a directory
+      /home/david/Frontend/node_modules doesn't exist or is not a directory
+      /home/david/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.81.0 compiled with 1 error in 224 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.17 MiB [immutable]
+  asset index.26e2b6f296cc36cb02e3.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.3163ecbac0c363865680.hot-update.js 25.1 KiB [emitted] [immutable] [hmr] (name: index)
+  asset index.3163ecbac0c363865680.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.58 MiB = index.css 1.42 MiB index.26e2b6f296cc36cb02e3.js 3.14 MiB index.3163ecbac0c363865680.hot-update.js 25.1 KiB
+cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
+runtime modules 30.4 KiB 14 modules
+./src/index.ts 9.29 KiB [code generated]
+webpack 5.81.0 compiled successfully in 126 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.a9cd614202dc69a28ab1.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.738f64cae49f1057acb9.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.738f64cae49f1057acb9.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.a9cd614202dc69a28ab1.js 3.14 MiB index.738f64cae49f1057acb9.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 190 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.b7f24e9864b555a28b74.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.1ba3994d88af31d97b38.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.1ba3994d88af31d97b38.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.b7f24e9864b555a28b74.js 3.14 MiB index.1ba3994d88af31d97b38.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 191 ms
+update.js 24.8 KiB
 cached modules 1.15 MiB (javascript) 320 KiB (css/mini-extract) [cached] 101 modules
 runtime modules 30.4 KiB 14 modules
 ./src/index.ts 9.18 KiB [built] [code generated]

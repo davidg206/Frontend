@@ -6,6 +6,7 @@ import { ILatencyTestResults } from "../DataChannel/ILatencyTestResults"
 import { LatencyTestResults } from "../DataChannel/LatencyTestResults"
 import { VideoPlayer } from "../VideoPlayer/VideoPlayer"
 import { Config } from "../Config/Config";
+import { UeDescriptorUi } from "../UeInstanceMessage/UeDescriptorUi";
 
 class at {
     public inRange: any;
@@ -118,6 +119,8 @@ export class DataChannelController {
     datachannelOptions: RTCDataChannelInit;
     label: string;
     isReceivingFreezeFrame = false;
+    ueDescriptorUi: UeDescriptorUi;
+
     // If the user focuses on a UE input widget then we show them a button to open
     // the on-screen keyboard. JavaScript security means we can only show the
     // on-screen keyboard in response to a user interaction.
@@ -290,7 +293,13 @@ export class DataChannelController {
 	if (t.name == 'selectedText') {
 		navigator.clipboard.writeText(t.data);
 	}
-	//console.log("onResponse: " + JSON.parse(response));
+	if (t.command == 'Join Session') {
+		console.log("Join Session");
+		this.ueDescriptorUi.sendUiInteraction(JSON.stringify({
+			"Password": "Palatial",
+			"IP": "palatial.tenant-palatial-platform.coreweave.cloud:2222"
+		}));
+	}
     }
 
     /**
