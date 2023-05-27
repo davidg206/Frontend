@@ -10,7 +10,7 @@ import * as fs from 'fs';
 // set the logger level
 //libspsfrontend.Logger.SetLoggerVerbosity(10);
 
-// Determine whether a signalling server WebSocket URL was specified at compile-time or if we need to compute it at runtime
+// do not Determine whether a signalling server WebSocket URL was specified at compile-time or if we need to compute it at runtime
 declare var WEBSOCKET_URL: string;
 let signallingServerAddress = WEBSOCKET_URL;
 if (signallingServerAddress == '') {
