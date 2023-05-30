@@ -1,11 +1,9 @@
 
 > sps-delegate-dom@0.1.0 serve
-> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/demo/ws --port 1212
-
-asset index.c3edf77c6e9a09bf5dae.js 3.14 MiB [emitted] [immutable] (name: index)
+> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/prophet/ws --port 808assasset index.de6eec2f7772c1789b36.js 3.14 MiB [emitted] [immutable] (name: index)
 asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.c3edf77c6e9a09bf5dae.js 3.14 MiB
+asset index.html 22.1 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.de6eec2f7772c1789b36.js 3.14 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
 javascript modules 1.16 MiB 97 modules
@@ -15,8 +13,8 @@ css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 3485 ms
-assets by status 1.42 MiB [cached] 1 asset
+webpack 5.81.0 compiled successfully in 6177 ms
+s by status 1.42 MiB [cached] 1 asset
 assets by info 4.86 MiB [immutable]
   asset index.e6e0dd3a0c2dd54d3984.js 3.14 MiB [emitted] [immutable] (name: index)
   asset index.b6f880c01766c31aeb7f.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
