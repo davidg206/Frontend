@@ -13,25 +13,29 @@ import * as fs from 'fs';
 // do not Determine whether a signalling server WebSocket URL was specified at compile-time or if we need to compute it at runtime
 declare var WEBSOCKET_URL: string;
 let signallingServerAddress = WEBSOCKET_URL;
-if (signallingServerAddress == '') {
-    // define our signallingServerProtocol to be used based on whether
-    // or not we're accessing our frontend via a tls
-    let signallingServerProtocol = 'ws:';
-    if (location.protocol === 'https:') {
-        signallingServerProtocol = 'wss:';
-    }
+    if (signallingServerAddress == '') {
+        // define our signallingServerProtocol to be used based on whether
+        // or not we're accessing our frontend via a tls
+        var signallingServerProtocol = 'ws:';
+        if (window.location.protocol ===
+            'https:') {
+            signallingServerProtocol = 'wss:';
+        }
+        var application = window.location.hostname.split('.');
+	let app = "";
 
-    // build the websocket endpoint based on the protocol used to load the frontend
-    signallingServerAddress = signallingServerProtocol + '//' + window.location.hostname
-
-    // if the frontend for an application is served from a base-level domain
-    // it has a trailing slash, so we need to account for this when appending the 'ws' for the websocket ingress
-    if (window.location.pathname == "/") {
-        signallingServerAddress += '/ws'
-    } else {
-        signallingServerAddress += (window.location.pathname + '/ws')
+        if (application.length === 0)
+                app = "demo";
+        else
+                app = application[0];
+        if (!/^[a-zA-Z0-9]+$/.test(app)) {
+            app = "demo";
+        }
+        // build the websocket endpoint based on the protocol used to load the frontend
+        signallingServerAddress = signallingServerProtocol + '//' + 'sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/' + app;
+        signallingServerAddress += '/ws';
+        console.log(signallingServerAddress);
     }
-}
 
 if (isMobile()) {
 	//document.getElementById('fullscreen-btn').style.display = 'flex';

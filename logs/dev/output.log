@@ -18,15 +18,15 @@ css modules 320 KiB
 webpack 5.81.0 compiled successfully in 6064 ms
 assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
-  asset index.7962e3d60a7891abe4af.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.43fbda4c86f89d1670a2.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.43fbda4c86f89d1670a2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.7962e3d60a7891abe4af.js 3.14 MiB index.43fbda4c86f89d1670a2.hot-update.js 690 bytes
+  asset index.f6d5ac7e5172e2efbd29.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.87df62f0d9dd74894b68.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.87df62f0d9dd74894b68.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 23.5 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.f6d5ac7e5172e2efbd29.js 3.14 MiB index.87df62f0d9dd74894b68.hot-update.js 690 bytes
 cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-webpack 5.81.0 compiled successfully in 508 ms
-assets by status 1.42 MiB [cached] 1 asset
+webpack 5.81.0 compiled successfully in 585 ms
+sets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
   asset index.53a49fc23c547880e07b.js 3.14 MiB [emitted] [immutable] (name: index)
   asset index.ef65f5c8d563f0b0b066.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)

@@ -1,11 +1,21 @@
 
-> sps-delegate-dom@0.1.0 serve
-> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/tankhouse/ws --port 1573
+> palatial-web-login@0.1.0 start
+> react-scripts start
 
-asset index.8943e6f5a505cfe93699.js 3.14 MiB [emitted] [immutable] (name: index)
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.8943e6f5a505cfe93699.js 3.14 MiB
+Starting the development server...
+
+Compiled successfully!
+
+You can now view palatial-web-login in the browser.
+
+  http://localhost:1573
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+No issues found.
+.56 MiB = index.css 1.42 MiB index.736ada9bbe962becf219.js 3.14 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
 javascript modules 1.16 MiB 97 modules
@@ -15,37 +25,38 @@ css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 6014 ms
+webpack 5.81.0 compiled successfully in 4214 ms
 assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
-  asset index.117a1db9267ee37b45fc.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.32e93517722b00691ecb.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.32e93517722b00691ecb.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.117a1db9267ee37b45fc.js 3.14 MiB index.32e93517722b00691ecb.hot-update.js 690 bytes
+  asset index.ed287e089d9c949c512e.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.f320c9738e906f052aaf.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.f320c9738e906f052aaf.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 23.2 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.ed287e089d9c949c512e.js 3.14 MiB index.f320c9738e906f052aaf.hot-update.js 690 bytes
 cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-webpack 5.81.0 compiled successfully in 458 ms
+webpack 5.81.0 compiled successfully in 473 ms
 assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
-  asset index.f60a88ca0270fcf1093f.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.55657517bb0656c210f0.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
-  asset index.55657517bb0656c210f0.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.f60a88ca0270fcf1093f.js 3.14 MiB index.55657517bb0656c210f0.hot-update.js 690 bytes
+  asset index.35dd2514fbdec4704849.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.b39d7ae92cfdfeb724c2.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.b39d7ae92cfdfeb724c2.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.4 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.35dd2514fbdec4704849.js 3.14 MiB index.b39d7ae92cfdfeb724c2.hot-update.js 690 bytes
 cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-webpack 5.81.0 compiled successfully in 154 ms
+webpack 5.81.0 compiled successfully in 169 ms
+assets by status 1.42 MiB [cached] 1 asset
 assets by info 3.14 MiB [immutable]
-  asset index.1458b88fab1e15cb3328.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b2d1e161b62178123082.hot-update.js 2.03 KiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b2d1e161b62178123082.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.1458b88fab1e15cb3328.js 3.14 MiB index.b2d1e161b62178123082.hot-update.js 2.03 KiB
-cached modules 1.16 MiB (javascript) 306 KiB (css/mini-extract) 13.2 KiB (runtime) [cached] 110 modules
+  asset index.77722ba6d22c6a16a8cf.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.5a00500b156891726638.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.5a00500b156891726638.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.4 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.77722ba6d22c6a16a8cf.js 3.14 MiB index.5a00500b156891726638.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-orphan modules 38.4 KiB [orphan] 1 module
+webpack 5.81.0 compiled successfully in 218 ms
+n] 1 module
 cacheable modules 329 bytes (javascript) 13.8 KiB (css/mini-extract)
   ./src/assets/css/player.css 329 bytes [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]

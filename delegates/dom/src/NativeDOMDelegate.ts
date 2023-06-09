@@ -779,8 +779,8 @@ export class NativeDOMDelegate extends libspsfrontend.DelegateBase {
 			// set the event Listener
 			let playOverlayEvent: EventListener = () => this.onPlayAction();
 			let fadeOutLoader = (event: Event) => {
-				event.stopPropagation();
-				playOverlayEvent(event);
+				//event.stopPropagation();
+				this.onPlayAction();
 				if (this.config.isMobile) {
 					//if (document.fullscreenElement == null) this.fullScreenLogic.fullscreen();
 					//setTimeout(function() { screen.orientation.lock("landscape-primary"); }, 1000);

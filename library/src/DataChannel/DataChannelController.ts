@@ -297,7 +297,7 @@ export class DataChannelController {
 		console.log("Join Session");
 		this.ueDescriptorUi.sendUiInteraction(JSON.stringify({
 			"Password": "Palatial",
-			"IP": "palatial.tenant-palatial-platform.coreweave.cloud:2222"
+			"IP": "palatial.tenant-palatial-platform.coreweave.cloud:3333"
 		}));
 	}
     }

@@ -1,9 +1,7 @@
-<i> [webpack-dev-server] Project is running at:
-<i> [webpack-dev-server] Loopback: http://localhost:1212/
-<i> [webpack-dev-server] Content not from webpack is served from '/home/david/Frontend/delegates/dom/public' directory
-<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
-x.js:125:19
-    at middleware (/home/david/Frontend/delegates/dom/node_modules/webpack-dev-server/lib/Server.js:2437:18)
+(node:72878) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:72878) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+/Server.js:2437:18)
     at Layer.handle [as handle_request] (/home/david/Frontend/delegates/dom/node_modules/express/lib/router/layer.js:95:5)
     at trim_prefix (/home/david/Frontend/delegates/dom/node_modules/express/lib/router/index.js:328:13)
     at /home/david/Frontend/delegates/dom/node_modules/express/lib/router/index.js:286:9

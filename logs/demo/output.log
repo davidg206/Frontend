@@ -1,9 +1,21 @@
 
-> sps-delegate-dom@0.1.0 serve
-> webpack serve --env WEBSOCKET_URL=wss://sps.tenant-palatial-platform.lga1.ingress.coreweave.cloud/prophet/ws --port 808assasset index.de6eec2f7772c1789b36.js 3.14 MiB [emitted] [immutable] (name: index)
-asset index.css 1.42 MiB [emitted] (name: index)
-asset index.html 22.1 KiB [emitted]
-Entrypoint index 4.56 MiB = index.css 1.42 MiB index.de6eec2f7772c1789b36.js 3.14 MiB
+> palatial-web-login@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view palatial-web-login in the browser.
+
+  http://localhost:1212
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+No issues found.
+iB = index.css 1.42 MiB index.6a8a00d987d9bb49e56b.js 3.14 MiB
 runtime modules 96.5 KiB 55 modules
 orphan modules 1.28 MiB [orphan] 24 modules
 javascript modules 1.16 MiB 97 modules
@@ -13,43 +25,39 @@ css modules 320 KiB
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css 6.34 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css 56.9 KiB [built] [code generated]
   css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/player.css 13.8 KiB [built] [code generated]
-webpack 5.81.0 compiled successfully in 6177 ms
-s by status 1.42 MiB [cached] 1 asset
-assets by info 4.86 MiB [immutable]
-  asset index.e6e0dd3a0c2dd54d3984.js 3.14 MiB [emitted] [immutable] (name: index)
-  asset index.b6f880c01766c31aeb7f.hot-update.js 1.72 MiB [emitted] [immutable] [hmr] (name: index)
-  asset index.b6f880c01766c31aeb7f.hot-update.json 29 bytes [emitted] [immutable] [hmr]
-asset index.html 22 KiB [emitted]
-Entrypoint index 6.28 MiB = index.css 1.42 MiB index.e6e0dd3a0c2dd54d3984.js 3.14 MiB index.b6f880c01766c31aeb7f.hot-update.js 1.72 MiB
-cached modules 400 KiB (javascript) 320 KiB (css/mini-extract) [cached] 99 modules
+webpack 5.81.0 compiled successfully in 3394 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.aac34bb895e90119adbe.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.4ddcec437dd4fef0b9db.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.4ddcec437dd4fef0b9db.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.4 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.aac34bb895e90119adbe.js 3.14 MiB index.4ddcec437dd4fef0b9db.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
 runtime modules 30.4 KiB 14 modules
-javascript modules 788 KiB
-  ./src/index.ts 9.29 KiB [built] [code generated] [1 error]
-  ./src/NativeDOMDelegate.ts 50.1 KiB [built] [code generated] [17 errors]
-  ./node_modules/backend-dom-components/dist/libspsfrontend.min.js 729 KiB [built] [code generated]
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 4:32-56
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(4,33)
-      TS2306: File '/home/david/Frontend/delegates/dom/node_modules/backend-dom-components/types/index.d.ts' is not a module.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 493:57-78
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(493,58)
-      TS2339: Property 'onDisconnectionAction' does not exist on type 'NativeDOMDelegate'.
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 549:7-24
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(549,8)
-      TS2551: Property 'disconnectOverlay' does not exist on type 'NativeDOMDelegate'. Did you mean 'buildDisconnectOverlay'?
- @ ./src/index.ts 31:28-58
-
-ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
-./src/NativeDOMDelegate.ts 562:54-69
-[tsl] ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts(562,55)
-      TS2339: Property 'onConnectAction' does not exist on type 'NativeDOMDelegate'.
+webpack 5.81.0 compiled successfully in 517 ms
+ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.32464bc5759042776cf2.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.3c1c5a86282334cfc079.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.3c1c5a86282334cfc079.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.4 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.32464bc5759042776cf2.js 3.14 MiB index.3c1c5a86282334cfc079.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 170 ms
+assets by status 1.42 MiB [cached] 1 asset
+assets by info 3.14 MiB [immutable]
+  asset index.aad51c1784de59205117.js 3.14 MiB [emitted] [immutable] (name: index)
+  asset index.d7f40ca02ef84ea774a7.hot-update.js 690 bytes [emitted] [immutable] [hmr] (name: index)
+  asset index.d7f40ca02ef84ea774a7.hot-update.json 29 bytes [emitted] [immutable] [hmr]
+asset index.html 22.4 KiB [emitted]
+Entrypoint index 4.56 MiB = index.css 1.42 MiB index.aad51c1784de59205117.js 3.14 MiB index.d7f40ca02ef84ea774a7.hot-update.js 690 bytes
+cached modules 1.16 MiB (javascript) 320 KiB (css/mini-extract) [cached] 102 modules
+runtime modules 30.4 KiB 14 modules
+webpack 5.81.0 compiled successfully in 218 ms
+     TS2339: Property 'onConnectAction' does not exist on type 'NativeDOMDelegate'.
  @ ./src/index.ts 31:28-58
 
 ERROR in /home/david/Frontend/delegates/dom/src/NativeDOMDelegate.ts
