@@ -12,7 +12,7 @@ module.exports = (env) => {
 		fs: 'empty',
 		child_process: 'empty'
 	},
-    mode: 'development',
+    mode: 'production',
     entry: {
       index: './src/index.ts',
     },
